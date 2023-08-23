@@ -16707,26 +16707,3 @@ be a descendant of the grid when it is being dragged.
 .user .user-settings label {
   color: #666;
 }
-.login-flex-container{
-  border:1px solid red;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  .login-main-content{
-    background: linear-gradient(90deg, rgba(115, 171, 179, 0.55) 64.95%, rgba(115, 171, 179, 0.00) 100%), url(../img/login-background.png);
-    object-fit: cover;
-    /* width: 100%; */
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  
-    .login-form{
-      width:250px;
-      height: 200px;
-      border:1px solid red;
-    }
-  }
