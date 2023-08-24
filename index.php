@@ -153,7 +153,7 @@
 										</div>
 									</div>
 									<!-- :: input 03 -->
-									<div class="form-group mb-1 ">
+									<div class="form-group mb-2 ">
 										<label class="form-head log-form-label" for="mailer-mail">Password</label>
 										<div class="inputWithIcon">
 											<input type="password" placeholder="*************" required>
@@ -163,7 +163,7 @@
 										</div>
 									</div>
 									<!-- ::input 04 -->
-									<div class="form-group mb-1 ">
+									<div class="form-group  mb-2 ">
 										<label class="form-head log-form-label" for="mailer-mail">Confirm Password</label>
 										<div class="inputWithIcon">
 											<input type="password" placeholder="Please enter your password" required>
