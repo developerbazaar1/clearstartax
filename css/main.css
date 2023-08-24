@@ -35,7 +35,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
@@ -135,16 +135,18 @@ sup {
 }
 
 a {
-  color: #009688;
+  color: #00AAD8;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #004a43;
+  color: #00AAD8;
   text-decoration: underline;
 }
-
+.app-menu__item :hover{
+color: #00AAD8;
+}
 a:not([href]):not([tabindex]) {
   color: inherit;
   text-decoration: none;
@@ -422,7 +424,7 @@ mark,
 }
 
 .list-unstyled, .app-nav, .app-menu, .treeview-menu {
-  padding-left: 0;
+  padding-left: 19px;
   list-style: none;
 }
 
@@ -14847,7 +14849,8 @@ be a descendant of the grid when it is being dragged.
 
 @media (min-width: 768px) {
   .app-content {
-    margin-left: 230px;
+    /* margin-left: 230px; */
+    margin-left: 274px;
   }
 }
 
@@ -14931,8 +14934,9 @@ be a descendant of the grid when it is being dragged.
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
     display: block;
-    width: 230px;
-    background-color: #007d71;
+    /* width: 230px; */
+    width: 274px;
+    background-color: #363636;
   }
 }
 
@@ -15130,10 +15134,11 @@ be a descendant of the grid when it is being dragged.
   bottom: 0;
   left: 0;
   padding-top: 70px;
-  width: 230px;
+  /* width: 230px; */
+  width: 274px;
   overflow: auto;
   z-index: 10;
-  background-color: #222d32;
+  background-color: #363636;
   -webkit-box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.2);
   -webkit-transition: left 0.3s ease,
@@ -15176,7 +15181,8 @@ be a descendant of the grid when it is being dragged.
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px;
+  /* padding: 10px; */
+  padding: 32px 5px 22px 32px;
   margin-bottom: 20px;
   color: #fff;
 }
@@ -15185,7 +15191,8 @@ be a descendant of the grid when it is being dragged.
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
-  margin-right: 15px;
+          margin-right: 23px;
+          width: 70px;
 }
 
 .app-sidebar__user-name {
@@ -15195,11 +15202,17 @@ be a descendant of the grid when it is being dragged.
 
 .app-sidebar__user-name,
 .app-sidebar__user-designation {
+  color: #F7F7F7;
+  font-size: 12px;
   white-space: nowrap;
+  font-weight: 500;
   overflow: hidden;
   -o-text-overflow: ellipsis;
      text-overflow: ellipsis;
   margin-bottom: 0;
+}
+.app-sidebar__user-name{
+  font-size: 16px;
 }
 
 .app-menu {
@@ -15213,25 +15226,33 @@ be a descendant of the grid when it is being dragged.
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 12px 15px;
+  -ms-flex-align: center;
+  align-items: center;
+  /* padding: 12px 15px; */
+  padding: 8px 15px 8px 0px;
   font-size: 1.08em;
   border-left: 3px solid transparent;
-  -webkit-transition: border-left-color 0.3s ease,
- background-color 0.3s ease;
-  -o-transition: border-left-color 0.3s ease,
- background-color 0.3s ease;
-  transition: border-left-color 0.3s ease,
- background-color 0.3s ease;
+  -webkit-transition: border-left-color 0.3s ease, background-color 0.3s ease;
+  -o-transition: border-left-color 0.3s ease, background-color 0.3s ease;
+  transition: border-left-color 0.3s ease, background-color 0.3s ease;
   color: #fff;
+  border-radius: 30px 0px 0px 30px;
+  -webkit-border-radius: 30px 0px 0px 30px;
+  -moz-border-radius: 30px 0px 0px 30px;
+  -ms-border-radius: 30px 0px 0px 30px;
+  -o-border-radius: 30px 0px 0px 30px;
 }
 
 .app-menu__item.active, .app-menu__item:hover, .app-menu__item:focus {
-  background: #0d1214;
-  border-left-color: #009688;
-  text-decoration: none;
-  color: #fff;
+  background: #fff;
+    border-left-color: #fff;
+    text-decoration: none;
+    color: #00AAD8 !important;
+    border-radius: 30px 0px 0px 30px;
+    -webkit-border-radius: 30px 0px 0px 30px;
+    -moz-border-radius: 30px 0px 0px 30px;
+    -ms-border-radius: 30px 0px 0px 30px;
+    -o-border-radius: 30px 0px 0px 30px;
 }
 
 .app-menu__icon {
@@ -16707,3 +16728,26 @@ be a descendant of the grid when it is being dragged.
 .user .user-settings label {
   color: #666;
 }
+/* dashboard */
+.dashboard-brand{
+  width: 158.775px;
+  height: 38px;
+}
+.app-menu__item {
+  color: white; /* Default text color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.app-menu__item svg path {
+  stroke: white; /* Default SVG path color */
+}
+
+/* Hover styles */
+.app-menu__item:hover {
+  color: #00AAD8; /* Change text color on hover */
+}
+
+.app-menu__item:hover svg path {
+  stroke: #00AAD8; /* Change SVG path color on hover */
+}
+/* work on sidebar to be continued */
