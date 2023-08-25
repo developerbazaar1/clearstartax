@@ -9,7 +9,7 @@
     background: linear-gradient(90deg,
             rgba(115, 171, 179, 0.55) 64.95%,
             rgba(115, 171, 179, 0) 100%),
-        url(../img/login-bg-back.png);
+        url(../img/log-background.png);
     object-fit: cover;
     /* width: 100%; */
     flex: 1;
@@ -150,7 +150,8 @@
 .i {
     position: absolute;
     left: 1px;
-    top: 7.5px;
+    /* top: 7.5px; */
+    top: 8.5px;
     border-right: 2px solid #858585;
     width: 42px;
 }

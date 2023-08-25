@@ -25,73 +25,30 @@
   </head>
   <body class="app sidebar-mini">
     <!-- Navbar-->
-    <header class="app-header"><a class="app-header__logo" href="index.html"><img class="dashboard-brand mt-4" src="img/cleartax-brand-logo.png"></a>
+    <header class="app-header d-lg-none"><a class="app-header__logo" href="index.html"><img class="dashboard-brand mt-4" src="img/cleartax-brand-logo.png"></a>
       <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
-      <!-- Navbar Right Menu-->
-      <ul class="app-nav">
-        <li class="app-search">
-          <input class="app-search__input" type="search" placeholder="Search">
-          <button class="app-search__button"><i class="fa fa-search"></i></button>
-        </li>
-        <!--Notification Menu-->
-        <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown" aria-label="Show notifications"><i class="fa fa-bell-o fa-lg"></i></a>
-          <ul class="app-notification dropdown-menu dropdown-menu-right">
-            <li class="app-notification__title">You have 4 new notifications.</li>
-            <div class="app-notification__content">
-              <li><a class="app-notification__item" href="javascript:;"><span class="app-notification__icon"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-envelope fa-stack-1x fa-inverse"></i></span></span>
-                  <div>
-                    <p class="app-notification__message">Lisa sent you a mail</p>
-                    <p class="app-notification__meta">2 min ago</p>
-                  </div></a></li>
-              <li><a class="app-notification__item" href="javascript:;"><span class="app-notification__icon"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-danger"></i><i class="fa fa-hdd-o fa-stack-1x fa-inverse"></i></span></span>
-                  <div>
-                    <p class="app-notification__message">Mail server not working</p>
-                    <p class="app-notification__meta">5 min ago</p>
-                  </div></a></li>
-              <li><a class="app-notification__item" href="javascript:;"><span class="app-notification__icon"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-success"></i><i class="fa fa-money fa-stack-1x fa-inverse"></i></span></span>
-                  <div>
-                    <p class="app-notification__message">Transaction complete</p>
-                    <p class="app-notification__meta">2 days ago</p>
-                  </div></a></li>
-              <div class="app-notification__content">
-                <li><a class="app-notification__item" href="javascript:;"><span class="app-notification__icon"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-envelope fa-stack-1x fa-inverse"></i></span></span>
-                    <div>
-                      <p class="app-notification__message">Lisa sent you a mail</p>
-                      <p class="app-notification__meta">2 min ago</p>
-                    </div></a></li>
-                <li><a class="app-notification__item" href="javascript:;"><span class="app-notification__icon"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-danger"></i><i class="fa fa-hdd-o fa-stack-1x fa-inverse"></i></span></span>
-                    <div>
-                      <p class="app-notification__message">Mail server not working</p>
-                      <p class="app-notification__meta">5 min ago</p>
-                    </div></a></li>
-                <li><a class="app-notification__item" href="javascript:;"><span class="app-notification__icon"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-success"></i><i class="fa fa-money fa-stack-1x fa-inverse"></i></span></span>
-                    <div>
-                      <p class="app-notification__message">Transaction complete</p>
-                      <p class="app-notification__meta">2 days ago</p>
-                    </div></a></li>
-              </div>
-            </div>
-            <li class="app-notification__footer"><a href="#">See all notifications.</a></li>
-          </ul>
-        </li>
-        <!-- User Menu-->
-        <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown" aria-label="Open Profile Menu"><i class="fa fa-user fa-lg"></i></a>
-          <ul class="dropdown-menu settings-menu dropdown-menu-right">
-            <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-cog fa-lg"></i> Settings</a></li>
-            <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-user fa-lg"></i> Profile</a></li>
-            <li><a class="dropdown-item" href="page-login.html"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
-          </ul>
-        </li>
-      </ul>
+      
     </header>
     <!-- Sidebar menu-->
     <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
     <aside class="app-sidebar">
+        <header class="app-head">
+        <a class="app-header__logo" href="index.html"><img class="dashboard-brand mt-4" src="img/cleartax-brand-logo.png"></a>
+        </header>
       <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="img/user-img.png" alt="User Image">
         <div>
           <p class="app-sidebar__user-name"><strong>Christian Ha</strong> </p>
-          <p class="app-sidebar__user-designation mt-2">Case ID : <a href="#" class="case-id-data">857881</a></p>
-          <p class="app-sidebar__user-designation mt-2">Status : <a href="#" class="case-id-data">More Info</a></p>
+          <p class="app-sidebar__user-designation mt-5px">Case ID : <a href="#" class="case-id-data">857881</a></p>
+          <p class="app-sidebar__user-designation mt-5px">Status : <a href="#" class="case-id-data">More Info <svg class="mb-2px" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+<g clip-path="url(#clip0_329_767)">
+<path d="M5.00001 0.625C6.16041 0.625 7.27329 1.08597 8.09382 1.9065C8.91435 2.72703 9.37532 3.83991 9.37532 5.00031C9.37532 6.16072 8.91435 7.27359 8.09382 8.09412C7.27329 8.91465 6.16041 9.37562 5.00001 9.37562C3.8396 9.37562 2.72672 8.91465 1.90619 8.09412C1.08566 7.27359 0.624695 6.16072 0.624695 5.00031C0.624695 3.83991 1.08566 2.72703 1.90619 1.9065C2.72672 1.08597 3.8396 0.625 5.00001 0.625ZM5.65626 3.31125C5.98126 3.31125 6.24501 3.08562 6.24501 2.75125C6.24501 2.41687 5.98063 2.19125 5.65626 2.19125C5.33126 2.19125 5.06876 2.41687 5.06876 2.75125C5.06876 3.08562 5.33126 3.31125 5.65626 3.31125ZM5.77063 6.82812C5.77063 6.76125 5.79376 6.5875 5.78063 6.48875L5.26688 7.08C5.16063 7.19187 5.02751 7.26937 4.96501 7.24875C4.93665 7.23831 4.91295 7.2181 4.89817 7.19175C4.88339 7.1654 4.8785 7.13464 4.88438 7.105L5.74063 4.4C5.81063 4.05687 5.61813 3.74375 5.21001 3.70375C4.77938 3.70375 4.14563 4.14062 3.76001 4.695C3.76001 4.76125 3.74751 4.92625 3.76063 5.025L4.27376 4.43312C4.38001 4.3225 4.50376 4.24437 4.56626 4.26562C4.59705 4.27668 4.62228 4.29936 4.63654 4.32881C4.65079 4.35825 4.65294 4.39212 4.64251 4.42312L3.79376 7.115C3.69563 7.43 3.88126 7.73875 4.33126 7.80875C4.99376 7.80875 5.38501 7.3825 5.77126 6.82812H5.77063Z" fill="#00AAD8"/>
+</g>
+<defs>
+<clipPath id="clip0_329_767">
+<rect width="10" height="10" fill="white"/>
+</clipPath>
+</defs>
+</svg></a></p>
         </div>
       </div>
       <ul class="app-menu">
@@ -102,7 +59,7 @@
         <li><a class="app-menu__item" href="dashboard.html"><svg class="app-menu__icon mx-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none"><path stroke="white" stroke-linecap="round" stroke-width="1.5" d="M10.125 8.875a1.875 1.875 0 1 1 2.828 1.615c-.475.281-.953.708-.953 1.26V13"/><circle cx="12" cy="16" r="1" fill="white"/><path stroke="white" stroke-linecap="round" stroke-width="1.5" d="M22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12s0-7.071 1.464-8.536C4.93 2 7.286 2 12 2c4.714 0 7.071 0 8.535 1.464c.974.974 1.3 2.343 1.41 4.536"/></g></svg><span class="app-menu__label">FAQ</span></a></li>
         <li><a class="app-menu__item" href="dashboard.html"><svg class="app-menu__icon mx-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none"><path fill="white" d="m13.087 21.388l.645.382l-.645-.382Zm.542-.916l-.646-.382l.646.382Zm-3.258 0l-.645.382l.645-.382Zm.542.916l.646-.382l-.646.382ZM1.25 10.5a.75.75 0 0 0 1.5 0h-1.5Zm1.824 5.126a.75.75 0 0 0-1.386.574l1.386-.574Zm4.716 3.365l-.013.75l.013-.75Zm-2.703-.372l-.287.693l.287-.693Zm16.532-2.706l.693.287l-.693-.287Zm-5.409 3.078l-.012-.75l.012.75Zm2.703-.372l.287.693l-.287-.693Zm.7-15.882l-.392.64l.392-.64Zm1.65 1.65l.64-.391l-.64.392ZM4.388 2.738l-.392-.64l.392.64Zm-1.651 1.65l-.64-.391l.64.392ZM9.403 19.21l.377-.649l-.377.649Zm4.33 2.56l.541-.916l-1.29-.764l-.543.916l1.291.764Zm-4.007-.916l.542.916l1.29-.764l-.541-.916l-1.291.764Zm2.715.152a.52.52 0 0 1-.882 0l-1.291.764c.773 1.307 2.69 1.307 3.464 0l-1.29-.764ZM10.5 2.75h3v-1.5h-3v1.5Zm10.75 7.75v1h1.5v-1h-1.5ZM7.803 18.242c-1.256-.022-1.914-.102-2.43-.316L4.8 19.313c.805.334 1.721.408 2.977.43l.026-1.5ZM1.688 16.2A5.75 5.75 0 0 0 4.8 19.312l.574-1.386a4.25 4.25 0 0 1-2.3-2.3l-1.386.574Zm19.562-4.7c0 1.175 0 2.019-.046 2.685c-.045.659-.131 1.089-.277 1.441l1.385.574c.235-.566.338-1.178.389-1.913c.05-.729.049-1.632.049-2.787h-1.5Zm-5.027 8.241c1.256-.021 2.172-.095 2.977-.429l-.574-1.386c-.515.214-1.173.294-2.428.316l.025 1.5Zm4.704-4.115a4.25 4.25 0 0 1-2.3 2.3l.573 1.386a5.75 5.75 0 0 0 3.112-3.112l-1.386-.574ZM13.5 2.75c1.651 0 2.837 0 3.762.089c.914.087 1.495.253 1.959.537l.783-1.279c-.739-.452-1.577-.654-2.6-.752c-1.012-.096-2.282-.095-3.904-.095v1.5Zm9.25 7.75c0-1.622 0-2.891-.096-3.904c-.097-1.023-.299-1.862-.751-2.6l-1.28.783c.285.464.451 1.045.538 1.96c.088.924.089 2.11.089 3.761h1.5Zm-3.53-7.124a4.25 4.25 0 0 1 1.404 1.403l1.279-.783a5.75 5.75 0 0 0-1.899-1.899l-.783 1.28ZM10.5 1.25c-1.622 0-2.891 0-3.904.095c-1.023.098-1.862.3-2.6.752l.783 1.28c.464-.285 1.045-.451 1.96-.538c.924-.088 2.11-.089 3.761-.089v-1.5ZM2.75 10.5c0-1.651 0-2.837.089-3.762c.087-.914.253-1.495.537-1.959l-1.279-.783c-.452.738-.654 1.577-.752 2.6C1.25 7.61 1.25 8.878 1.25 10.5h1.5Zm1.246-8.403a5.75 5.75 0 0 0-1.899 1.899l1.28.783a4.25 4.25 0 0 1 1.402-1.403l-.783-1.279Zm7.02 17.993c-.202-.343-.38-.646-.554-.884a2.229 2.229 0 0 0-.682-.645l-.754 1.297c.047.028.112.078.224.232c.121.166.258.396.476.764l1.29-.764Zm-3.24-.349c.44.008.718.014.93.037c.198.022.275.054.32.08l.754-1.297a2.244 2.244 0 0 0-.909-.274c-.298-.033-.657-.038-1.069-.045l-.025 1.5Zm6.498 1.113c.218-.367.355-.598.476-.764c.112-.154.177-.204.224-.232l-.754-1.297c-.29.17-.5.395-.682.645c-.173.238-.352.54-.555.884l1.291.764Zm1.924-2.612c-.412.007-.771.012-1.069.045c-.311.035-.616.104-.909.274l.754 1.297c.045-.026.122-.058.32-.08c.212-.023.49-.03.93-.037l-.026-1.5Z"/><path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 11h.009m3.982 0H12m3.991 0H16"/></g></svg><span class="app-menu__label">Get In Touch</span></a></li>
         <!-- signout btn -->
-        <li><a class="app-menu__item mt-4 mx-3" href="dashboard.html"><svg class="app-menu__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-width="1.5"><path stroke-linejoin="round" d="M15 12H2m0 0l3.5-3M2 12l3.5 3"/><path d="M9.002 7c.012-2.175.109-3.353.877-4.121C10.758 2 12.172 2 15 2h1c2.829 0 4.243 0 5.122.879C22 3.757 22 5.172 22 8v8c0 2.828 0 4.243-.878 5.121c-.769.769-1.947.865-4.122.877M9.002 17c.012 2.175.109 3.353.877 4.121c.641.642 1.568.815 3.121.862"/></g></svg><span class="app-menu__label">Sign Out</span></a></li>
+         <li><a class="app-menu__item mt-5" href="dashboard.html"><svg class="app-menu__icon mx-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-width="1.5"><path stroke-linejoin="round" d="M15 12H2m0 0l3.5-3M2 12l3.5 3"/><path d="M9.002 7c.012-2.175.109-3.353.877-4.121C10.758 2 12.172 2 15 2h1c2.829 0 4.243 0 5.122.879C22 3.757 22 5.172 22 8v8c0 2.828 0 4.243-.878 5.121c-.769.769-1.947.865-4.122.877M9.002 17c.012 2.175.109 3.353.877 4.121c.641.642 1.568.815 3.121.862"/></g></svg><span class="app-menu__label">Sign Out</span></a></li>
 
         <!-- <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-laptop"></i><span class="app-menu__label">UI Elements</span><i class="treeview-indicator fa fa-angle-right"></i></a>
           <ul class="treeview-menu">
@@ -117,20 +74,108 @@
    <!-- main content start from here -->
     <main class="app-content">
       <div class="app-title">
-        <div>
-          <h1><i class="fa fa-dashboard"></i> Blank Page</h1>
-          <p>Start a beautiful journey here</p>
-        </div>
-        <ul class="app-breadcrumb breadcrumb">
-          <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
-          <li class="breadcrumb-item"><a href="#">Blank Page</a></li>
-        </ul>
+          <div class="user-dashboard-welcome">
+              <h1>Good Morning Christian</h1>
+              <h5 class="mt-12 mb-5px">"Welcome to Your Clear Start Tax Client Portal!"</h5>
+               <p>"Explore Your Personalized Dashboard, John!"</p>
+            </div>
+            <div class="user-dashboard-welcome-d-image">
+                <!-- image top head dashboard  -->
+                <img class="dashboardtop-image" src="img/dashboard-top.png">
+            </div>
       </div>
       <div class="row">
         <div class="col-md-12">
-          <div class="tile">
-            <div class="tile-body">Create a beautiful dashboard</div>
+          <div class="tile-x">
+            <div class="tile-body">
+                <div class="case-status text-center">
+                    <h2>Your Case Status is:</h2>
+                </div>
+            </div>
           </div>
+        </div>
+      </div>
+      <!-- section for little card -->
+      <div class="row">
+        <!-- :: card 01 -->
+        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+          <a href="#" class="db-card-redirect">
+            <div class="tile">
+            <div class="tile-body">
+                <div class="document-card">
+                    <div class="document-card-items">
+                        <div class="card-icon">
+                        <iconify-icon class="d-card-icon" icon="solar:document-add-outline" style="color: #007899;" width="38" height="38"></iconify-icon>
+                        </div>
+                        <div class="db-card-text">
+                            <h5>Document Center</h5>
+                            <p>View and Upload Essential Case Files</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- :: card 02 -->
+        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+        <a href="#" class="db-card-redirect">
+            <div class="tile">
+            <div class="tile-body">
+                <div class="document-card">
+                    <div class="document-card-items">
+                        <div class="card-icon">
+                        <iconify-icon class="d-card-icon" icon="solar:banknote-2-broken" style="color: #007899;" width="38" height="38"></iconify-icon>
+                        </div>
+                        <div class="db-card-text">
+                            <h5>Payment Hub</h5>
+                            <p>Make a Payment, Review History, Update Method</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- :: card 03 -->
+        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+        <a href="#" class="db-card-redirect">
+            <div class="tile">
+            <div class="tile-body">
+                <div class="document-card">
+                    <div class="document-card-items">
+                        <div class="card-icon">
+                        <iconify-icon class="d-card-icon" icon="solar:calendar-broken" style="color: #007899;" width="37" height="37"></iconify-icon>
+                        </div>
+                        <div class="db-card-text">
+                            <h5>Schedule an Appointment</h5>
+                            <p>Set Up Your Appointment in a Few Clicks</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- :: card 04 -->
+        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+        <a href="#" class="db-card-redirect">
+            <div class="tile">
+            <div class="tile-body">
+                <div class="document-card">
+                    <div class="document-card-items">
+                        <div class="card-icon">
+                        <iconify-icon  class="d-card-icon" icon="solar:chat-dots-broken" style="color: #007899;" width="37" height="37"></iconify-icon>
+                        </div>
+                        <div class="db-card-text">
+                            <h5>Get In Touch</h5>
+                            <p>Connect with Your Assigned Case Manager via Message</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </main>
