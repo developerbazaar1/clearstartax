@@ -27,6 +27,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scroll-behavior: smooth;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -43,6 +44,25 @@ body {
   text-align: left;
   background-color: #FFF;
 }
+/* scrollbar webkit */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e8e8e8;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #363636;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: -webkit-linear-gradient(45deg, #363636, #363636);
+  background-image: -o-linear-gradient(45deg, #363636, #363636);
+  background-image: linear-gradient(45deg, #363636, #363636);
+}
+/* scrollbaer webkit end */
 
 [tabindex="-1"]:focus {
   outline: 0 !important;
