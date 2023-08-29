@@ -10,7 +10,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="HandheldFriendly" content="True">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
     <title>Login-clearstarttax</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,17 +24,17 @@
     <link rel="stylesheet" type="text/css"
         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
+<!--:: body start here -->
 <body class="app sidebar-mini">
-    <!-- Navbar-->
+    <!--:: Navbar-->
     <header class="app-header d-lg-none">
         <a class="app-header__logo" href="index.html">
             <img class="dashboard-brand mt-4" src="img/cleartax-brand-logo.png">
         </a>
-        <!-- Sidebar toggle button-->
+        <!-- :: Sidebar toggle button-->
         <a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
     </header>
-    <!-- Sidebar menu-->
+    <!-- :: Sidebar menu-->
     <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
     <aside class="app-sidebar">
         <header class="app-head">
@@ -42,6 +42,7 @@
                 <img class="dashboard-brand mt-4" src="img/cleartax-brand-logo.png">
             </a>
         </header>
+        <!--::  user details -->
         <div class="app-sidebar__user">
             <img class="app-sidebar__user-avatar" src="img/user-img.png" alt="User Image">
             <div>
@@ -68,9 +69,11 @@
                 </p>
             </div>
         </div>
+        <!-- :: menu start here -->
         <ul class="app-menu">
+            <!-- :: menu items 01 -->
             <li>
-                <a class="app-menu__item" href="dashboard.html">
+                <a class="app-menu__item" href="dashboard.php">
                     <svg class="app-menu__icon mx-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                         viewBox="0 0 24 24">
                         <g fill="none" stroke="white" stroke-width="1.5">
@@ -83,8 +86,9 @@
                     <span class="app-menu__label">Dashboard</span>
                 </a>
             </li>
+            <!-- :: menu items 02 -->
             <li>
-                <a class="app-menu__item" href="dashboard.html">
+                <a class="app-menu__item" href="payments.php">
                     <svg class="app-menu__icon mx-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                         viewBox="0 0 24 24">
                         <g fill="none" stroke="white" stroke-width="1.5">
@@ -97,8 +101,9 @@
                     <span class="app-menu__label">Payments</span>
                 </a>
             </li>
+            <!-- :: menu items 03 -->
             <li>
-                <a class="app-menu__item" href="dashboard.html">
+                <a class="app-menu__item" href="documents.php">
                     <svg class="app-menu__icon mx-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                         viewBox="0 0 24 24">
                         <g fill="none" stroke="white" stroke-width="1.5">
@@ -111,8 +116,9 @@
                     <span class="app-menu__label">Documents</span>
                 </a>
             </li>
+            <!-- :: menu items 04 -->
             <li>
-                <a class="app-menu__item" href="dashboard.html">
+                <a class="app-menu__item" href="Appointment.php">
                     <svg class="app-menu__icon mx-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                         viewBox="0 0 24 24">
                         <g fill="none">
@@ -125,8 +131,9 @@
                     <span class="app-menu__label">Appointment</span>
                 </a>
             </li>
+            <!-- :: menu items 05 -->
             <li>
-                <a class="app-menu__item" href="dashboard.html">
+                <a class="app-menu__item" href="faq.php">
                     <svg class="app-menu__icon mx-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                         viewBox="0 0 24 24">
                         <g fill="none">
@@ -140,8 +147,9 @@
                     <span class="app-menu__label">FAQ</span>
                 </a>
             </li>
+            <!-- :: menu items 06 -->
             <li>
-                <a class="app-menu__item" href="dashboard.html">
+                <a class="app-menu__item" href="contact.php">
                     <svg class="app-menu__icon mx-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                         viewBox="0 0 24 24">
                         <g fill="none">
@@ -154,9 +162,9 @@
                     <span class="app-menu__label">Get In Touch</span>
                 </a>
             </li>
-            <!-- signout btn -->
+            <!-- :: signout btn -->
             <li>
-                <a class="app-menu__item mt-5" href="dashboard.html">
+                <a class="app-menu__item mt-5" href="index.php">
                     <svg class="app-menu__icon mx-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                         viewBox="0 0 24 24">
                         <g fill="none" stroke="white" stroke-linecap="round" stroke-width="1.5">
@@ -171,7 +179,7 @@
             <!-- <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-laptop"></i><span class="app-menu__label">UI Elements</span><i class="treeview-indicator fa fa-angle-right"></i></a><ul class="treeview-menu"><li><a class="treeview-item" href="bootstrap-components.html"><i class="icon fa fa-circle-o"></i> Bootstrap Elements</a></li><li><a class="treeview-item" href="https://fontawesome.com/v4.7.0/icons/" target="_blank" rel="noopener"><i class="icon fa fa-circle-o"></i> Font Icons</a></li><li><a class="treeview-item" href="ui-cards.html"><i class="icon fa fa-circle-o"></i> Cards</a></li><li><a class="treeview-item" href="widgets.html"><i class="icon fa fa-circle-o"></i> Widgets</a></li></ul></li> -->
         </ul>
     </aside>
-    <!-- main content start from here -->
+    <!-- :: main content start from here -->
     <main class="app-content">
         <div class="app-title">
             <div class="user-dashboard-welcome">
@@ -180,7 +188,7 @@
                 <p>"Explore Your Personalized Dashboard, Christian!"</p>
             </div>
             <div class="user-dashboard-welcome-d-image">
-                <!-- image top head dashboard  -->
+                <!--:: image top head dashboard  -->
                 <img class="dashboardtop-image" src="img/dashboard-top.png">
             </div>
         </div>
@@ -200,7 +208,6 @@
                         </span>
                     </a>
                 </div>
-
             </div>
         </div>
 
@@ -252,7 +259,7 @@
         <div class="row">
             <!-- :: card 01 -->
             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                <a href="#" class="db-card-redirect">
+                <a href="documents.php" class="db-card-redirect">
                     <div class="tile">
                         <div class="tile-body">
                             <div class="document-card">
@@ -273,7 +280,7 @@
             </div>
             <!-- :: card 02 -->
             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                <a href="#" class="db-card-redirect">
+                <a href="payments.php" class="db-card-redirect">
                     <div class="tile">
                         <div class="tile-body">
                             <div class="document-card">
@@ -294,7 +301,7 @@
             </div>
             <!-- :: card 03 -->
             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                <a href="#" class="db-card-redirect">
+                <a href="appointment.php" class="db-card-redirect">
                     <div class="tile">
                         <div class="tile-body">
                             <div class="document-card">
@@ -315,7 +322,7 @@
             </div>
             <!-- :: card 04 -->
             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                <a href="#" class="db-card-redirect">
+                <a href="contact.php" class="db-card-redirect">
                     <div class="tile">
                         <div class="tile-body">
                             <div class="document-card">

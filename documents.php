@@ -14,12 +14,14 @@
     <title>Login-clearstarttax</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Main CSS-->
+    <!-- :: Main CSS-->
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <!-- Responsive css -->
+    <!-- :: Responsive css -->
     <link rel="stylesheet" href="css/responsive.css">
-    <!-- Font-icon css-->
-    <!-- favicon -->
+    <!-- :: dropify css -->
+    <link rel="stylesheet" type="text/css" href="css/dropify.min.css">
+    <!-- :: Font-icon css-->
+    <!-- :: favicon -->
     <link href="img/c-favicon.png" rel="icon">
     <link rel="stylesheet" type="text/css"
         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -70,7 +72,7 @@
         </div>
         <ul class="app-menu">
             <li>
-                <a class="app-menu__item" href="dashboard.html">
+                <a class="app-menu__item" href="dashboard.php">
                     <svg class="app-menu__icon mx-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                         viewBox="0 0 24 24">
                         <g fill="none" stroke="white" stroke-width="1.5">
@@ -84,7 +86,7 @@
                 </a>
             </li>
             <li>
-                <a class="app-menu__item" href="dashboard.html">
+                <a class="app-menu__item" href="payments.php">
                     <svg class="app-menu__icon mx-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                         viewBox="0 0 24 24">
                         <g fill="none" stroke="white" stroke-width="1.5">
@@ -98,7 +100,7 @@
                 </a>
             </li>
             <li>
-                <a class="app-menu__item" href="dashboard.html">
+                <a class="app-menu__item" href="documents.php">
                     <svg class="app-menu__icon mx-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                         viewBox="0 0 24 24">
                         <g fill="none" stroke="white" stroke-width="1.5">
@@ -112,7 +114,7 @@
                 </a>
             </li>
             <li>
-                <a class="app-menu__item" href="dashboard.html">
+                <a class="app-menu__item" href="appointment.php">
                     <svg class="app-menu__icon mx-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                         viewBox="0 0 24 24">
                         <g fill="none">
@@ -126,7 +128,7 @@
                 </a>
             </li>
             <li>
-                <a class="app-menu__item" href="dashboard.html">
+                <a class="app-menu__item" href="faq.php">
                     <svg class="app-menu__icon mx-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                         viewBox="0 0 24 24">
                         <g fill="none">
@@ -141,7 +143,7 @@
                 </a>
             </li>
             <li>
-                <a class="app-menu__item" href="dashboard.html">
+                <a class="app-menu__item" href="contact.php">
                     <svg class="app-menu__icon mx-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                         viewBox="0 0 24 24">
                         <g fill="none">
@@ -173,23 +175,47 @@
     </aside>
     <!-- main content start from here -->
     <main class="app-content">
+        <!-- :: client information head -->
         <div class="app-title">
             <div class="user-dashboard-welcome">
                 <h1>Hello Christian Ha</h1>
-                <h5 class="mt-12 mb-5px">"Enter the Document Upload Zone: Seamlessly Submit and Organize Your Files!"</h5>
+                <h5 class="mt-12 mb-5px">"Enter the Document Upload Zone: Seamlessly Submit and Organize Your Files!"
+                </h5>
             </div>
             <div class="user-dashboard-welcome-d-image">
                 <!-- image top head dashboard  -->
                 <img class="dashboardtop-image" src="img/dashboard-top.png">
             </div>
         </div>
-        <!-- aleart -->
-
-
-        <!-- alert end here -->
-        
-        <!-- section for little card -->
-        
+        <!-- :: end client information head -->
+        <!-- document upload section  -->
+        <section class="upload-document mt-58">
+            <div class="row justify-content-center">
+                <div class="col-md-9 col-lg-9 col-sm-12 col-xs-12">
+                    <div class="tile-x">
+                        <div class="tile-body">
+                            <div class="case-status upload-doc-head text-center ">
+                                <h2>Upload Document</h2>
+                            </div>
+                        </div>
+                        <div class="row p-1020">
+                            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 ">
+                                <!-- upload form -->
+                                <form>
+                                    <!-- field col  start :: dropify-->
+									<div class="form-group mb-0 pb-0">
+										<!-- <label class="form-head mb-2" for="exampletext"> Upload File </label> -->
+										<input name="file1" type="file" class="dropify" data-height="100" data-allowed-file-extensions="csv exe" />
+                                        <small class="form-text text-muted upload-info mt-2">Maximum Document Size : Up to 6MB per Upload</small>
+									</div>
+									<!-- field col  enc :: dropify-->
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- Essential javascripts for application to work-->
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
@@ -199,8 +225,12 @@
     <script src="js/main.js"></script>
     <!-- The javascript plugin to display page loading on top-->
     <script src="js/plugins/pace.min.js"></script>
+    <script src="js/plugins/dropify.min.js"></script>
     <!-- Page specific javascripts-->
     <!-- Google analytics script-->
+    <script>
+			$('.dropify').dropify();
+		</script>
     <script type="text/javascript">
     if (document.location.hostname == 'pratikborsadiya.in') {
         (function(i, s, o, g, r, a, m) {
