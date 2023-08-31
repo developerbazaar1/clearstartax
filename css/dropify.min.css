@@ -47,7 +47,8 @@
 }
 .dropify-font-upload:before,
 .dropify-wrapper .dropify-message span.file-icon:before {
-  content: "\e800";
+  /* content: "\e800"; */
+  content: url('https://api.iconify.design/bytesize/upload.svg?width=30&height=30');
 }
 .dropify-font-file:before {
   content: "\e801";
