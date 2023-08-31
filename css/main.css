@@ -2188,8 +2188,12 @@ textarea.form-control {
 
 .form-check-input {
   position: absolute;
-  margin-top: 0.3rem;
+  /* margin-top: 0.3rem; */
+  margin-top: 6px;
   margin-left: -1.25rem;
+}
+.h-50vh {
+  height: 50vh;
 }
 
 .form-check-input:disabled ~ .form-check-label {
@@ -17053,6 +17057,19 @@ line-height: normal;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
+}
+.bill-summary-label {
+  color: #000;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+span.bill-summary-detail {
+  color: #000;
+  text-align: right;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
 }
 /* accordian css */
 .accordion {

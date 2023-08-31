@@ -196,7 +196,7 @@
         <!-- section one pay detail -->
         <div class="row">
             <div class="col-md-6">
-                <div class="tile-x">
+                <div class="tile-x h-50vh">
                     <div class="tile-body">
                         <div class="case-status text-center">
                             <h2>Payment:</h2>
@@ -207,20 +207,40 @@
                         <form>
                             <div class="row justify-content-center p-4">
                                 <!-- :: input 01 -->
-                                <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
-                                    <!-- <div class="form-group">
-                                        <label class="form-head" for="exampletext">
-                                            Full Name :
-                                        </label>
-                                    </div> -->
-                                </div>
-                                <!-- :: input 02 -->
-                                <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
-                                    <!-- <div class="form-group">
-                                        <label class="form-head" for="exampletext">
-                                            Email Address :
-                                        </label>
-                                    </div> -->
+                                <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="bill-summary-label">
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input type="radio" class="form-check-input" name="optradio">
+                                                    Past due balance:
+                                                </label>
+                                            </div>
+                                        </span>
+                                        <span class="bill-summary-detail">$$8,836.02</span>
+                                    </div>
+									<div class="d-flex justify-content-between">
+                                        <span class="bill-summary-label">
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input type="radio" class="form-check-input" name="optradio">
+                                                    Remaining balance:
+                                                </label>
+                                            </div>
+                                        </span>
+                                        <span class="bill-summary-detail">$17,051.62</span>
+                                    </div>
+									<div class="d-flex justify-content-between">
+                                        <span class="bill-summary-label">
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input type="radio" class="form-check-input" name="optradio">
+                                                    Other Amount
+                                                </label>
+                                            </div>
+                                        </span>
+                                        <span class="bill-summary-detail">$______</span>
+                                    </div>
                                 </div>
                             </div>
                         </form>
@@ -240,21 +260,41 @@
                         <form>
                             <div class="row justify-content-center p-4">
                                 <!-- :: input 01 -->
-                                <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
-                                    <!-- <div class="form-group">
-                                        <label class="form-head" for="exampletext">
-                                            Full Name :
-                                        </label>
-                                    </div> -->
+                                <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 d-flex flex-column">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="bill-summary-label">Total Balance : </span>
+                                        <span class="bill-summary-detail">$17,084.00</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="bill-summary-label">Paid : </span>
+                                        <span class="bill-summary-detail">$32.38</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="bill-summary-label">% Paid : </span>
+                                        <span class="bill-summary-detail">0.19%</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="bill-summary-label">Remaining Balance: </span>
+                                        <span class="bill-summary-detail">$17,051.62</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="bill-summary-label">Amount Due : </span>
+                                        <span class="bill-summary-detail">$10,214.92</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="bill-summary-label">Next Due Date :</span>
+                                        <span class="bill-summary-detail">09/08/2023</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="bill-summary-label">Past Due : </span>
+                                        <span class="bill-summary-detail text-danger">$8,836.02</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="bill-summary-label">Pay Schedule : </span>
+                                        <span class="bill-summary-detail"><a href="" class="">Click to view</a></span>
+                                    </div>
                                 </div>
                                 <!-- :: input 02 -->
-                                <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
-                                    <!-- <div class="form-group">
-                                        <label class="form-head" for="exampletext">
-                                            Email Address :
-                                        </label>
-                                    </div> -->
-                                </div>
                             </div>
                         </form>
                     </div>
@@ -267,7 +307,7 @@
                 <div class="tile-x">
                     <div class="tile-body">
                         <div class="case-status text-center">
-                            <h2>Get In Touch</h2>
+                            <h2>Payment Information</h2>
                         </div>
                     </div>
                     <!-- payments detail section  -->
@@ -451,67 +491,67 @@
                                                         placeholder="Enter email address" required="">
                                                 </div>
                                             </div>
-											<!-- :: billing address -->
-											<div class="col-md-12 col-sm-12">
-												<div class="banking-details mb-3 mt-1">
-													Billing Address :
-												</div>
-											</div>
+                                            <!-- :: billing address -->
+                                            <div class="col-md-12 col-sm-12">
+                                                <div class="banking-details mb-3 mt-1">
+                                                    Billing Address :
+                                                </div>
+                                            </div>
                                             <!-- :: input 01-->
                                             <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label class="form-head" for="exampletext">
-													 Street Address 1 :
+                                                        Street Address 1 :
                                                     </label>
                                                     <input type="text" class="form-control" id="exampleInputtext"
                                                         placeholder="Enter email address" required="">
                                                 </div>
                                             </div>
-											<!-- :: input 02 -->
+                                            <!-- :: input 02 -->
                                             <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label class="form-head" for="exampletext">
-													 Street Address 2(#,Apt,Unit,Suite) : 
+                                                        Street Address 2(#,Apt,Unit,Suite) :
                                                     </label>
                                                     <input type="text" class="form-control" id="exampleInputtext"
                                                         placeholder="Enter email address" required="">
                                                 </div>
                                             </div>
-											<!-- :: input 03 -->
+                                            <!-- :: input 03 -->
                                             <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label class="form-head" for="exampletext">
-													 City : 
+                                                        City :
                                                     </label>
                                                     <input type="text" class="form-control" id="exampleInputtext"
                                                         placeholder="Enter email address" required="">
                                                 </div>
                                             </div>
-											<!-- :: input 05 -->
+                                            <!-- :: input 05 -->
                                             <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label class="form-head" for="exampletext">
-													 State : 
+                                                        State :
                                                     </label>
                                                     <input type="text" class="form-control" id="exampleInputtext"
                                                         placeholder="Enter email address" required="">
                                                 </div>
                                             </div>
-											<!-- :: input 05 -->
+                                            <!-- :: input 05 -->
                                             <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label class="form-head" for="exampletext">
-													 Zip :
+                                                        Zip :
                                                     </label>
                                                     <input type="text" class="form-control" id="exampleInputtext"
                                                         placeholder="Enter email address" required="">
                                                 </div>
                                             </div>
-											<!-- :: input 05 -->
+                                            <!-- :: input 05 -->
                                             <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label class="form-head" for="exampletext">
-													 Email :
+                                                        Email :
                                                     </label>
                                                     <input type="text" class="form-control" id="exampleInputtext"
                                                         placeholder="Enter email address" required="">
