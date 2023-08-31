@@ -16975,6 +16975,17 @@ line-height: normal;
   width: 180.76px;
   margin-right: 25px;
 }
+.cnt-submit-btn {
+  border-radius: 5px;
+  border: 1px solid #00AAD8;
+  background: #00AAD8;
+  color: #fff;
+  padding: 4px 34px;
+  font-size: 18px;
+}
+.p-10{
+  padding: 10px 10px;
+}
 /* accordian css */
 .accordion {
   --bs-accordion-color: var(--bs-body-color);

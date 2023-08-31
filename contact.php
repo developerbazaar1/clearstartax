@@ -239,12 +239,12 @@
                                 <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
                                     <div class="form-group">
                                         <label class="form-head" for="exampleTextarea">Message :</label>
-                                        <textarea class="form-control" placeholder="Write message" id="exampleTextarea"
+                                        <textarea class="form-control p-10" placeholder="Write message" id="exampleTextarea"
                                             rows="3"></textarea>
                                     </div>
                                 </div>
                                 <div class="text-center">
-                                   <button type="submit">submit</button>
+                                   <button type="submit" class="cnt-submit-btn">SUBMIT</button>
                                 </div>
                             </div>
                         </form>
