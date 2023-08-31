@@ -408,7 +408,7 @@
                                                 </div>
                                             </div>
                                             <div class="text-center">
-                                                <button type="submit" class="cnt-submit-btn">Pay</button>
+                                                <button type="submit" class="cnt-pay-btn">Pay</button>
                                             </div>
                                         </div>
                                     </form>
@@ -558,7 +558,7 @@
                                                 </div>
                                             </div>
                                             <div class="text-center">
-                                                <button type="submit" class="cnt-submit-btn">Pay</button>
+                                                <button type="submit" class="cnt-pay-btn">Pay</button>
                                             </div>
                                         </div>
                                     </form>

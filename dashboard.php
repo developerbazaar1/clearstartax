@@ -232,7 +232,7 @@
                                 <div class="case-card-info d-flex mt-4">
                                     <p>Complete online Financial Questionnaire <br> form to continue your application
                                         process. </p>
-                                    <a href="#" class="info-inner-link mx-3">Click Here</a>
+                                    <a href="https://clearstarttax.com/fqform/" target="_blank" class="info-inner-link mx-3">Click Here</a>
                                 </div>
                             </div>
                         </div>
@@ -247,7 +247,7 @@
                                 </div>
                                 <div class="case-card-info d-flex mt-4">
                                     <p>Complete online TAX ORGANIZER form to <br>continue your application process. </p>
-                                    <a href="#" class="info-inner-link mx-3">Click Here</a>
+                                    <a href="https://clearstarttax.com/toform/" target="_blank" class="info-inner-link mx-3">Click Here</a>
                                 </div>
                             </div>
                         </div>
