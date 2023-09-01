@@ -188,7 +188,7 @@
             </div>
             <div class="user-dashboard-welcome-d-image">
                 <!--:: image top head dashboard  -->
-                <img class="dashboardtop-image" src="img/dashboard-top.png">
+                <img class="moreinfotop-image" src="img/Case-Status.png">
             </div>
         </div>
         <div class="row justify-content-center">

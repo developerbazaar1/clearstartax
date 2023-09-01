@@ -184,7 +184,7 @@
             </div>
             <div class="user-dashboard-welcome-d-image">
                 <!-- image top head dashboard  -->
-                <img class="dashboardtop-image" src="img/dashboard-top.png">
+                <img class="paymenttop-image" src="img/documents.png">
             </div>
         </div>
         <!-- :: end client information head -->

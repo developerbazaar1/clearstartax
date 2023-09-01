@@ -52,9 +52,9 @@
                 </p>
                 <p class="app-sidebar__user-designation mt-5px">Case ID : <a href="#" class="case-id-data">857881</a>
                 </p>
-                <p class="app-sidebar__user-designation mt-5px">Status : <a href="more-info.php" class="case-id-data">More Info <svg
-                            class="mb-2px" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"
-                            fill="none">
+                <p class="app-sidebar__user-designation mt-5px">Status : <a href="more-info.php"
+                        class="case-id-data">More Info <svg class="mb-2px" xmlns="http://www.w3.org/2000/svg" width="10"
+                            height="10" viewBox="0 0 10 10" fill="none">
                             <g clip-path="url(#clip0_329_767)">
                                 <path
                                     d="M5.00001 0.625C6.16041 0.625 7.27329 1.08597 8.09382 1.9065C8.91435 2.72703 9.37532 3.83991 9.37532 5.00031C9.37532 6.16072 8.91435 7.27359 8.09382 8.09412C7.27329 8.91465 6.16041 9.37562 5.00001 9.37562C3.8396 9.37562 2.72672 8.91465 1.90619 8.09412C1.08566 7.27359 0.624695 6.16072 0.624695 5.00031C0.624695 3.83991 1.08566 2.72703 1.90619 1.9065C2.72672 1.08597 3.8396 0.625 5.00001 0.625ZM5.65626 3.31125C5.98126 3.31125 6.24501 3.08562 6.24501 2.75125C6.24501 2.41687 5.98063 2.19125 5.65626 2.19125C5.33126 2.19125 5.06876 2.41687 5.06876 2.75125C5.06876 3.08562 5.33126 3.31125 5.65626 3.31125ZM5.77063 6.82812C5.77063 6.76125 5.79376 6.5875 5.78063 6.48875L5.26688 7.08C5.16063 7.19187 5.02751 7.26937 4.96501 7.24875C4.93665 7.23831 4.91295 7.2181 4.89817 7.19175C4.88339 7.1654 4.8785 7.13464 4.88438 7.105L5.74063 4.4C5.81063 4.05687 5.61813 3.74375 5.21001 3.70375C4.77938 3.70375 4.14563 4.14062 3.76001 4.695C3.76001 4.76125 3.74751 4.92625 3.76063 5.025L4.27376 4.43312C4.38001 4.3225 4.50376 4.24437 4.56626 4.26562C4.59705 4.27668 4.62228 4.29936 4.63654 4.32881C4.65079 4.35825 4.65294 4.39212 4.64251 4.42312L3.79376 7.115C3.69563 7.43 3.88126 7.73875 4.33126 7.80875C4.99376 7.80875 5.38501 7.3825 5.77126 6.82812H5.77063Z"
@@ -219,7 +219,7 @@
                                         </span>
                                         <span class="bill-summary-detail">$$8,836.02</span>
                                     </div>
-									<div class="d-flex justify-content-between">
+                                    <div class="d-flex justify-content-between">
                                         <span class="bill-summary-label">
                                             <div class="form-check">
                                                 <label class="form-check-label">
@@ -230,7 +230,7 @@
                                         </span>
                                         <span class="bill-summary-detail">$17,051.62</span>
                                     </div>
-									<div class="d-flex justify-content-between">
+                                    <div class="d-flex justify-content-between">
                                         <span class="bill-summary-label">
                                             <div class="form-check">
                                                 <label class="form-check-label">
@@ -291,7 +291,9 @@
                                     </div>
                                     <div class="d-flex justify-content-between">
                                         <span class="bill-summary-label">Pay Schedule : </span>
-                                        <span class="bill-summary-detail"><a href="" class="">Click to view</a></span>
+                                        <span class="bill-summary-detail"><a type="button" href="" class=""
+                                                data-toggle="modal" data-target="#exampleModalCenter">Click to
+                                                view</a></span>
                                     </div>
                                 </div>
                                 <!-- :: input 02 -->
@@ -603,6 +605,57 @@
             </div>
         </div>
     </main>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header justify-content-center">
+                    <h2 class="modal-title" id="exampleModalLongTitle">Payment Schedule:</h2>
+                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+                </div>
+                <div class="modal-body">
+                    <table class="table text-center br-none">
+                        <thead class="br-none">
+                            <tr>
+                                <th scope="col">Date</th>
+                                <th scope="col">Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody class="br-none">
+                            <tr>
+                                <td>11/04/2021</td>
+                                <td>$595.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- pay divider -->
+                    <div class="modal-section-two text-center">
+                        <h2>Upcoming payments</h2>
+                    </div>
+                    <table class="table text-center br-none">
+                        <thead>
+                            <tr>
+                                <th scope="col">Date</th>
+                                <th scope="col">Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>11/04/2021</td>
+                                <td>$595.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="m-close-btn" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Essential javascripts for application to work-->
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>

@@ -6298,15 +6298,27 @@ a.close.disabled {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 1rem 1rem;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 9px 20px;
   border-bottom: 1px solid #dee2e6;
   border-top-left-radius: 0.3rem;
   border-top-right-radius: 0.3rem;
+  background: #363636;
+  color: white;
+  font-size: 7px;
+}
+.m-close-btn{
+  background: #00AAD8;
+  border: none;
+  padding: 7px 60px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  color: #fff;
 }
 
 .modal-header .close {
@@ -6316,15 +6328,23 @@ a.close.disabled {
 
 .modal-title {
   margin-bottom: 0;
-  line-height: 1.5;
+  /* line-height: 1.5; */
+  font-size: 24px;
+  font-weight: 500;
 }
-
+.br-none{
+  border: none!important;
+}
 .modal-body {
   position: relative;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   padding: 1rem;
+  overflow-y: scroll;
+}
+.modal-section-two h2{
+  font-size: 18px;
 }
 
 .modal-footer {
@@ -6338,7 +6358,6 @@ a.close.disabled {
       -ms-flex-pack: end;
           justify-content: flex-end;
   padding: 1rem;
-  border-top: 1px solid #dee2e6;
   border-bottom-right-radius: 0.3rem;
   border-bottom-left-radius: 0.3rem;
 }
@@ -14849,7 +14868,7 @@ be a descendant of the grid when it is being dragged.
 
 ::selection {
   color: #FFF;
-  background-color: #00635a;
+  background-color: #007899;
 }
 
 @media (min-width: 768px) {
@@ -17214,4 +17233,16 @@ span.bill-summary-detail {
   background-repeat: no-repeat;
   background-size: 1.25rem;
   transition: transform .2s ease-in-out;
+}
+.paymenttop-image{
+  width: 191.76px;
+    /* height: 152px; */
+    /* padding: 0px 5px 1px 1px; */
+    margin-right: 18px;
+}
+.moreinfotop-image{
+  width: 186.76px;
+    /* height: 146px; */
+    /* padding: 0px 5px 1px 1px; */
+    margin-right: 26px;
 }
