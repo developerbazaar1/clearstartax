@@ -17117,14 +17117,15 @@ span.bill-summary-detail {
   border-radius: 0;
 }
 .accordion-item:first-of-type {
-  border-top-left-radius: .25rem;
-  border-top-right-radius: .25rem;
+  border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .accordion-item {
   background-color: #fff;
   /* border: 1px solid rgba(0,0,0,.125); */
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
   /* border-bottom: 2px solid #007899; */
+  border-radius: 10px;
 }
 .cst-acc-br{
   border-bottom: 2px solid #007899 !important;
@@ -17133,8 +17134,8 @@ span.bill-summary-detail {
   margin-bottom: 0;
 }
 .accordion-item:first-of-type .accordion-button {
-  border-top-left-radius: calc(.25rem - 1px);
-  border-top-right-radius: calc(.25rem - 1px);
+  border-top-left-radius: calc(1.25rem - 1px);
+    border-top-right-radius: calc(1.25rem - 1px);
 }
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
   cursor: pointer;
@@ -17151,7 +17152,7 @@ span.bill-summary-detail {
   text-align: left;
   background-color: #fff;
   border: 0;
-  border-radius: 0;
+  border-radius: 10px 10px 0px 0px;
   overflow-anchor: none;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
 }
@@ -17182,7 +17183,7 @@ span.bill-summary-detail {
   border-width: 0;
 }
 .accordion-body {
-  padding: 1rem 1.25rem;
+  padding: 1rem 1rem;
 }
 .accordion-flush .accordion-item {
   border-right: 0;
