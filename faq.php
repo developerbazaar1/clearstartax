@@ -52,9 +52,9 @@
                 </p>
                 <p class="app-sidebar__user-designation mt-5px">Case ID : <a href="#" class="case-id-data">857881</a>
                 </p>
-                <p class="app-sidebar__user-designation mt-5px">Status : <a href="more-info.php" class="case-id-data">More Info <svg
-                            class="mb-2px" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"
-                            fill="none">
+                <p class="app-sidebar__user-designation mt-5px">Status : <a href="more-info.php"
+                        class="case-id-data">More Info <svg class="mb-2px" xmlns="http://www.w3.org/2000/svg" width="10"
+                            height="10" viewBox="0 0 10 10" fill="none">
                             <g clip-path="url(#clip0_329_767)">
                                 <path
                                     d="M5.00001 0.625C6.16041 0.625 7.27329 1.08597 8.09382 1.9065C8.91435 2.72703 9.37532 3.83991 9.37532 5.00031C9.37532 6.16072 8.91435 7.27359 8.09382 8.09412C7.27329 8.91465 6.16041 9.37562 5.00001 9.37562C3.8396 9.37562 2.72672 8.91465 1.90619 8.09412C1.08566 7.27359 0.624695 6.16072 0.624695 5.00031C0.624695 3.83991 1.08566 2.72703 1.90619 1.9065C2.72672 1.08597 3.8396 0.625 5.00001 0.625ZM5.65626 3.31125C5.98126 3.31125 6.24501 3.08562 6.24501 2.75125C6.24501 2.41687 5.98063 2.19125 5.65626 2.19125C5.33126 2.19125 5.06876 2.41687 5.06876 2.75125C5.06876 3.08562 5.33126 3.31125 5.65626 3.31125ZM5.77063 6.82812C5.77063 6.76125 5.79376 6.5875 5.78063 6.48875L5.26688 7.08C5.16063 7.19187 5.02751 7.26937 4.96501 7.24875C4.93665 7.23831 4.91295 7.2181 4.89817 7.19175C4.88339 7.1654 4.8785 7.13464 4.88438 7.105L5.74063 4.4C5.81063 4.05687 5.61813 3.74375 5.21001 3.70375C4.77938 3.70375 4.14563 4.14062 3.76001 4.695C3.76001 4.76125 3.74751 4.92625 3.76063 5.025L4.27376 4.43312C4.38001 4.3225 4.50376 4.24437 4.56626 4.26562C4.59705 4.27668 4.62228 4.29936 4.63654 4.32881C4.65079 4.35825 4.65294 4.39212 4.64251 4.42312L3.79376 7.115C3.69563 7.43 3.88126 7.73875 4.33126 7.80875C4.99376 7.80875 5.38501 7.3825 5.77126 6.82812H5.77063Z"
@@ -184,26 +184,88 @@
     <main class="app-content">
         <div class="app-title">
             <div class="user-dashboard-welcome">
-                <h1>Good Morning Christian</h1>
-                <h5 class="mt-12 mb-5px">"Welcome to Your Clear Start Tax Client Portal!"</h5>
-                <p>"Explore Your Personalized Dashboard, Christian!"</p>
+                <h1>Hello Christian Ha</h1>
+                <h5 class="mt-12 mb-5px">"Answers to Your Questions: FAQ - Find What You Need"</h5>
+                <!-- <p>"Explore Your Personalized Dashboard, Christian!"</p> -->
             </div>
             <div class="user-dashboard-welcome-d-image">
                 <!--:: image top head dashboard  -->
-                <img class="dashboardtop-image" src="img/dashboard-top.png">
+                <img class="faq-top-image" src="img/faq-top.png">
             </div>
         </div>
         <!--faq accordian  -->
-        <secion class="faq-accordian">
+        <section class="faq-accordian mt-2">
             <div class="row justify-content-center">
                 <div class="col-md-11">
-                   <!-- content-here -->
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button cst-acc-br" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Where do I send my documents?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mt-3">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button cst-acc-br collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    Can the state intercept my federal refund and viceversa?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse  collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mt-3">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button  cst-acc-br collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Can the state intercept my federal refund and viceversa?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </secion>
+        </section>
     </main>
     <!-- Essential javascripts for application to work-->
-    
+
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -213,6 +275,24 @@
     <script src="js/plugins/pace.min.js"></script>
     <!-- Page specific javascripts-->
     <!-- Google analytics script-->
+    <script>
+    // Add event listeners to each accordion button for custom open/close functionality
+    const accordionButtons = document.querySelectorAll(".accordion-button");
+
+    accordionButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            // Toggle the "collapsed" class on the button
+            button.classList.toggle("collapsed");
+
+            // Get the associated collapse element
+            const targetId = button.getAttribute("data-bs-target").substring(1); // Remove the #
+            const targetCollapse = document.getElementById(targetId);
+
+            // Toggle the "show" class on the collapse element
+            targetCollapse.classList.toggle("show");
+        });
+    });
+    </script>
 </body>
 
 </html>

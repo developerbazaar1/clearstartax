@@ -28,7 +28,7 @@
 <body class="app sidebar-mini">
     <!--:: Navbar-->
     <header class="app-header d-lg-none">
-        <a class="app-header__logo" href="index.html">
+        <a class="app-header__logo" href="dashboard.php">
             <img class="dashboard-brand mt-4" src="img/cleartax-brand-logo.png">
         </a>
         <!-- :: Sidebar toggle button-->
