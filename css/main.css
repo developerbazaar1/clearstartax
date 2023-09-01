@@ -17079,6 +17079,12 @@ span.bill-summary-detail {
   font-weight: 400;
   line-height: 26px;
 }
+.mt-14{
+  margin-top: 14px;
+}
+.mt-40{
+  margin-top: 40px;
+}
 /* accordian css */
 .accordion {
   --bs-accordion-color: var(--bs-body-color);
