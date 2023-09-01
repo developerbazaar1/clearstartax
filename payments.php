@@ -190,7 +190,7 @@
             </div>
             <div class="user-dashboard-welcome-d-image">
                 <!--:: image top head dashboard  -->
-                <img class="dashboardtop-image cnt-top" src="img/payment-page-top-img.png">
+                <img class="dashboardtop-image cnt-top" src="img/pay-top.png">
             </div>
         </div>
         <!-- section one pay detail -->
@@ -347,7 +347,7 @@
                                                         Card information :
                                                     </label>
                                                     <input type="text" class="form-control" id="exampleInputtext"
-                                                        placeholder="Enter email address" required="">
+                                                        placeholder="Enter card information" required="">
                                                 </div>
                                             </div>
                                             <!-- :: input 03 -->
@@ -394,7 +394,7 @@
                                                         CVV <span class="and">?</span> :
                                                     </label>
                                                     <input type="text" class="form-control" id="exampleInputtext"
-                                                        placeholder="Enter email address" required="">
+                                                        placeholder="Enter card CVV no." required="">
                                                 </div>
                                             </div>
                                             <!-- :: input 05 -->
@@ -458,7 +458,7 @@
                                                         Bank Name :
                                                     </label>
                                                     <input type="text" class="form-control" id="exampleInputtext"
-                                                        placeholder="Enter full name" required="">
+                                                        placeholder="Enter bank name" required="">
                                                 </div>
                                             </div>
                                             <!-- :: input 02 -->
@@ -468,7 +468,7 @@
                                                         Account Holder Name :
                                                     </label>
                                                     <input type="text" class="form-control" id="exampleInputtext"
-                                                        placeholder="Enter email address" required="">
+                                                        placeholder="Enter account holder name" required="">
                                                 </div>
                                             </div>
                                             <!-- :: input 03 -->
@@ -478,7 +478,7 @@
                                                         Routing#
                                                     </label>
                                                     <input type="text" class="form-control" id="exampleInputtext"
-                                                        placeholder="Enter email address" required="">
+                                                        placeholder="" required="">
                                                 </div>
                                             </div>
                                             <!-- :: input 04 -->
@@ -488,7 +488,7 @@
                                                         Account#
                                                     </label>
                                                     <input type="text" class="form-control" id="exampleInputtext"
-                                                        placeholder="Enter email address" required="">
+                                                        placeholder="" required="">
                                                 </div>
                                             </div>
                                             <!-- :: billing address -->
@@ -504,7 +504,7 @@
                                                         Street Address 1 :
                                                     </label>
                                                     <input type="text" class="form-control" id="exampleInputtext"
-                                                        placeholder="Enter email address" required="">
+                                                        placeholder="" required="">
                                                 </div>
                                             </div>
                                             <!-- :: input 02 -->
@@ -514,7 +514,7 @@
                                                         Street Address 2(#,Apt,Unit,Suite) :
                                                     </label>
                                                     <input type="text" class="form-control" id="exampleInputtext"
-                                                        placeholder="Enter email address" required="">
+                                                        placeholder="" required="">
                                                 </div>
                                             </div>
                                             <!-- :: input 03 -->
@@ -524,7 +524,7 @@
                                                         City :
                                                     </label>
                                                     <input type="text" class="form-control" id="exampleInputtext"
-                                                        placeholder="Enter email address" required="">
+                                                        placeholder="" required="">
                                                 </div>
                                             </div>
                                             <!-- :: input 05 -->
@@ -534,7 +534,7 @@
                                                         State :
                                                     </label>
                                                     <input type="text" class="form-control" id="exampleInputtext"
-                                                        placeholder="Enter email address" required="">
+                                                        placeholder="" required="">
                                                 </div>
                                             </div>
                                             <!-- :: input 05 -->
@@ -544,7 +544,7 @@
                                                         Zip :
                                                     </label>
                                                     <input type="text" class="form-control" id="exampleInputtext"
-                                                        placeholder="Enter email address" required="">
+                                                        placeholder="" required="">
                                                 </div>
                                             </div>
                                             <!-- :: input 05 -->
@@ -554,7 +554,7 @@
                                                         Email :
                                                     </label>
                                                     <input type="text" class="form-control" id="exampleInputtext"
-                                                        placeholder="Enter email address" required="">
+                                                        placeholder="" required="">
                                                 </div>
                                             </div>
                                             <div class="text-center">
