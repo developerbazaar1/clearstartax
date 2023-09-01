@@ -17246,3 +17246,34 @@ span.bill-summary-detail {
     /* padding: 0px 5px 1px 1px; */
     margin-right: 26px;
 }
+.calendar {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+.header h1 {
+  margin: 0;
+}
+.select-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+.day {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+.selected {
+  background-color: #007bff;
+  color: #fff;
+}

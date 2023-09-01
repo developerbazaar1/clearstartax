@@ -184,9 +184,8 @@
     <main class="app-content">
         <div class="app-title">
             <div class="user-dashboard-welcome">
-                <h1>Good Morning Christian</h1>
-                <h5 class="mt-12 mb-5px">"Welcome to Your Clear Start Tax Client Portal!"</h5>
-                <p>"Explore Your Personalized Dashboard, Christian!"</p>
+                <h1>Hello Christian Ha</h1>
+                <h5 class="mt-12 mb-5px">"Seamless Scheduling: Book Your Appointments with Ease!"</h5>
             </div>
             <div class="user-dashboard-welcome-d-image">
                 <!--:: image top head dashboard  -->
@@ -194,13 +193,43 @@
             </div>
         </div>
         <!--faq accordian  -->
-        <secion class="faq-accordian">
-            <div class="row justify-content-center">
-                <div class="col-md-11">
-                   <!-- content-here -->
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+                <div class="tile-x">
+                    <div class="tile-body">
+                        <div class="case-status text-center">
+                            <h2>Your Case Status is:</h2>
+                        </div>
+                    </div>
+                    <div class="row p-4">
+                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 p-10-20">
+                            <div class="tile-body case-inner-card-first">
+                               <form>
+                               <div class="form-group">
+                                        <label class="form-head" for="exampletext">
+                                            Select time
+                                        </label>
+                                        <div class="select-group h-40">
+                                            <select class="form-control" id="exampleFormControlSelect1">
+                                                <option value="">Select time</option>
+                                                <option value="Fiction">12:00 Am</option>
+                                                <option value="Fiction">12:00 Pm</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                             
+                                    <div class="form-group">
+                                        <label class="form-head" for="exampleTextarea">Message :</label>
+                                        <textarea class="form-control p-10" placeholder="Write message" id="exampleTextarea" rows="3"></textarea>
+                                    </div>
+                                
+                               </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </secion>
+        </div>
     </main>
     <!-- Essential javascripts for application to work-->
     
