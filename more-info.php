@@ -38,7 +38,7 @@
     <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
     <aside class="app-sidebar">
         <header class="app-head">
-            <a class="app-header__logo" href="index.html">
+            <a class="app-header__logo" href="dashboard.php">
                 <img class="dashboard-brand mt-4" src="img/cleartax-brand-logo.png">
             </a>
         </header>
@@ -203,23 +203,23 @@
                         <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 p-10-20">
                             <div class="tile-body case-inner-card-first">
                                 <div class="case-card-text">
-                                    <h5 class="mt-14">What this means: <span class="mx-1">
+                                    <h5 class="mt-14">What this means: <span class="mx-43">
                                             <a href="" class="li-text">Details Shown Here</a>
                                         </span>
                                     </h5>
-                                    <h5 class="mt-40">Your next steps:<span class="mx-1">
+                                    <h5 class="mt-40">Your next steps:<span class="mx-57">
                                             <a href="" class="li-text">Details Shown Here</a>
                                         </span>
                                     </h5>
                                 </div>
-                                <div class="case-card-info d-flex mt-4">
+                                <div class="case-card-info more-info d-flex mt-41">
                                     <p>Complete online Financial Questionnaire <br> form to continue your application
                                         process. </p>
                                     <a href="https://clearstarttax.com/fqform/" target="_blank" class="info-inner-link mx-3">Click Here</a>
                                 </div>
-                                <div class="case-card-info d-flex mt-4">
+                                <div class="case-card-info d-flex more-info mt-3">
                                     <p>Complete online TAX ORGANIZER form to <br>continue your application process. </p>
-                                    <a href="https://clearstarttax.com/toform/" target="_blank" class="info-inner-link mx-3">Click Here</a>
+                                    <a href="https://clearstarttax.com/toform/" target="_blank" class="info-inner-link mx-4">Click Here</a>
                                 </div>
                             </div>
                         </div>

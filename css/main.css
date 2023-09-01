@@ -17085,6 +17085,22 @@ span.bill-summary-detail {
 .mt-40{
   margin-top: 40px;
 }
+.mx-43{
+  margin-left: 43px;
+  margin-right: 43px;
+}
+.mx-57{
+  margin-left: 57px;
+  margin-right: 57px;
+}
+.mt-41{
+  margin-top: 41px;
+}
+.more-info p{
+  color: #000;
+  font-size: 13px;
+  font-weight: 500;
+}
 /* accordian css */
 .accordion {
   --bs-accordion-color: var(--bs-body-color);

@@ -51,7 +51,7 @@
                 </p>
                 <p class="app-sidebar__user-designation mt-5px">Case ID : <a href="#" class="case-id-data">857881</a>
                 </p>
-                <p class="app-sidebar__user-designation mt-5px">Status : <a href="#" class="case-id-data">More Info <svg
+                <p class="app-sidebar__user-designation mt-5px">Status : <a href="more-info.php" class="case-id-data">More Info <svg
                             class="mb-2px" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"
                             fill="none">
                             <g clip-path="url(#clip0_329_767)">
