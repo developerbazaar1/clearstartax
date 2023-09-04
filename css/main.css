@@ -17367,17 +17367,17 @@ option {
 ::-webkit-datetime-edit-month-field { color: blue; }
 ::-webkit-datetime-edit-day-field { color: green; }
 ::-webkit-datetime-edit-year-field { color: purple; }
-input[type="date"]::-webkit-calendar-picker-indicator {
+/* input[type="date"]::-webkit-calendar-picker-indicator {
   background-color: #007bff; 
   color: #fff;
   border: none; 
   border-radius: 5px; 
-}
+} */
 
 
-input[type="date"]::-moz-calendar-picker-indicator {
+/* input[type="date"]::-moz-calendar-picker-indicator {
   background-color: #007bff; 
   color: #fff; 
   border: none; 
   border-radius: 5px; 
-}
+} */
