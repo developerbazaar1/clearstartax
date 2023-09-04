@@ -185,7 +185,7 @@
         <div class="app-title">
             <div class="user-dashboard-welcome">
                 <h1>Hello Christian Ha</h1>
-                <h5 class="mt-12 mb-5px">"Step into Your Payment Hub: Centralized Access to Your Financial
+                <h5 class="mt-10 mb-5px">"Step into Your Payment Hub: Centralized Access to Your Financial
                     Transactions!"</h5>
             </div>
             <div class="user-dashboard-welcome-d-image">
@@ -196,7 +196,7 @@
         <!-- section one pay detail -->
         <div class="row">
             <div class="col-md-6">
-                <div class="tile-x h-50vh">
+                <div class="tile-x h-300">
                     <div class="tile-body">
                         <div class="case-status text-center">
                             <h2>Payment:</h2>

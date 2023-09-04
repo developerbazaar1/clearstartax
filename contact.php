@@ -185,7 +185,7 @@
         <div class="app-title">
             <div class="user-dashboard-welcome">
                 <h1>Hello Christian Ha</h1>
-                <h5 class="mt-12 mb-5px">"Connect with Us: Reach Out and Let's Start a Conversation!"</h5>
+                <h5 class="mt-10 mb-5px">"Connect with Us: Reach Out and Let's Start a Conversation!"</h5>
             </div>
             <div class="user-dashboard-welcome-d-image">
                 <!--:: image top head dashboard  -->

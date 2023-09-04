@@ -12,7 +12,7 @@ ______         _              ______        ______               _              
 ***/
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Source+Serif+4:ital,opsz,wght@1,8..60,600&display=swap');
 
 
 *,
@@ -15279,7 +15279,7 @@ be a descendant of the grid when it is being dragged.
   color: #F7F7F7;
   font-size: 12px;
   white-space: nowrap;
-  font-weight: 500;
+  /* font-weight: 500; */
   overflow: hidden;
   -o-text-overflow: ellipsis;
      text-overflow: ellipsis;
@@ -15822,7 +15822,9 @@ be a descendant of the grid when it is being dragged.
             transform: scale(1);
   }
 }
-
+.mt-10{
+  margin-top: 10px;
+}
 .toggle.lg input[type="checkbox"] + .button-indecator:before {
   font-size: 30px;
 }
@@ -16837,8 +16839,8 @@ be a descendant of the grid when it is being dragged.
 /* dashboard main content  css start from here */
 .user-dashboard-welcome h1{
   color: #007899;
-  font-family: Source serif;
-  font-size: 28px;
+  font-family: 'Source Serif 4', serif;
+  font-size: 26px;
   font-style: italic;
   font-weight: 600;
   line-height: normal;
@@ -16862,6 +16864,9 @@ line-height: normal;
 /* dashboard main contenet css end  */
 /* work on sidebar to be continuew */
 /* css for customization */
+.h-300{
+  height: 300px;
+}
 .mt-5px{
   margin-top: 5px;
 }

@@ -184,7 +184,7 @@
         <div class="app-title">
             <div class="user-dashboard-welcome">
                 <h1>Good Morning Christian</h1>
-                <h5 class="mt-12 mb-5px">"Welcome to Your Clear Start Tax Client Portal!"</h5>
+                <h5 class="mt-10 mb-5px">"Welcome to Your Clear Start Tax Client Portal!"</h5>
                 <p>"Explore Your Personalized Dashboard, Christian!"</p>
             </div>
             <div class="user-dashboard-welcome-d-image">
