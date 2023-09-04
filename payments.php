@@ -40,7 +40,7 @@
                 <h5 class="mt-10 mb-5px">"Step into Your Payment Hub: Centralized Access to Your Financial
                     Transactions!"</h5>
             </div>
-            <div class="user-dashboard-welcome-d-image">
+            <div class="user-dashboard-welcome-d-image d-none-sm">
                 <!--:: image top head dashboard  -->
                 <img class="dashboardtop-image cnt-top" src="img/pay-top.png">
             </div>
@@ -48,7 +48,7 @@
         <!-- section one pay detail -->
         <div class="row">
             <div class="col-md-6">
-                <div class="tile-x h-300">
+                <div class="tile-x h-300 mb-h-fitcontent">
                     <div class="tile-body">
                         <div class="case-status text-center">
                             <h2>Payment:</h2>
