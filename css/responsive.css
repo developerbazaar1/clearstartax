@@ -35,6 +35,112 @@
             box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
         }
     }
+    /* header */
+    .dashboard-brand {
+        width: 169.775px;
+        height: 38px;
+        margin-right: 37px;
+    }
+    .app-header__logo {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+        flex: 1 0 auto;
+        color: #fff;
+        text-align: center;
+        font-family: 'Niconne';
+        padding: 4px 15px 10px 15px;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 50px;
+    }
+    .app-header {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-color: #fff;
+        z-index: 1030;
+        padding-right: 15px;
+        box-shadow: 0px 1px 2px 0px rgba(36, 36, 36, 0.10);
+    }
+    .user-dashboard-welcome {
+        width: 100%;
+    }
+    .user-dashboard-welcome h1 {
+        color: #007899;
+        font-family: 'Source Serif 4', serif;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .user-dashboard-welcome h5 {
+        color: #00AAD8;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .app-title {
+        margin: -15px -15px 0px;
+        padding: 20px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+    .w-mb{
+        height: 30px;
+        width: 30px;
+    }
+    .d-none-sm {
+        display: none;
+    }
+    .case-card-info p {
+        color: #000;
+        font-size: 11px;
+        /* font-style: normal; */
+        /* font-weight: 400; */
+        line-height: normal;
+        margin: 10px 10px 10px 10px;
+    }
+    .alert {
+        position: relative;
+        padding: 10px 82px 10px 12px;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+    }
+    .case-status h2 {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 29px;
+    }
+    .alert-warning {
+        color: #000;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.27px;
+        border-radius: 5px;
+        border: 2px solid #00AAD8;
+        background: rgba(250, 255, 10, 0.22);
+    }
+    .mbmt-0{
+        margin-top: 0 !important;
+    }
 }
 
 @media screen and (max-width: 1024px) {
