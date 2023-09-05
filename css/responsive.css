@@ -133,6 +133,13 @@
         padding: 25px 15px;
         color: inherit;
     }
+    .db-card-text h5 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .db-card-text p {
+        font-size: 12px;
+    }
     .mbmx-2{
         margin-left: 0.5rem !important;
         margin-right: 0.5rem !important;
