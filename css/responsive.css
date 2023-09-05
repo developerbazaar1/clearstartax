@@ -153,6 +153,13 @@
         -ms-border-radius: 20px;
         -o-border-radius: 20px;
 }
+.case-card-text h5 {
+    font-size: 14px;
+}
+.li-text {
+    color: #007899;
+    font-size: 14px;
+}
     .mbmt-0{
         margin-top: 0 !important;
     }
