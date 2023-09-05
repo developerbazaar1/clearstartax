@@ -256,18 +256,7 @@
     overflow-anchor: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
 }
-.app-content {
-    min-height: calc(100vh - 50px);
-    margin-top: 60px;
-    /* padding: 30px; */
-    padding: 15px 20px 30px 20px !important;
-    /* padding: 15px 49px 10px 49px; */
-    /* background-color: #E5E5E5; */
-    background-color: #FAFEFF;
-    -webkit-transition: margin-left 0.3s ease;
-    -o-transition: margin-left 0.3s ease;
-    transition: margin-left 0.3s ease;
-}
+
     
 }
 

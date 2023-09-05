@@ -14932,11 +14932,11 @@ be a descendant of the grid when it is being dragged.
   }
 }
 
-/* @media (max-width: 480px) {
+@media (max-width: 480px) {
   .app-content {
     padding: 15px;
   }
-} */
+}
 
 @media print {
   .app-content {
