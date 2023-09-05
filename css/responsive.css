@@ -117,11 +117,21 @@
     }
     .case-card-info p {
         color: #000;
-        font-size: 11px;
+        font-size: 10px;
         /* font-style: normal; */
         /* font-weight: 400; */
         line-height: normal;
-        margin: 10px 10px 10px 10px;
+        margin: 10px 0px 10px 8px;
+    }
+    .mb-float-right{
+        float: right;
+    }
+    .mbmx-2{
+        margin-left: 0.5rem !important;
+        margin-right: 0.5rem !important;
+    }
+    .info-inner-link {
+        font-size: 11px;
     }
     .alert {
         position: relative;

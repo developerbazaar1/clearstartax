@@ -75,13 +75,13 @@
                         <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 p-10-20">
                             <div class="tile-body case-inner-card-first">
                                 <div class="case-card-text">
-                                    <h5>What this means: <span class="mx-1">
+                                    <h5>What this means: <span class="mx-1 mb-float-right">
                                             <a href="" class="li-text">Details Shown Here</a>
                                         </span>
                                     </h5>
                                 </div>
                                 <div class="case-card-text d-lg-none">
-                                    <h5>Your next steps:<span class="mx-1">
+                                    <h5>Your next steps:<span class="mx-1 mb-float-right">
                                             <a href="" class="li-text">Details Shown Here</a>
                                         </span>
                                     </h5>
@@ -89,7 +89,7 @@
                                 <div class="case-card-info d-flex mt-4">
                                     <p>Complete online Financial Questionnaire <br> form to continue your application
                                         process. </p>
-                                    <a href="https://clearstarttax.com/fqform/" target="_blank" class="info-inner-link mx-3">Click Here</a>
+                                    <a href="https://clearstarttax.com/fqform/" target="_blank" class="info-inner-link mx-3 mbmx-2">Click Here</a>
                                 </div>
                             </div>
                         </div>
