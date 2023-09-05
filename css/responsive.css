@@ -81,7 +81,15 @@
     .user-dashboard-welcome h5 {
         color: #00AAD8;
         font-family: Poppins;
-        font-size: 14px;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .user-dashboard-welcome p {
+        color: #00AAD8;
+        font-family: Poppins;
+        font-size: 13px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
