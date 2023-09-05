@@ -126,6 +126,13 @@
     .mb-float-right{
         float: right;
     }
+    .alert-dismissible .close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 25px 15px;
+        color: inherit;
+    }
     .mbmx-2{
         margin-left: 0.5rem !important;
         margin-right: 0.5rem !important;
