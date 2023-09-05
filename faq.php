@@ -25,7 +25,6 @@
         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <!--:: body start here -->
-
 <body class="app sidebar-mini">
 
      <!-- ::header included  -->
@@ -34,22 +33,25 @@
     
     <!-- :: main content start from here -->
     <main class="app-content">
+         <!-- :: client information head -->
         <div class="app-title">
             <div class="user-dashboard-welcome">
                 <h1>Hello Christian Ha</h1>
                 <h5 class="mt-10 mb-5px">"Answers to Your Questions: FAQ - Find What You Need"</h5>
                 <!-- <p>"Explore Your Personalized Dashboard, Christian!"</p> -->
             </div>
-            <div class="user-dashboard-welcome-d-image">
+            <div class="user-dashboard-welcome-d-image d-none-sm">
                 <!--:: image top head dashboard  -->
                 <img class="faq-top-image" src="img/faq-top.png">
             </div>
         </div>
-        <!--faq accordian  -->
+         <!-- :: client information head -->
+        <!--:: faq accordian  -->
         <section class="faq-accordian mt-2">
             <div class="row justify-content-center">
                 <div class="col-md-11">
                     <div class="accordion" id="accordionExample">
+                        <!-- :: accordian one -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button cst-acc-br" type="button" data-bs-toggle="collapse"
@@ -69,7 +71,7 @@
                                 </div>
                             </div>
                         </div>
-
+                        <!-- :: accodian two -->
                         <div class="accordion-item mt-3">
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button cst-acc-br collapsed" type="button"
@@ -90,7 +92,7 @@
                                 </div>
                             </div>
                         </div>
-
+                        <!-- :: accordian three -->
                         <div class="accordion-item mt-3">
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button  cst-acc-br collapsed" type="button"
@@ -117,30 +119,21 @@
         </section>
     </main>
     <!-- Essential javascripts for application to work-->
-
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
-    <!-- The javascript plugin to display page loading on top-->
     <script src="js/plugins/pace.min.js"></script>
-    <!-- Page specific javascripts-->
-    <!-- Google analytics script-->
     <script>
-    // Add event listeners to each accordion button for custom open/close functionality
+    //  event listeners to each accordion button for custom open/close functionality
     const accordionButtons = document.querySelectorAll(".accordion-button");
-
     accordionButtons.forEach(button => {
         button.addEventListener("click", () => {
             // Toggle the "collapsed" class on the button
             button.classList.toggle("collapsed");
-
-            // Get the associated collapse element
-            const targetId = button.getAttribute("data-bs-target").substring(1); // Remove the #
+            const targetId = button.getAttribute("data-bs-target").substring(1); 
             const targetCollapse = document.getElementById(targetId);
-
-            // Toggle the "show" class on the collapse element
             targetCollapse.classList.toggle("show");
         });
     });

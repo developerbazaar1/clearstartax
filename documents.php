@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="cleartax">
+    <meta property="og:site_name" content="clearstarttax">
     <meta name="theme-color" content="#8AC8D6">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
@@ -26,14 +26,15 @@
     <link rel="stylesheet" type="text/css"
         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+<!-- :: body start -->
 
 <body class="app sidebar-mini">
-    
-     <!-- ::header included  -->
-     <?php include 'include/header.php';?>
+
+    <!-- ::header included  -->
+    <?php include 'include/header.php';?>
     <!-- ::header included end  -->
 
-    <!-- main content start from here -->
+    <!-- ::main content start from here -->
     <main class="app-content">
         <!-- :: client information head -->
         <div class="app-title">
@@ -42,13 +43,14 @@
                 <h5 class="mt-10 mb-5px">"Enter the Document Upload Zone: Seamlessly Submit and Organize Your Files!"
                 </h5>
             </div>
-            <div class="user-dashboard-welcome-d-image">
-                <!-- image top head dashboard  -->
+            <div class="user-dashboard-welcome-d-image d-none-sm">
+                <!-- :: image top head dashboard  -->
                 <img class="paymenttop-image" src="img/documents.png">
             </div>
         </div>
         <!-- :: end client information head -->
-        <!-- document upload section  -->
+
+        <!-- :: document upload section  -->
         <section class="upload-document mt-58">
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-9 col-sm-12 col-xs-12">
@@ -60,15 +62,17 @@
                         </div>
                         <div class="row p-1020">
                             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 ">
-                                <!-- upload form -->
+                                <!-- :: upload form -->
                                 <form>
                                     <!-- field col  start :: dropify-->
-									<div class="form-group mb-0 pb-0">
-										<!-- <label class="form-head mb-2" for="exampletext"> Upload File </label> -->
-										<input name="file1" type="file" class="dropify" data-height="100" data-allowed-file-extensions="csv exe" />
-                                        <small class="form-text text-muted upload-info mt-2">Maximum Document Size : Up to 6MB per Upload</small>
-									</div>
-									<!-- field col  enc :: dropify-->
+                                    <div class="form-group mb-0 pb-0">
+                                        <!-- <label class="form-head mb-2" for="exampletext"> Upload File </label> -->
+                                        <input name="file1" type="file" class="dropify" data-height="100"
+                                            data-allowed-file-extensions="csv exe pdf" />
+                                        <small class="form-text text-muted upload-info mt-2">Maximum Document Size : Up
+                                            to 6MB per Upload</small>
+                                    </div>
+                                    <!-- :: field col  end :: dropify-->
                                 </form>
                             </div>
                         </div>
@@ -83,30 +87,10 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
-    <!-- The javascript plugin to display page loading on top-->
     <script src="js/plugins/pace.min.js"></script>
     <script src="js/plugins/dropify.min.js"></script>
-    <!-- Page specific javascripts-->
-    <!-- Google analytics script-->
     <script>
-			$('.dropify').dropify();
-		</script>
-    <script type="text/javascript">
-    if (document.location.hostname == 'pratikborsadiya.in') {
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-        ga('create', 'UA-72504830-1', 'auto');
-        ga('send', 'pageview');
-    }
+    $('.dropify').dropify();
     </script>
 </body>
 

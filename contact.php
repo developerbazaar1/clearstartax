@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,25 +24,25 @@
         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <!--:: body start here -->
-
 <body class="app sidebar-mini">
-     <!-- ::header included  -->
-     <?php include 'include/header.php';?>
+    <!-- ::header included  -->
+    <?php include 'include/header.php';?>
     <!-- ::header included end  -->
-    
+
     <!-- :: main content start from here -->
     <main class="app-content">
+        <!--:: contact top head -->
         <div class="app-title">
             <div class="user-dashboard-welcome">
                 <h1>Hello Christian Ha</h1>
                 <h5 class="mt-10 mb-5px">"Connect with Us: Reach Out and Let's Start a Conversation!"</h5>
             </div>
-            <div class="user-dashboard-welcome-d-image">
+            <div class="user-dashboard-welcome-d-image d-none-sm">
                 <!--:: image top head dashboard  -->
                 <img class="dashboardtop-image cnt-top" src="img/contact.png">
             </div>
         </div>
-        <!-- alert end here -->
+        <!-- :: contact top head end  -->
         <div class="row">
             <div class="col-md-12">
                 <div class="tile-x">
@@ -52,7 +51,7 @@
                             <h2>Get In Touch</h2>
                         </div>
                     </div>
-                    <!-- contact box -->
+                    <!-- :: contact box -->
                     <div class="cnt-form">
                         <form>
                             <div class="row justify-content-center p-4">
@@ -72,7 +71,7 @@
                                         <label class="form-head" for="exampletext">
                                             Email Address :
                                         </label>
-                                        <input type="text" class="form-control" id="exampleInputtext"
+                                        <input type="email" class="form-control" id="exampleInputtext"
                                             placeholder="Enter email address" required="">
                                     </div>
                                 </div>
@@ -90,12 +89,12 @@
                                 <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
                                     <div class="form-group">
                                         <label class="form-head" for="exampleTextarea">Message :</label>
-                                        <textarea class="form-control p-10" placeholder="Write message" id="exampleTextarea"
-                                            rows="3"></textarea>
+                                        <textarea class="form-control p-10" placeholder="Write message"
+                                            id="exampleTextarea" rows="3"></textarea>
                                     </div>
                                 </div>
                                 <div class="text-center">
-                                   <button type="submit" class="cnt-submit-btn">SUBMIT</button>
+                                    <button type="submit" class="cnt-submit-btn">SUBMIT</button>
                                 </div>
                             </div>
                         </form>
@@ -110,7 +109,6 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
-    <!-- The javascript plugin to display page loading on top-->
     <script src="js/plugins/pace.min.js"></script>
 </body>
 

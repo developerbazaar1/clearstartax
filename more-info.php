@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,7 +37,7 @@
                 <h1>Good Morning Christian</h1>
                 <h5 class="mt-10 mb-5px">"Welcome to Your Clear Start Tax Client Portal!"</h5>
             </div>
-            <div class="user-dashboard-welcome-d-image">
+            <div class="user-dashboard-welcome-d-image d-none-sm">
                 <!--:: image top head dashboard  -->
                 <img class="moreinfotop-image" src="img/Case-Status.png">
             </div>
