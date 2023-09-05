@@ -14934,7 +14934,7 @@ be a descendant of the grid when it is being dragged.
 
 @media (max-width: 480px) {
   .app-content {
-    padding: 20px 20px 20px 20px !important;
+    padding: 22px 20px 22px 22px !important;
 }
 }
 @media print {
