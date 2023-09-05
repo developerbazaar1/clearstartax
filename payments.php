@@ -69,7 +69,7 @@
                                                 </label>
                                             </div>
                                         </span>
-                                        <span class="bill-summary-detail">$$8,836.02</span>
+                                        <span class="bill-summary-detail">$8,836.02</span>
                                     </div>
                                     <div class="d-flex justify-content-between">
                                         <span class="bill-summary-label">

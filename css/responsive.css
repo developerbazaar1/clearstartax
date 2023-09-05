@@ -137,10 +137,14 @@
         font-weight: 400;
         line-height: normal;
         letter-spacing: 0.27px;
-        border-radius: 5px;
+        border-radius: 20px;
         border: 2px solid #00AAD8;
         background: rgba(250, 255, 10, 0.22);
-    }
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
     .mbmt-0{
         margin-top: 0 !important;
     }

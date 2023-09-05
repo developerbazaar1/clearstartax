@@ -13244,7 +13244,7 @@ body.stop-scrolling {
 }
 
 .pace .pace-progress {
-  background: #96000e;
+  background:#363636;
   position: fixed;
   z-index: 2000;
   top: 0;
