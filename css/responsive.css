@@ -145,7 +145,9 @@
         margin-right: 0.5rem !important;
     }
     .info-inner-link {
-        font-size: 10px;
+        font-size: 11px;
+        white-space: nowrap;
+     
     }
     .alert {
         position: relative;
@@ -255,6 +257,10 @@
     border-radius: 10px 10px 0px 0px;
     overflow-anchor: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+    -moz-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+    -ms-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+    -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
 }
 .payment-info {
     color: #333;
