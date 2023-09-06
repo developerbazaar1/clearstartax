@@ -23,6 +23,7 @@
 		<link href="img/c-favicon.png" rel="icon">
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
+	<!-- :: body start here -->
 	<body class="log-bg">
 		<section class="login-form">
 			<div class="login-flex-container">
@@ -42,7 +43,7 @@
 									<div class="form-group mb-2">
 										<label class="form-head log-form-label" for="mailer-mail">Case ID</label>
 										<div class="inputWithIcon">
-											<input type="email" placeholder="example@gmail.com" required>
+											<input type="email" id="emailInput" placeholder="example@gmail.com" required>
 											<svg class="i" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none">
 												<path d="M9 11C10.1046 11 11 10.1046 11 9C11 7.89543 10.1046 7 9 7C7.89543 7 7 7.89543 7 9C7 10.1046 7.89543 11 9 11Z" stroke="#858585" />
 												<path d="M13 15C13 16.105 13 17 9 17C5 17 5 16.105 5 15C5 13.895 6.79 13 9 13C11.21 13 13 13.895 13 15Z" stroke="#858585" />
@@ -52,9 +53,9 @@
 									</div>
 									<!-- :: input 02 -->
 									<div class="form-group mb-1 ">
-										<label class="form-head log-form-label" for="mailer-mail">Password</label>
+										<label class="form-head log-form-label" for="passwordInput">Password</label>
 										<div class="inputWithIcon">
-											<input type="password" placeholder="*************" required>
+											<input type="password" id="passwordInput" placeholder="*************" required>
 											<svg class="i" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none">
 												<path d="M12 10V14M10.268 11L13.732 13M13.732 11L10.267 13M6.732 10V14M5 11L8.464 13M8.464 11L5 13M17.268 10V14M15.536 11L19 13M19 11L15.535 13M22 12C22 15.771 22 17.657 20.828 18.828C19.657 20 17.771 20 14 20H10C6.229 20 4.343 20 3.172 18.828C2 17.657 2 15.771 2 12C2 8.229 2 6.343 3.172 5.172C4.343 4 6.229 4 10 4H14C17.771 4 19.657 4 20.828 5.172C21.482 5.825 21.771 6.7 21.898 8" stroke="#858585" stroke-linecap="round" />
 											</svg>
@@ -73,16 +74,16 @@
 								<div class="forget-pass-link text-center mb-3">
 									<a href="#" class="forget-p">Forgot Your Password?</a>
 								</div>
-								<!-- signup tag with anchor btn -->
+								<!-- :: signup tag with anchor btn -->
 								<div class="tab-switch-content text-center">
 									<p>Don’t have an account? <a href="#" class="tab-swich-link text-link-blue" id="signup-link"> Sign Up Now</a>
 									</p>
 								</div>
-								<!-- login info -->
+								<!--:: login info -->
 								<div class="mt-2 mb-0 text-center">
 									<p class="log-txt mb-0">If you have questions or need help, please contact us:</p>
 								</div>
-								<!-- contact info -->
+								<!--:: contact info -->
 								<div class="flex-container justify-content-center mb-3">
 									<div>
 										<svg class="mx-1 mt-1px" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
@@ -105,11 +106,11 @@
 				</div>
 			</div>
 		</section>
-		<!-- second signup form start from here -->
+		<!-- :: second signup form start from here -->
 		<section class="signup-form" style="display: none;">
 			<div class="login-flex-container">
 				<div class="login-main-content">
-					<!-- form div start from here -->
+					<!--::  form div start from here -->
 					<div class="login-signup-form">
 						<div class="row justify-content-center ">
 							<div class="col-md-12 login-form">
@@ -188,16 +189,16 @@
 										<a href="#" class="signin-btn">SIGNUP</a>
 									</div>
 								</form>
-								<!-- signup tag with anchor btn -->
+								<!-- :: signup tag with anchor btn -->
 								<div class="tab-switch-content text-center mt-3">
 									<p>Already have an account <a href="#" class="tab-swich-link text-link-blue" id="signin-link"> Sign In Now</a>
 									</p>
 								</div>
-								<!-- login info -->
+								<!--:: login info -->
 								<div class="mt-2 mb-0 text-center">
 									<p class="log-txt mb-0">If you have questions or need help, please contact us:</p>
 								</div>
-								<!-- contact info -->
+								<!-- :: contact info -->
 								<div class="flex-container justify-content-center mb-3">
 									<div>
 										<svg class="mx-1 mt-1px" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
@@ -220,7 +221,10 @@
 				</div>
 			</div>
 		</section>
+		<!-- :: page specific javascript -->
+		<!-- :: for iconfify -->
 		<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+		<!-- :: for switch login and signup tab -->
 		<script>
 			const signupLink = document.getElementById('signup-link');
 			const signinLink = document.getElementById('signin-link');
@@ -236,6 +240,55 @@
 				signupForm.style.display = 'none';
 				loginForm.style.display = 'block';
 			});
+		</script>
+		<!-- :: for invalid email password field -->
+		<script>
+			const emailInput = document.getElementById('emailInput');
+			const passwordInput = document.getElementById('passwordInput');
+			const emailLabel = document.querySelector('.log-form-label[for="mailer-mail"]');
+			const passwordLabel = document.querySelector('.log-form-label[for="passwordInput"]');
+			const passwordStrengthText = document.getElementById('passwordStrengthText');
+			emailInput.addEventListener('input', () => {
+				const emailValue = emailInput.value.trim();
+				// Check if the email input is empty or has an invalid email format
+				if (emailValue === '' || !isValidEmail(emailValue)) {
+					emailInput.style.border = '2px solid red';
+					emailLabel.style.color = 'red';
+				} else {
+					emailInput.style.border = '';
+					emailLabel.style.color = '';
+				}
+			});
+			passwordInput.addEventListener('input', () => {
+				const passwordValue = passwordInput.value.trim();
+				// Check if the password input is empty or meets your criteria for validity
+				// You can replace the condition below with your own password validation logic
+				if (passwordValue === '' || passwordValue.length < 8) {
+					passwordInput.style.border = '2px solid red';
+					passwordLabel.style.color = 'red'; // Change the password label color to red
+				} else {
+					passwordInput.style.border = '';
+					passwordLabel.style.color = ''; // Reset the password label color
+				}
+				// Update password strength text based on your own criteria
+				const passwordStrength = checkPasswordStrength(passwordValue);
+				passwordStrengthText.textContent = `Password Strength: ${passwordStrength}`;
+			});
+
+			function isValidEmail(email) {
+				const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+				return emailPattern.test(email);
+			}
+
+			function checkPasswordStrength(password) {
+				if (password.length >= 8 && /[a-z]/.test(password) && /[A-Z]/.test(password) && /[0-9]/.test(password)) {
+					return 'Strong';
+				} else if (password.length >= 8 && /[a-zA-Z]/.test(password)) {
+					return 'Moderate';
+				} else {
+					return 'Weak';
+				}
+			}
 		</script>
 	</body>
 </html>

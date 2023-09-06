@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -81,6 +80,26 @@
             </div>
         </section>
     </main>
+
+    <!--::alert for succesfull pay -->
+		<div class="modal fade pay-alert" id="doc-update-alert" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered payment-dialog" role="document">
+				<div class="modal-content pay-confirmation">
+					<div class="modal-body pay-confirm-alert-body">
+                        <div class="alert-box">
+                            <div class="pay-alert-image text-center">
+                                <img class="w-100px" src="img/document-alert.png">
+                            </div>
+                            <div class="pay-alert-content text-center">
+                                <h2>Congratulations!</h2>
+                                <p>Your document has been successfully uploaded.</p>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+		<!--:: alert for successfull pay end here -->
     <!-- Essential javascripts for application to work-->
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
