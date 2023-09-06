@@ -43,7 +43,7 @@
                 <img class="dashboardtop-image" src="img/dashboard-top.png">
             </div>
         </div>
-        <!-- aleart -->
+        <!-- :: aleart -->
         <div class="row">
             <div class="col-md-12">
                 <div class="alert alert-warning alert-dismissible fade show" role="alert"> Your documents are currently
@@ -62,7 +62,7 @@
             </div>
         </div>
 
-        <!-- alert end here -->
+        <!-- :: alert end here -->
         <div class="row">
             <div class="col-md-12">
                 <div class="tile-x">
@@ -112,7 +112,7 @@
                 </div>
             </div>
         </div>
-        <!-- section for little card -->
+        <!--:: section for little card -->
         <div class="row">
             <!-- :: card 01 -->
             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">

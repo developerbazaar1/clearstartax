@@ -50,29 +50,29 @@
 								<div class="tile-body case-inner-card-first">
 									<!-- :: book appointment form -->
 									<form>
-                                        <!-- ::  input one -->
+										<!-- ::  input one -->
 										<div class="form-group">
 											<label class="form-head" for="exampleDate">Select date</label>
 											<div class="select-group h-40">
 												<input type="date" class="form-control" id="exampleDate">
 											</div>
 										</div>
-                                        <!-- ::  input two -->
+										<!-- ::  input two -->
 										<div class="form-group">
 											<label class="form-head" for="exampletext"> Select time </label>
 											<div class="select-group h-40">
 												<input type="time" class="form-control" id="exampleDate">
 											</div>
 										</div>
-                                        <!-- :: input three -->
+										<!-- :: input three -->
 										<div class="form-group">
 											<label class="form-head" for="exampleTextarea">Message :</label>
 											<textarea class="form-control p-10" placeholder="Write message" id="exampleTextarea" rows="3"></textarea>
 										</div>
-                                        <!-- ::appoint book btn  -->
-                                        <div class="text-center">
-                                                <button type="submit" class="appoint-btn">Book An Appointment</button>
-                                        </div>
+										<!-- ::appoint book btn  -->
+										<div class="text-center">
+											<button type="submit" class="appoint-btn">Book An Appointment</button>
+										</div>
 									</form>
 								</div>
 							</div>
@@ -81,7 +81,6 @@
 				</div>
 			</div>
 		</main>
-		
 		<!-- Essential javascripts for application to work-->
 		<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 		<script src="js/jquery-3.3.1.min.js"></script>

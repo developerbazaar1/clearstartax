@@ -153,6 +153,9 @@
     .p-4 {
         padding: 19px !important;
     }
+    .mt-58 {
+        margin-top: 46px;
+    }
     .alert {
         position: relative;
         padding: 10px 50px 10px 12px;

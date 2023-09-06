@@ -344,6 +344,7 @@
 												</div>
 											</div>
 										</form>
+										<!-- :: info text -->
 										<div class="payment-info text-center">
 											<p>By clicking "Pay", you agree to Clear Start Tax Relief's Payment <a href="#" class="trmandcnd">Terms and Conditions.</a>
 											</p>
@@ -373,7 +374,7 @@
 				</div>
 			</div>
 		</main>
-		<!-- Modal for payment schedule -->
+		<!-- :: Modal for payment schedule -->
 		<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered" role="document">
 				<div class="modal-content">
@@ -396,7 +397,7 @@
 								</tr>
 							</tbody>
 						</table>
-						<!-- pay divider -->
+						<!-- :: pay divider -->
 						<div class="modal-section-two text-center mt-5">
 							<h2>Upcoming payments</h2>
 						</div>
@@ -426,27 +427,26 @@
 			<div class="modal-dialog modal-dialog-centered payment-dialog" role="document">
 				<div class="modal-content pay-confirmation">
 					<div class="modal-body pay-confirm-alert-body">
-                        <div class="alert-box">
-                            <div class="pay-alert-image text-center">
-                                <img class="w-100px" src="img/pay-alrt.png">
-                            </div>
-                            <div class="pay-alert-content text-center">
-                                <h2>Well done!</h2>
-                                <p>Thank you for your payment. Your transaction has been successfully processed.</p>
-                            </div>
-                        </div>
-                    </div>
+						<div class="alert-box">
+							<div class="pay-alert-image text-center">
+								<img class="w-100px" src="img/pay-alrt.png">
+							</div>
+							<div class="pay-alert-content text-center">
+								<h2>Well done!</h2>
+								<p>Thank you for your payment. Your transaction has been successfully processed.</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<!--:: alert for successfull pay end here -->
+		<!--alert for successfull pay end here -->
 		<!-- Essential javascripts for application to work-->
 		<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 		<script src="js/jquery-3.3.1.min.js"></script>
 		<script src="js/popper.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/main.js"></script>
-		<!-- The javascript plugin to display page loading on top-->
 		<script src="js/plugins/pace.min.js"></script>
 	</body>
 </html>
