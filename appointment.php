@@ -69,7 +69,7 @@
 											<label class="form-head" for="exampleTextarea">Message :</label>
 											<textarea class="form-control p-10" placeholder="Write message" id="exampleTextarea" rows="3"></textarea>
 										</div>
-                                        <!-- :: appoint book btn  -->
+                                        <!-- ::appoint book btn  -->
                                         <div class="text-center">
                                                 <button type="submit" class="appoint-btn">Book An Appointment</button>
                                         </div>
@@ -81,6 +81,7 @@
 				</div>
 			</div>
 		</main>
+		
 		<!-- Essential javascripts for application to work-->
 		<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 		<script src="js/jquery-3.3.1.min.js"></script>
