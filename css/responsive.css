@@ -146,8 +146,11 @@
     }
     .info-inner-link {
         font-size: 11px;
-        white-space: nowrap;
+        /* white-space: nowrap; */
      
+    }
+    .p-4 {
+        padding: 19px !important;
     }
     .alert {
         position: relative;
