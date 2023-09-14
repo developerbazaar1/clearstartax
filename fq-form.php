@@ -183,7 +183,7 @@
                                     <p>You may pause and continue your financial questionnaire anytime by clicking "save
                                         progress" at the bottom of the form</p>
                                     <h6>Contact us if you need help with the form:</h6>
-                                    <p class="mb-2"><strong>Phone:</strong> <span><a href="#" class="#">Phone:
+                                    <p class="mb-2"><strong>Phone:</strong> <span><a href="#" class="#">
                                                 888-235-0004</a></span></p>
                                     <p class="mb-2"><strong>Email:</strong> <span><a href="#"
                                                 class="#">info@clearstarttax.com</a></span></p>
