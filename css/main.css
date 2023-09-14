@@ -18026,3 +18026,21 @@ select.form-control {
 .pay-confirm-alert-body {
   overflow: auto;
 }
+/* payment confirmation page 13/09 */
+.w-65px{
+  width: 65px;
+}
+.c-pay-head h2{
+  color: #10c8b1;
+    font-weight: 700;
+}
+.c-pay-head h2 span{
+  color: #22d49a;
+}
+.horizon-divider{
+  border: 2px solid #51515163;
+}
+.c-pay-description p{
+  font-size: 17px;
+  font-weight: 400;
+}
