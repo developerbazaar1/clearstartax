@@ -230,11 +230,13 @@
 						<div class="row justify-content-center ">
 							<div class="col-md-12 login-form">
 								<div class="form-head-image text-center mt-3">
-								<span class="back-to-signin"><a href="#" class="tab-swich-link text-link-blue" id="signin-link"><iconify-icon icon="solar:arrow-left-linear" style="color: black;" width="30" height="30" id="signin-arrow-icon"></iconify-icon></a></span>
+									<span class="back-to-signin">
+										<a href="#" class="tab-swich-link text-link-blue" id="signin-link">
+											<iconify-icon icon="solar:arrow-left-linear" style="color: black;" width="30" height="30" id="signin-arrow-icon"></iconify-icon>
+										</a>
+									</span>
 									<img class="c-brand" src="img/cleartax-brand-logo.png">
-									
 								</div>
-								
 								<div class="form-description text-center mt-3">
 									<h6>No worries! Reset password by entering registered email and case ID.</h6>
 								</div>
@@ -310,44 +312,40 @@
 		<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 		<!-- :: for switch login and signup tab -->
 		<script>
-			document.addEventListener("DOMContentLoaded", function () {
-  const signupLink = document.getElementById('signup-link');
-  const signinLink = document.getElementById('signin-link');
-  const forgetPasswordLink = document.getElementById('forget-link');
-  const signupForm = document.querySelector('.signup-form');
-  const loginForm = document.querySelector('.login-form');
-  const forgetForm = document.querySelector('.forget-form');
-  const signinArrowIcon = document.getElementById('signin-arrow-icon'); // Add this line to select the arrow icon
-
-  signupLink.addEventListener('click', function(event) {
-    event.preventDefault();
-    loginForm.style.display = 'none';
-    signupForm.style.display = 'block';
-    forgetForm.style.display = 'none';
-  });
-
-  signinLink.addEventListener('click', function(event) {
-    event.preventDefault();
-    signupForm.style.display = 'none';
-    loginForm.style.display = 'block';
-    forgetForm.style.display = 'none';
-  });
-
-  forgetPasswordLink.addEventListener('click', function(event) {
-    event.preventDefault();
-    signupForm.style.display = 'none';
-    loginForm.style.display = 'none';
-    forgetForm.style.display = 'block';
-  });
-
-  // Add an event listener to the arrow icon
-  signinArrowIcon.addEventListener('click', function(event) {
-    event.preventDefault();
-    signupForm.style.display = 'none';
-    loginForm.style.display = 'block'; // Open the "Sign In" tab
-    forgetForm.style.display = 'none';
-  });
-});
+			document.addEventListener("DOMContentLoaded", function() {
+				const signupLink = document.getElementById('signup-link');
+				const signinLink = document.getElementById('signin-link');
+				const forgetPasswordLink = document.getElementById('forget-link');
+				const signupForm = document.querySelector('.signup-form');
+				const loginForm = document.querySelector('.login-form');
+				const forgetForm = document.querySelector('.forget-form');
+				const signinArrowIcon = document.getElementById('signin-arrow-icon'); // Add this line to select the arrow icon
+				signupLink.addEventListener('click', function(event) {
+					event.preventDefault();
+					loginForm.style.display = 'none';
+					signupForm.style.display = 'block';
+					forgetForm.style.display = 'none';
+				});
+				signinLink.addEventListener('click', function(event) {
+					event.preventDefault();
+					signupForm.style.display = 'none';
+					loginForm.style.display = 'block';
+					forgetForm.style.display = 'none';
+				});
+				forgetPasswordLink.addEventListener('click', function(event) {
+					event.preventDefault();
+					signupForm.style.display = 'none';
+					loginForm.style.display = 'none';
+					forgetForm.style.display = 'block';
+				});
+				// Add an event listener to the arrow icon
+				signinArrowIcon.addEventListener('click', function(event) {
+					event.preventDefault();
+					signupForm.style.display = 'none';
+					loginForm.style.display = 'block'; // Open the "Sign In" tab
+					forgetForm.style.display = 'none';
+				});
+			});
 		</script>
 		<!-- :: for invalid email password field -->
 		<script>
