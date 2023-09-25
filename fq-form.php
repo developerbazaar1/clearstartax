@@ -1690,7 +1690,7 @@
                                             <canvas id="signature" width="950" height="150"
                                                 style="border: 1px solid #ddd;"></canvas>
                                             <br>
-                                            <button id="clear-signature">Clear</button>
+                                            <button type="button" id="clear-signature">Clear</button>
                                         </div>
                                         <!--  form date and signature upload end  -->
 
