@@ -18095,3 +18095,55 @@ h5.i-image{
   border-radius: 3px;
   padding: 3px 0;
 }
+/* 21-09-23 */
+
+.dependency-tab{
+  background: aliceblue;
+    padding: 14px 13px 5px 13px;
+}
+.cnt-justified{
+  justify-content: space-around;
+}
+#bankStatementInputs {
+  display: flex;
+  flex-flow: wrap;
+}
+#cardStatementInputs {
+  display: flex;
+  flex-flow: wrap;
+}
+/* css for signature pad */
+#clear-signature {
+  background: #d30000;
+  color: white;
+  border: 1px solid #fff;
+  padding: 4px 20px 4px 20px;
+  border-radius: 6px;
+  float: left;
+}
+/* .button-sumbission {
+  display: flex;
+ 
+} */
+.f-form-save-btn {
+  background: #00aad8;
+  color: #fff;
+  padding: 6px 38px 5px 40px;
+  font-size: 14px;
+  border: 1px solid #00aad8;
+  border-radius: 5px;
+}
+.f-form-submit-btn {
+  /* background: #00aad8; */
+  color: #00aad8;
+  padding: 6px 38px 5px 40px;
+  font-size: 14px;
+  border: 1px solid #00aad8;
+  border-radius: 5px;
+}
+.t-end{
+  text-align: end;
+}
+.t-start{
+  text-align: start;
+}

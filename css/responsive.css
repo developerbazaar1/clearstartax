@@ -283,6 +283,16 @@
     margin-left: 1px;
     margin-right: 1px;
 }
+/* 21-09 */
+.cnt-justified {
+    display: block !important;
+    text-align: left;
+}
+/* 25-09 */
+#signature{
+width: 340px;
+height: 150px;
+}
     
 }
 
