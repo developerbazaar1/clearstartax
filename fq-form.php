@@ -37,8 +37,7 @@
         <div class="app-title">
             <div class="user-dashboard-welcome">
                 <h1>Hello Christian Ha</h1>
-                <h5 class="mt-10 mb-5px">"Logged in as management@clearstarttax.com!"
-                </h5>
+                <h5 class="mt-10 mb-5px">"Logged in as management@clearstarttax.com!" </h5>
             </div>
             <div class="user-dashboard-welcome-d-image d-none-sm">
                 <img class="paymenttop-image" src="img/documents.png">
@@ -136,7 +135,6 @@
                                         <th>Print Full Name</th>
                                         <th>Date</th>
                                         <th>Signature</th>
-
                                     </tr>
                                 </thead>
                                 <!--:: table head end -->
@@ -147,6 +145,76 @@
                                         <td>Mark</td>
                                         <td>Otto</td>
                                         <td>@mdo</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        <td>....</td>
+                                        
                                     </tr>
                                 </tbody>
                             </table>
@@ -194,7 +262,7 @@
                                 <form>
                                     <!-- :: form section 01 -->
                                     <div class="form-section-highlite mt-3">
-                                        <h5">SECTION 1: Personal Information</h5>
+                                        <div>SECTION 1: Personal Information</div>
                                     </div>
                                     <div class="row mt-3">
                                         <!-- :: input 01 -->
@@ -313,7 +381,7 @@
                                                     placeholder="Enter your secondary phone number" required>
                                             </div>
                                         </div>
-                                
+
                                         <!-- :: input 15 radio 01 for marital status-->
                                         <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left">
                                             <div class="form-group">
@@ -448,8 +516,8 @@
                                         <!-- ::::::section 02::::::: -->
                                         <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
                                             <div class="form-section-highlite mt-3">
-                                                <h5">SECTION 2: Employment Information
-                                                </h5">
+                                                <div>SECTION 2: Employment Information
+                                                </div>
                                             </div>
 
                                             <div class=" mt-5 mb-2">
@@ -499,8 +567,8 @@
                                         <!-- section divident -->
                                         <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 mb-4">
                                             <div class="form-section-highlite mt-3">
-                                                <h5">SECTION 3: Personal Asset Information
-                                                </h5">
+                                                <div>SECTION 3: Personal Asset Information
+                                                </div>
                                             </div>
                                         </div>
                                         <!-- :: input Cash on Hand Amount -->
@@ -1253,8 +1321,8 @@
                                         <!-- ::::::::::::Section 04 (a)::::::::::::  -->
                                         <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 mb-2">
                                             <div class="form-section-highlite mt-3">
-                                                <h5">SECTION 4 (a): Personal Monthly Income
-                                                </h5">
+                                                <div>SECTION 4 (a): Personal Monthly Income
+                                                </div>
                                             </div>
                                             <div class="warning-text mt-3 text-left">
                                                 <p> If a question does not apply to you, put 0
@@ -1355,8 +1423,8 @@
                                         <!-- ::::::::::::Section 04 (b)::::::::::::  -->
                                         <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 mb-2">
                                             <div class="form-section-highlite mt-3">
-                                                <h5">SECTION 4 (b): Personal Monthly Expense
-                                                </h5">
+                                                <div>SECTION 4 (b): Personal Monthly Expense
+                                                </div>
                                             </div>
                                             <div class="warning-text mt-3 text-left">
                                                 <p> If a question does not apply to you, put 0
@@ -1507,8 +1575,8 @@
                                         <!-- ::::::::::::::::: section 05 :::::::::::::::::: -->
                                         <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 mb-4">
                                             <div class="form-section-highlite mt-3">
-                                                <h5">SECTION 5: Other Financial Information
-                                                </h5">
+                                                <div>SECTION 5: Other Financial Information
+                                                </div>
                                             </div>
                                         </div>
                                         <!-- :: form section 05-->
@@ -1664,8 +1732,8 @@
                                         <!-- ::::::::::::::::: section for sig and date ::::::::::::::::::: -->
                                         <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 mb-4">
                                             <div class="form-section-highlite mt-3">
-                                                <h5">Date & Signature
-                                                </h5">
+                                                <div>Date & Signature
+                                                </div>
                                             </div>
                                         </div>
                                         <!-- form date and signature upload -->
@@ -1698,11 +1766,11 @@
                                         <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 mt-4 mb-4">
                                             <div class="row">
                                                 <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 t-end">
-                                                <button class="btn f-form-save-btn">Save Progress</button>
-                                               
+                                                    <button class="btn f-form-save-btn">Save Progress</button>
+
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12 col-sm-12 t-start">
-                                                <button class="btn f-form-submit-btn">Submit</button>
+                                                    <button class="btn f-form-submit-btn">Submit</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -1720,8 +1788,6 @@
             </div>
         </section>
     </main>
-    <!--::alert for doc update -->
-    <!--:: alert for successfull pay end here -->
     <!-- Essential javascripts for application to work-->
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
