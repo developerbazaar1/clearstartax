@@ -29,7 +29,8 @@
 <!-- :: body start -->
 
 <body class="app sidebar-mini">
-    <!-- ::header included  --> <?php include 'include/header.php';?>
+    <!-- ::header included  -->
+     <?php include 'include/header.php';?>
     <!-- ::header included end  -->
     <!-- ::main content start from here -->
     <main class="app-content">
