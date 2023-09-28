@@ -30,7 +30,7 @@
 
 <body class="app sidebar-mini">
     <!-- ::header included  -->
-     <?php include 'include/header.php';?>
+    <?php include 'include/header.php';?>
     <!-- ::header included end  -->
     <!-- ::main content start from here -->
     <main class="app-content">
@@ -215,7 +215,7 @@
                                         <td>....</td>
                                         <td>....</td>
                                         <td>....</td>
-                                        
+
                                     </tr>
                                 </tbody>
                             </table>
@@ -391,7 +391,7 @@
                                                 <div class="form-check">
                                                     <label class="form-check-label">
                                                         <input class="form-check-input" id="optionsRadios1" type="radio"
-                                                            name="maritalStatus" value="Single">Single
+                                                            name="maritalStatus" value="Single">Single 
                                                     </label>
                                                 </div>
                                                 <div class="form-check">
@@ -426,7 +426,7 @@
                                         </div>
                                         <!-- :: input 17 -->
                                         <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left"
-                                            id="dependentsSection">
+                                            id="dependentsSectio">
                                             <div class="form-group">
                                                 <label class="form-head" for="exampletext"> Do you have any dependents;
                                                     EXCLUDING yourself and your spouse? <br>
@@ -467,6 +467,67 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <!-- **************** spouse detail ************ -->
+                                        <div class="col-md-12" id="spouse-select">
+                                            <div class="form-section-highlite mt-3 mb-3">
+                                                <div>SECTION 1(a): Spouse Information
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 mt-2 mb-2 dependency-tab"
+                                            id="spouse-tab" style="display: block;">
+                                            <div class="form-section-divident text-left">
+                                                <h6>Spouse Info</h6>
+                                            </div>
+                                            <div class="row dependency-form-control px-2">
+                                                <!-- :: input 01 name -->
+                                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="firstname">First Name </label>
+                                                        <input type="text" class="form-control" id="first_name"
+                                                            placeholder="Enter first name" required>
+                                                    </div>
+                                                </div>
+                                                <!-- :: input 02 last name -->
+                                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="lastname"> Last Name
+                                                        </label>
+                                                        <input type="text" class="form-control" id="last_name"
+                                                            placeholder="Enter last name" required>
+                                                    </div>
+                                                </div>
+                                                <!-- :: input 03 Occupation -->
+                                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="driving-li"> Driver's License
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c_driving"
+                                                            placeholder="Enter driver lisence" required>
+                                                    </div>
+                                                </div>
+                                                <!-- :: input 04 Dob -->
+                                                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="SSN"> SSN#
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c_ssn"
+                                                            placeholder="Enter ssn" required>
+                                                    </div>
+                                                </div>
+                                                <!-- :: input 05 Date Of Birth -->
+                                                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="dateofbirth"> Date Of Birth
+                                                        </label>
+                                                        <input type="date" class="form-control" id="date_of_birth"
+                                                            required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- **************** spouse detail ************ -->
                                         <!-- **************** sum form head ************ -->
                                         <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 mt-2 mb-2 dependency-tab"
                                             id="dependentSections">
@@ -514,6 +575,7 @@
 
                                         </div>
                                         <!-- **************** sum form head ************ -->
+                                        
                                         <!-- ::::::section 02::::::: -->
                                         <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
                                             <div class="form-section-highlite mt-3">
@@ -685,7 +747,7 @@
                                                         <label class="form-head" for="exampletext"> Type Of Investment
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Enter Type Of Investment" required="">
+                                                            placeholder="Enter Type Of Investment" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 02 Company Name -->
@@ -694,7 +756,7 @@
                                                         <label class="form-head" for="exampletext"> Company Name
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Enter Company Name" required="">
+                                                            placeholder="Enter Company Name" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 03 Current Value -->
@@ -703,7 +765,7 @@
                                                         <label class="form-head" for="exampletext"> Current Value
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Enter Current Value" required="">
+                                                            placeholder="Enter Current Value" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 04 Balance -->
@@ -712,7 +774,7 @@
                                                         <label class="form-head" for="exampletext"> Balance
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Enter Balance" required="">
+                                                            placeholder="Enter Balance" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 05 Payment -->
@@ -721,7 +783,7 @@
                                                         <label class="form-head" for="exampletext"> Payment
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Enter Payment" required="">
+                                                            placeholder="Enter Payment" required>
                                                     </div>
                                                 </div>
                                             </div>
@@ -829,7 +891,7 @@
                                                         <label class="form-head" for="exampletext"> Policy Number
                                                         </label>
                                                         <input type="number" class="form-control" id="exampleInputtext"
-                                                            placeholder="Enter Policy Number" required="">
+                                                            placeholder="Enter Policy Number" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 02 Owner Of Policy -->
@@ -838,7 +900,7 @@
                                                         <label class="form-head" for="exampletext"> Owner Of Policy
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Enter Owner Of Policy" required="">
+                                                            placeholder="Enter Owner Of Policy" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 03 Current Cash Value -->
@@ -847,7 +909,7 @@
                                                         <label class="form-head" for="exampletext"> Current Cash Value
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Enter Current Cash Value" required="">
+                                                            placeholder="Enter Current Cash Value" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 04 Outstanding Loan Balance -->
@@ -857,7 +919,7 @@
                                                             Balance
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Outstanding Loan Balance" required="">
+                                                            placeholder="Outstanding Loan Balance" required>
                                                     </div>
                                                 </div>
                                                 <!-- input 05 policy document update -->
@@ -928,7 +990,7 @@
                                                         <label class="form-head" for="exampletext"> Property Address
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder=" Property Address" required="">
+                                                            placeholder=" Property Address" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 02 Country -->
@@ -937,7 +999,7 @@
                                                         <label class="form-head" for="exampletext"> Country
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Country" required="">
+                                                            placeholder="Country" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 03 Mortgage Lender -->
@@ -946,7 +1008,7 @@
                                                         <label class="form-head" for="exampletext"> Mortgage Lender
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Mortgage Lender" required="">
+                                                            placeholder="Mortgage Lender" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 04 Purchase Date-->
@@ -955,7 +1017,7 @@
                                                         <label class="form-head" for="exampletext"> Purchase Date
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Purchase Date" required="">
+                                                            placeholder="Purchase Date" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 05 Fair Market Value -->
@@ -964,7 +1026,7 @@
                                                         <label class="form-head" for="exampletext"> Fair Market Value
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder=" Fair Market Value" required="">
+                                                            placeholder=" Fair Market Value" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 06 Loan Balance -->
@@ -973,7 +1035,7 @@
                                                         <label class="form-head" for="exampletext"> Loan Balance
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Loan Balance" required="">
+                                                            placeholder="Loan Balance" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 07 Monthly Payment-->
@@ -982,7 +1044,7 @@
                                                         <label class="form-head" for="exampletext"> Monthly Payment
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Monthly Payment" required="">
+                                                            placeholder="Monthly Payment" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 08 Date of Final Payment -->
@@ -992,7 +1054,7 @@
                                                             Payment
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Date of Final Payment" required="">
+                                                            placeholder="Date of Final Payment" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 09 Loan Balance -->
@@ -1001,7 +1063,7 @@
                                                         <label class="form-head" for="exampletext"> Monthly Property Tax
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder=" Loan Balance" required="">
+                                                            placeholder=" Loan Balance" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 10 Monthly Property Tax -->
@@ -1011,7 +1073,7 @@
                                                             (Joint, Tenancy, etc.)
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="How is Title held" required="">
+                                                            placeholder="How is Title held" required>
                                                     </div>
                                                 </div>
                                                 <!-- input 11 policy document update -->
@@ -1079,7 +1141,7 @@
                                                         <label class="form-head" for="exampletext"> Make and Model
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Enter Make and Model" required="">
+                                                            placeholder="Enter Make and Model" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 02 Year -->
@@ -1088,7 +1150,7 @@
                                                         <label class="form-head" for="exampletext"> Year
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Enter Year" required="">
+                                                            placeholder="Enter Year" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 03 Mileage -->
@@ -1097,7 +1159,7 @@
                                                         <label class="form-head" for="exampletext"> Mileage
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Enter Mileage" required="">
+                                                            placeholder="Enter Mileage" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 04 Lease or Own -->
@@ -1106,7 +1168,7 @@
                                                         <label class="form-head" for="exampletext"> Lease or Own
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Enter Lease or Own" required="">
+                                                            placeholder="Enter Lease or Own" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 05 Date Of Purchased/Lease -->
@@ -1116,7 +1178,7 @@
                                                             Purchased/Lease
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder=" Date Of Purchased/Lease" required="">
+                                                            placeholder=" Date Of Purchased/Lease" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 06 Date Of Final Payment -->
@@ -1126,7 +1188,7 @@
                                                             Payment
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder=" Date Of Final Payment" required="">
+                                                            placeholder=" Date Of Final Payment" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 07 Current Value -->
@@ -1135,7 +1197,7 @@
                                                         <label class="form-head" for="exampletext"> Current Value
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder=" Current Value" required="">
+                                                            placeholder=" Current Value" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 08 Current Loan Value -->
@@ -1144,7 +1206,7 @@
                                                         <label class="form-head" for="exampletext"> Current Loan Value
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Current Loan Value" required="">
+                                                            placeholder="Current Loan Value" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 08 Monthly Payment -->
@@ -1153,7 +1215,7 @@
                                                         <label class="form-head" for="exampletext"> Monthly Payment
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Monthly Payment" required="">
+                                                            placeholder="Monthly Payment" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 08 Name of Lender/Lessor -->
@@ -1162,7 +1224,7 @@
                                                         <label class="form-head" for="exampletext">Name of Lender/Lessor
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Name of Lender/Lessor" required="">
+                                                            placeholder="Name of Lender/Lessor" required>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1262,7 +1324,7 @@
                                                         <label class="form-head" for="exampletext"> Description of Asset
                                                         </label>
                                                         <input type="text" class="form-control" id="exampleInputtext"
-                                                            placeholder="Description Of Asset" required="">
+                                                            placeholder="Description Of Asset" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 02 Date of Purchase -->
@@ -1336,7 +1398,7 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="exampletext">Interest/Dividends</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Net Self-Employed/Business Income-->
@@ -1345,7 +1407,7 @@
                                                 <label class="form-head" for="exampletext">Net Self-Employed/Business
                                                     Income</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Net Rental Income-->
@@ -1353,7 +1415,7 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="exampletext">Net Rental Income</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Net Distribution-->
@@ -1361,7 +1423,7 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="exampletext">Distribution</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Social Security Income-->
@@ -1370,7 +1432,7 @@
                                                 <label class="form-head" for="exampletext">Social Security
                                                     Income</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Alimony Income -->
@@ -1378,7 +1440,7 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="exampletext">Alimony Income </label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Retirement Income/ Pension -->
@@ -1387,7 +1449,7 @@
                                                 <label class="form-head" for="exampletext">Retirement Income/
                                                     Pension</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Other Income -->
@@ -1395,7 +1457,7 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="exampletext">Other Income</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Total Household Income -->
@@ -1404,7 +1466,7 @@
                                                 <label class="form-head" for="exampletext">Total Household
                                                     Income</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$_.__">
+                                                    placeholder="$_.__" required>
                                                 <button type="button" class="btn btn-primary mt-1"
                                                     id="calculateIncome">Calculate</button>
                                             </div>
@@ -1415,7 +1477,7 @@
                                                 <label class="form-head" for="exampletext">Total House Hold
                                                     Income</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- form for personal montly income end -->
@@ -1438,7 +1500,7 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="exampletext">Food, Clothing & Misc</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Rent/Mortgage-->
@@ -1446,7 +1508,7 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="exampletext">Rent/Mortgage</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Utilities-->
@@ -1454,7 +1516,7 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="exampletext">Utilities</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Vehicles Ownership Costs-->
@@ -1463,7 +1525,7 @@
                                                 <label class="form-head" for="exampletext">Vehicles Ownership
                                                     Costs</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Vehicles Operating Costs-->
@@ -1472,7 +1534,7 @@
                                                 <label class="form-head" for="exampletext">Vehicles Operating
                                                     Costs</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Public Transportation  -->
@@ -1481,7 +1543,7 @@
                                                 <label class="form-head" for="exampletext">Public Transportation
                                                 </label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Health Insurance -->
@@ -1489,7 +1551,7 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="exampletext">Health Insurance</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Out of Pocket Health Costs -->
@@ -1498,7 +1560,7 @@
                                                 <label class="form-head" for="exampletext">Out of Pocket Health
                                                     Costs</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Court Ordered Payments -->
@@ -1507,7 +1569,7 @@
                                                 <label class="form-head" for="exampletext">Court Ordered
                                                     Payments</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Child Care  -->
@@ -1515,7 +1577,7 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="exampletext">Child Care </label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Life Insurance -->
@@ -1523,7 +1585,7 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="exampletext">Life Insurance </label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Taxes (Income & FICA) -->
@@ -1531,7 +1593,7 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="exampletext">Taxes (Income & FICA)</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Other Secure Debts -->
@@ -1539,7 +1601,7 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="exampletext">Other Secure Debts</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Other Secure Debts  02-->
@@ -1547,7 +1609,7 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="exampletext">Other Secure Debts</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- :: input Total Household Expense -->
@@ -1567,7 +1629,7 @@
                                                 <label class="form-head" for="exampletext">Total Household
                                                     Expense</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="$0.00">
+                                                    placeholder="$0.00" required>
                                             </div>
                                         </div>
                                         <!-- form for personal montly income end -->
@@ -1630,7 +1692,7 @@
 
                                                 </label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="Discharge/Dismissal Date" required="">
+                                                    placeholder="Discharge/Dismissal Date" required>
                                             </div>
                                         </div>
 
@@ -1661,7 +1723,7 @@
                                                 <label class="form-head" for="exampletext">Date the lawsuit was resolved
                                                 </label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="Date the lawsuit" required="">
+                                                    placeholder="Date the lawsuit" required>
                                             </div>
                                         </div>
 
@@ -1693,7 +1755,7 @@
                                                     transferred
                                                 </label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="Date the asset was transferred" required="">
+                                                    placeholder="Date the asset was transferred" required>
                                             </div>
                                         </div>
 
@@ -1726,7 +1788,7 @@
                                                 </label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
                                                     placeholder="List the type of property and date of the transfer"
-                                                    required="">
+                                                    required>
                                             </div>
                                         </div>
                                         <!-- ::::::::::::::::: section 05  end :::::::::::::::::: -->
@@ -1743,7 +1805,7 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="exampletext"> Print Full Name</label>
                                                 <input type="text" class="form-control" id="exampleInputtext"
-                                                    placeholder="Enter Full Name">
+                                                    placeholder="Enter Full Name" required>
                                             </div>
                                         </div>
                                         <!-- :: input -->
@@ -1751,7 +1813,7 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="exampletext">Date </label>
                                                 <input type="date" class="form-control" id="exampleInputtext"
-                                                    placeholder="Date ">
+                                                    placeholder="Date " required>
                                             </div>
                                         </div>
                                         <!-- :: signature pad -->
@@ -1876,7 +1938,6 @@
     <!-- script for dependent -->
     <script>
     $(document).ready(function() {
-        //  event listener to the radio buttons for "Do you have any dependents"
         $('input[name="dependents"]').change(function() {
 
             if ($(this).val() === 'have any dependents yes') {
@@ -2205,6 +2266,43 @@
     transferredassetSelect.style.display = "none";
     </script>
     <!-- Date the asset was transferred end-->
+
+    <!-- :: spouse detail strt-->
+    <script>
+    // Get references to the radio buttons and the select element
+    const optionsRadio1 = document.getElementById("optionsRadio1");
+    const optionsRadio2 = document.getElementById("optionsRadio2");
+    const spouseSelect = document.getElementById("spouse-select");
+    const spouseTab = document.getElementById("spouse-tab");
+
+    // Add event listeners to the radio buttons
+    optionsRadio1.addEventListener("change", function() {
+        if (this.checked) {
+            spouseTab.style.display = "none";
+        }
+    });
+    optionsRadio1.addEventListener("change", function() {
+        if (this.checked) {
+            spouseSelect.style.display = "none";
+        }
+    });
+
+    optionsRadio2.addEventListener("change", function() {
+        if (this.checked) {
+            spouseSelect.style.display = "block";
+        }
+    });
+    optionsRadio2.addEventListener("change", function() {
+        if (this.checked) {
+            spouseTab.style.display = "block";
+        }
+    });
+
+    // By default, hide the select element
+    spouseSelect.style.display = "none";
+    spouseTab.style.display = "none";
+    </script>
+    <!-- :: spouse detail end -->
 
     <!-- :: Date the asset was transferred  -->
     <script>

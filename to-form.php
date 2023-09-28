@@ -327,21 +327,20 @@
                                     <div class="row mt-4">
                                         <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-left mx-1">
                                             <div class="form-group">
-                                                <label class="form-head" for="exampletext"> What Tax Year Is This Organizer For
+                                                <label class="form-head" for="exampletext"> What Tax Year Is This
+                                                    Organizer For
                                                 </label>
                                                 <div class="d-flex flex-wrap">
                                                     <div class="form-check mx-3">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2022"
-                                                                type="radio" name="taxStatus"
-                                                                value="tax-year">2022
+                                                                type="radio" name="taxStatus" value="tax-year">2022
                                                         </label>
                                                     </div>
                                                     <div class="form-check mx-3">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2021"
-                                                                type="radio" name="taxStatus"
-                                                                value="tax-year1">2021
+                                                                type="radio" name="taxStatus" value="tax-year1">2021
                                                         </label>
                                                     </div>
                                                     <div class="form-check mx-3">
@@ -353,79 +352,68 @@
                                                     <div class="form-check mx-3">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2019"
-                                                                type="radio" name="taxStatus"
-                                                                value="tax-year3">2019
+                                                                type="radio" name="taxStatus" value="tax-year3">2019
                                                         </label>
                                                     </div>
                                                     <div class="form-check mx-3">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2018"
-                                                                type="radio" name="taxStatus"
-                                                                value="tax-year4">2018
+                                                                type="radio" name="taxStatus" value="tax-year4">2018
                                                         </label>
                                                     </div>
                                                     <div class="form-check mx-3">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2017"
-                                                                type="radio" name="taxStatus"
-                                                                value="tax-year5">2017
+                                                                type="radio" name="taxStatus" value="tax-year5">2017
                                                         </label>
                                                     </div>
                                                     <div class="form-check mx-3">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2016"
-                                                                type="radio" name="taxStatus"
-                                                                value="tax-year6">2016
+                                                                type="radio" name="taxStatus" value="tax-year6">2016
                                                         </label>
                                                     </div>
                                                     <div class="form-check mx-3">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2015"
-                                                                type="radio" name="taxStatus"
-                                                                value="tax-year7">2015
+                                                                type="radio" name="taxStatus" value="tax-year7">2015
                                                         </label>
                                                     </div>
                                                     <div class="form-check mx-3">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2014"
-                                                                type="radio" name="taxStatus"
-                                                                value="tax-year8">2014
+                                                                type="radio" name="taxStatus" value="tax-year8">2014
                                                         </label>
                                                     </div>
                                                     <div class="form-check mx-3">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2013"
-                                                                type="radio" name="taxStatus"
-                                                                value="tax-year9">2013
+                                                                type="radio" name="taxStatus" value="tax-year9">2013
                                                         </label>
                                                     </div>
                                                     <div class="form-check mx-3">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2012"
-                                                                type="radio" name="taxStatus"
-                                                                value="tax-year10">2012
+                                                                type="radio" name="taxStatus" value="tax-year10">2012
                                                         </label>
                                                     </div>
                                                     <div class="form-check mx-3">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2011"
-                                                                type="radio" name="taxStatus"
-                                                                value="tax-year11">2011
+                                                                type="radio" name="taxStatus" value="tax-year11">2011
                                                         </label>
                                                     </div>
                                                     <div class="form-check mx-4">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2010"
-                                                                type="radio" name="taxStatus"
-                                                                value="tax-year12">2010
+                                                                type="radio" name="taxStatus" value="tax-year12">2010
                                                         </label>
                                                     </div>
                                                 </div>
-
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- :: form section 01 -->
+                                    <!-- ************************ Section 01 ************************ -->
                                     <div class="form-section-highlite mt-3">
                                         <div>Personal Information</div>
                                     </div>
@@ -514,7 +502,7 @@
                                         <!-- :: input -->
                                         <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left">
                                             <div class="form-group">
-                                                <label class="form-head" for="Rent-Or-Own"> 
+                                                <label class="form-head" for="Rent-Or-Own">
                                                     Occupation </label>
                                                 <input type="text" class="form-control" id="Rent Or Own"
                                                     placeholder="Rent or own" required>
@@ -548,56 +536,155 @@
                                                     placeholder="Enter your secondary phone number" required>
                                             </div>
                                         </div>
-                                        <!-- **************** sum form head ************ -->
-                                        <!-- ::::::section 02::::::: -->
+                                        <!-- **************** SECTION 02 ***************** -->
                                         <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
                                             <div class="form-section-highlite mt-3">
-                                                <div>SECTION 2: Employment Information
-                                                </div>
+                                                <div>SECTION 1: Tax Filing Information</div>
                                             </div>
-
-                                            <div class=" mt-5 mb-2">
-                                                <!-- :::input radio -->
-                                                <div class="form-group d-flex cnt-justified">
-                                                    <label class="form-head" for="exampletext"> Client Employment Status
-                                                    </label>
-                                                    <div class="form-check">
+                                        </div>
+                                        <!-- :: radio input for client filling status  -->
+                                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-left  mt-4">
+                                            <div class="form-group">
+                                                <label class="form-head" for="exampletext"> Client Filing Status</label>
+                                                <div class="d-flex flex-wrap">
+                                                    <!-- :: radio 01 -->
+                                                    <div class="form-check mx-3">
                                                         <label class="form-check-label">
-                                                            <input class="form-check-input" id="optionsRadiosemp1"
-                                                                type="radio" name="empStatus" value="Wage Earner">Wage
-                                                            Earner/ Employee
-                                                        </label>
+                                                            <input class="form-check-input" id="c-single" type="radio" name="client-filling" value="single">Single</label>
                                                     </div>
-                                                    <div class="form-check">
+                                                    <!--  :: radio 02 -->
+                                                    <div class="form-check mx-3">
                                                         <label class="form-check-label">
-                                                            <input class="form-check-input" id="optionsRadiosemp2"
-                                                                type="radio" name="empStatus"
-                                                                value="Self-Employed">Self-Employed
-                                                        </label>
+                                                            <input class="form-check-input" id="h-household" type="radio" name="client-filling" value="household">Head Of Household</label>
                                                     </div>
-                                                    <div class="form-check">
+                                                     <!--  :: radio 03 -->
+                                                     <div class="form-check mx-3">
                                                         <label class="form-check-label">
-                                                            <input class="form-check-input" id="optionsRadiosemp3"
-                                                                type="radio" name="empStatus"
-                                                                value="Disability">Disability
-                                                        </label>
+                                                            <input class="form-check-input" id="m-jointly" type="radio" name="client-filling" value="jointly">Married Filing Jointly</label>
                                                     </div>
-                                                    <div class="form-check">
+                                                    <!--  :: radio 04 -->
+                                                    <div class="form-check mx-3">
                                                         <label class="form-check-label">
-                                                            <input class="form-check-input" id="optionsRadiosemp4"
-                                                                type="radio" name="empStatus" value="Retired">Retired
-                                                        </label>
+                                                            <input class="form-check-input" id="m-separately" type="radio" name="client-filling" value="separately">Married Filing Separately</label>
                                                     </div>
-                                                    <div class="form-check">
+                                                    <!--  :: radio 05 -->
+                                                    <div class="form-check mx-3">
                                                         <label class="form-check-label">
-                                                            <input class="form-check-input" id="optionsRadiosemp5"
-                                                                type="radio" name="empStatus"
-                                                                value="Unemployed">Unemployed
-                                                        </label>
+                                                            <input class="form-check-input" id="q-widower" type="radio" name="client-filling" value="widower">Qualified Widower</label>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                        <!-- form dependecy for spouse fillinf -->
+                                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 mt-2 mb-2 dependency-tab" id="dependentto-select" style="">
+                                            <div class="form-section-divident text-left">
+                                                <h6>Dependent 1</h6>
+                                            </div>
+                                            <div class="row dependency-form-control px-2">
+                                                <!-- :: input 01 name -->
+                                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="firstname">First Name </label>
+                                                        <input type="text" class="form-control" id="first_name" placeholder="Enter first name" required>
+                                                    </div>
+                                                </div>
+                                                <!-- :: input 02 last name -->
+                                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="lastname"> Last Name
+                                                        </label>
+                                                        <input type="text" class="form-control" id="last_name" placeholder="Enter last name" required>
+                                                    </div>
+                                                </div>
+                                                <!-- :: input 03 Occupation -->
+                                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="Occupation"> Occupation
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c_occupation" placeholder="Enter occupation" required>
+                                                    </div>
+                                                </div>
+                                                <!-- :: input 04 Dob -->
+                                                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="SSN"> SSN#
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c_ssn" placeholder="Enter ssn" required>
+                                                    </div>
+                                                </div>
+                                                <!-- :: input 05 Date Of Birth -->
+                                                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="dateofbirth"> Date Of Birth
+                                                        </label>
+                                                        <input type="date" class="form-control" id="date_of_birth"  required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- :: Dependency for spouse filling end -->
+                                        <!-- :: radio input for employment filling status -->
+                                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-left  mt-4">
+                                            <div class="form-group">
+                                                <label class="form-head" for="exampletext"> Client Employment Status</label>
+                                                <div class="d-flex flex-wrap">
+                                                    <!-- :: radio 01 -->
+                                                    <div class="form-check mx-3">
+                                                        <label class="form-check-label">
+                                                            <input class="form-check-input" id="c-wage" type="radio" name="employment-filling" value="wage">Wage Earner/ Employee</label>
+                                                    </div>
+                                                    <!--  :: radio 02 -->
+                                                    <div class="form-check mx-3">
+                                                        <label class="form-check-label">
+                                                            <input class="form-check-input" id="self-employed" type="radio" name="employment-filling" value="selfemployed">Self-Employed <small>(1099, Sole Prop)</small></label>
+                                                    </div>
+                                                     <!--  :: radio 03 -->
+                                                     <div class="form-check mx-3">
+                                                        <label class="form-check-label">
+                                                            <input class="form-check-input" id="business-owner" type="radio" name="employment-filling" value="businessowner">Business Owner<small>(LLC, S-Corp, C-Corp)</small></label>
+                                                    </div>
+                                                    <!--  :: radio 04 -->
+                                                    <div class="form-check mx-3">
+                                                        <label class="form-check-label">
+                                                            <input class="form-check-input" id="e-disability" type="radio" name="employment-filling" value="disability">Disability</label>
+                                                    </div>
+                                                    <!--  :: radio 05 -->
+                                                    <div class="form-check mx-3 mt-2">
+                                                        <label class="form-check-label">
+                                                            <input class="form-check-input" id="e-retired" type="radio" name="employment-filling" value="Retired">Retired</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- :: radio for emp filling end -->
+                                        <!-- emp show hide -->
+                                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left" id="w2-select">
+                                            <div class="form-group">
+                                                <label class="form-head" for="exampletext"> Do you have your W2's
+                                                </label>
+                                                <div class="form-check mx-3">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="w2-yes" type="radio" name="W2" value="">Yes
+                                                    </label>
+                                                </div>
+                                                <div class="form-check mx-3">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="w2-no" type="radio" name="W2" value="">No
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- input for emp doc -->
+                                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="exampletext"> Life Insurance
+                                                            Policy 1 <small>(Upload Most Recent Policy
+                                                                Statement)</small>
+                                                        </label>
+                                                        <input type="file" class="form-control" id="p-document" name="policy-document" accept="image/*">
+                                                    </div>
+                                                </div>
+                                        <!-- emp show hide -->
                                     </div>
                                 </form>
                             </div>
@@ -654,6 +741,98 @@
         });
     });
     </script>
+
+    <!-- ************** for dependent 01 ****************-->
+    <script>
+    // Get references to the radio buttons and the select element
+    const mJointly = document.getElementById("m-jointly");
+    const mSeparately = document.getElementById("m-separately");
+    const cSingle = document.getElementById("c-single");
+    const hHousehold = document.getElementById("h-household");
+    const qWidower = document.getElementById("q-widower");
+    const dependenttoSelect = document.getElementById("dependentto-select");
+
+    // Add event listeners to the radio buttons
+    mJointly.addEventListener("change", function() {
+        if (this.checked) {
+            dependenttoSelect.style.display = "block";
+        }
+    });
+
+    mSeparately.addEventListener("change", function() {
+        if (this.checked) {
+            dependenttoSelect.style.display = "block";
+        }
+    });
+
+    cSingle.addEventListener("change", function() {
+        if (this.checked) {
+            dependenttoSelect.style.display = "none";
+        }
+    });
+
+    hHousehold.addEventListener("change", function() {
+        if (this.checked) {
+            dependenttoSelect.style.display = "none";
+        }
+    });
+
+    qWidower.addEventListener("change", function() {
+        if (this.checked) {
+            dependenttoSelect.style.display = "none";
+        }
+    });
+
+    // By default, hide the select element
+    dependenttoSelect.style.display = "none";
+    </script>
+    <!-- ************** for dependent 01 ****************-->
+
+    <!-- ************** for client emp status****************-->
+    <script>
+    // Get references to the radio buttons and the select element
+    const cWage = document.getElementById("c-wage");
+    const selfEmployed = document.getElementById("self-employed");
+    const businessOwner = document.getElementById("business-owner");
+    const eDisability = document.getElementById("e-disability");
+    const eRetired = document.getElementById("e-retired");
+    const w2Select = document.getElementById("w2-select");
+
+    // Add event listeners to the radio buttons
+    cWage.addEventListener("change", function() {
+        if (this.checked) {
+            w2Select.style.display = "block";
+        }
+    });
+
+    selfEmployed.addEventListener("change", function() {
+        if (this.checked) {
+            w2Select.style.display = "none";
+        }
+    });
+
+    businessOwner.addEventListener("change", function() {
+        if (this.checked) {
+            w2Select.style.display = "none";
+        }
+    });
+
+    eDisability.addEventListener("change", function() {
+        if (this.checked) {
+            w2Select.style.display = "none";
+        }
+    });
+
+    eRetired.addEventListener("change", function() {
+        if (this.checked) {
+            w2Select.style.display = "none";
+        }
+    });
+
+    // By default, hide the select element
+    w2Select.style.display = "none";
+    </script>
+    <!-- ************** for client emp status ****************-->
 
 </body>
 
