@@ -550,42 +550,53 @@
                                                     <!-- :: radio 01 -->
                                                     <div class="form-check mx-3">
                                                         <label class="form-check-label">
-                                                            <input class="form-check-input" id="c-single" type="radio" name="client-filling" value="single">Single</label>
+                                                            <input class="form-check-input" id="c-single" type="radio"
+                                                                name="client-filling" value="single">Single</label>
                                                     </div>
                                                     <!--  :: radio 02 -->
                                                     <div class="form-check mx-3">
                                                         <label class="form-check-label">
-                                                            <input class="form-check-input" id="h-household" type="radio" name="client-filling" value="household">Head Of Household</label>
+                                                            <input class="form-check-input" id="h-household"
+                                                                type="radio" name="client-filling"
+                                                                value="household">Head Of Household</label>
                                                     </div>
-                                                     <!--  :: radio 03 -->
-                                                     <div class="form-check mx-3">
+                                                    <!--  :: radio 03 -->
+                                                    <div class="form-check mx-3">
                                                         <label class="form-check-label">
-                                                            <input class="form-check-input" id="m-jointly" type="radio" name="client-filling" value="jointly">Married Filing Jointly</label>
+                                                            <input class="form-check-input" id="m-jointly" type="radio"
+                                                                name="client-filling" value="jointly">Married Filing
+                                                            Jointly</label>
                                                     </div>
                                                     <!--  :: radio 04 -->
                                                     <div class="form-check mx-3">
                                                         <label class="form-check-label">
-                                                            <input class="form-check-input" id="m-separately" type="radio" name="client-filling" value="separately">Married Filing Separately</label>
+                                                            <input class="form-check-input" id="m-separately"
+                                                                type="radio" name="client-filling"
+                                                                value="separately">Married Filing Separately</label>
                                                     </div>
                                                     <!--  :: radio 05 -->
                                                     <div class="form-check mx-3">
                                                         <label class="form-check-label">
-                                                            <input class="form-check-input" id="q-widower" type="radio" name="client-filling" value="widower">Qualified Widower</label>
+                                                            <input class="form-check-input" id="q-widower" type="radio"
+                                                                name="client-filling" value="widower">Qualified
+                                                            Widower</label>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <!-- form dependecy for spouse fillinf -->
-                                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 mt-2 mb-2 dependency-tab" id="dependentto-select" style="">
+                                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 mt-2 mb-2 dependency-tab"
+                                            id="dependentto-select" style="">
                                             <div class="form-section-divident text-left">
-                                                <h6>Dependent 1</h6>
+                                                <h6>Spouse Information</h6>
                                             </div>
                                             <div class="row dependency-form-control px-2">
                                                 <!-- :: input 01 name -->
                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
                                                     <div class="form-group">
                                                         <label class="form-head" for="firstname">First Name </label>
-                                                        <input type="text" class="form-control" id="first_name" placeholder="Enter first name" required>
+                                                        <input type="text" class="form-control" id="first_name"
+                                                            placeholder="Enter first name" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 02 last name -->
@@ -593,7 +604,8 @@
                                                     <div class="form-group">
                                                         <label class="form-head" for="lastname"> Last Name
                                                         </label>
-                                                        <input type="text" class="form-control" id="last_name" placeholder="Enter last name" required>
+                                                        <input type="text" class="form-control" id="last_name"
+                                                            placeholder="Enter last name" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 03 Occupation -->
@@ -601,7 +613,8 @@
                                                     <div class="form-group">
                                                         <label class="form-head" for="Occupation"> Occupation
                                                         </label>
-                                                        <input type="text" class="form-control" id="c_occupation" placeholder="Enter occupation" required>
+                                                        <input type="text" class="form-control" id="c_occupation"
+                                                            placeholder="Enter occupation" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 04 Dob -->
@@ -609,7 +622,8 @@
                                                     <div class="form-group">
                                                         <label class="form-head" for="SSN"> SSN#
                                                         </label>
-                                                        <input type="text" class="form-control" id="c_ssn" placeholder="Enter ssn" required>
+                                                        <input type="text" class="form-control" id="c_ssn"
+                                                            placeholder="Enter ssn" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 05 Date Of Birth -->
@@ -617,7 +631,8 @@
                                                     <div class="form-group">
                                                         <label class="form-head" for="dateofbirth"> Date Of Birth
                                                         </label>
-                                                        <input type="date" class="form-control" id="date_of_birth"  required>
+                                                        <input type="date" class="form-control" id="date_of_birth"
+                                                            required>
                                                     </div>
                                                 </div>
                                             </div>
@@ -626,32 +641,45 @@
                                         <!-- :: radio input for employment filling status -->
                                         <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-left  mt-4">
                                             <div class="form-group">
-                                                <label class="form-head" for="exampletext"> Client Employment Status</label>
+                                                <label class="form-head" for="exampletext"> Client Employment
+                                                    Status</label>
                                                 <div class="d-flex flex-wrap">
                                                     <!-- :: radio 01 -->
                                                     <div class="form-check mx-3">
                                                         <label class="form-check-label">
-                                                            <input class="form-check-input" id="c-wage" type="radio" name="employment-filling" value="wage">Wage Earner/ Employee</label>
+                                                            <input class="form-check-input" id="c-wage" type="radio"
+                                                                name="employment-filling" value="wage">Wage Earner/
+                                                            Employee</label>
                                                     </div>
                                                     <!--  :: radio 02 -->
                                                     <div class="form-check mx-3">
                                                         <label class="form-check-label">
-                                                            <input class="form-check-input" id="self-employed" type="radio" name="employment-filling" value="selfemployed">Self-Employed <small>(1099, Sole Prop)</small></label>
+                                                            <input class="form-check-input" id="self-employed"
+                                                                type="radio" name="employment-filling"
+                                                                value="selfemployed">Self-Employed <small>(1099, Sole
+                                                                Prop)</small></label>
                                                     </div>
-                                                     <!--  :: radio 03 -->
-                                                     <div class="form-check mx-3">
+                                                    <!--  :: radio 03 -->
+                                                    <div class="form-check mx-3">
                                                         <label class="form-check-label">
-                                                            <input class="form-check-input" id="business-owner" type="radio" name="employment-filling" value="businessowner">Business Owner<small>(LLC, S-Corp, C-Corp)</small></label>
+                                                            <input class="form-check-input" id="business-owner"
+                                                                type="radio" name="employment-filling"
+                                                                value="businessowner">Business Owner<small>(LLC, S-Corp,
+                                                                C-Corp)</small></label>
                                                     </div>
                                                     <!--  :: radio 04 -->
                                                     <div class="form-check mx-3">
                                                         <label class="form-check-label">
-                                                            <input class="form-check-input" id="e-disability" type="radio" name="employment-filling" value="disability">Disability</label>
+                                                            <input class="form-check-input" id="e-disability"
+                                                                type="radio" name="employment-filling"
+                                                                value="disability">Disability</label>
                                                     </div>
                                                     <!--  :: radio 05 -->
                                                     <div class="form-check mx-3 mt-2">
                                                         <label class="form-check-label">
-                                                            <input class="form-check-input" id="e-retired" type="radio" name="employment-filling" value="Retired">Retired</label>
+                                                            <input class="form-check-input" id="e-retired" type="radio"
+                                                                name="employment-filling"
+                                                                value="Retired">Retired</label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -664,28 +692,539 @@
                                                 </label>
                                                 <div class="form-check mx-3">
                                                     <label class="form-check-label">
-                                                        <input class="form-check-input" id="w2-yes" type="radio" name="W2" value="">Yes
+                                                        <input class="form-check-input" id="w2-yes" type="radio"
+                                                            name="W2" value="">Yes
                                                     </label>
                                                 </div>
                                                 <div class="form-check mx-3">
                                                     <label class="form-check-label">
-                                                        <input class="form-check-input" id="w2-no" type="radio" name="W2" value="">No
+                                                        <input class="form-check-input" id="w2-no" type="radio"
+                                                            name="W2" value="">No
                                                     </label>
                                                 </div>
                                             </div>
                                         </div>
                                         <!-- input for emp doc -->
-                                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left">
+                                        <!-- emp option 01 -->
+                                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left" id="wdoc-select">
+                                            <div class="form-group">
+                                                <label class="form-head" for="exampletext"> Upload your W2's
+
+                                                </label>
+                                                <input type="file" class="form-control" id="p-document"
+                                                    name="policy-document" accept="image/*">
+                                            </div>
+                                        </div>
+
+                                        <!-- emp option 02 -->
+                                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 mt-3 text-left "
+                                            id="longradio-section">
+                                            <div class="form-group">
+                                                <label class="form-head" for="long-text">
+                                                    We can file back year returns based on IRS wage and income. Note,
+                                                    this will not include any state withholdings, so state returns will
+                                                    show higher balance. If you authorize us to file based on IRS
+                                                    reported wages only, any additional amendments in the future will
+                                                    result in an additional fee for services. Do you agree to let us
+                                                    file base on IRS wage and income
+
+                                                </label>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="irswage-yes" type="radio"
+                                                            name="irswage" value="havewrsyes">Yes
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="irswage-no" type="radio"
+                                                            name="irswage" value="havewrsno">No
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- emp option 03 -->
+                                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left" id="upwdoc-select"
+                                            style="display: block;">
+                                            <div class="form-group">
+                                                <label class="form-head" for="exampletext"> You Will Need To Upload your
+                                                    W2's
+
+                                                </label>
+                                                <input type="file" class="form-control" id="up-document"
+                                                    name="uploadwrc-document" accept="image/*">
+                                            </div>
+                                        </div>
+                                        <!-- emp show hide -->
+
+                                        <!--:: section 02 start here -->
+                                        <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+                                            <div class="form-section-highlite mt-3">
+                                                <div>SECTION 2: Dependents</div>
+                                            </div>
+                                        </div>
+                                        <!-- input radio for dependent  -->
+                                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 mt-3 text-left "
+                                            id="dependentsSectio">
+                                            <div class="form-group">
+                                                <label class="form-head" for="exampletext"> Do you have any dependents;
+                                                    EXCLUDING yourself and your spouse? <br>
+                                                    <small>(only include dependents that you claim on your tax
+                                                        returns)</small>
+                                                </label>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="dependents-yes" type="radio"
+                                                            name="dependents" value="have any dependents yes">Yes
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="dependents-no" type="radio"
+                                                            name="dependents" value="have any dependents no">No
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- :: input for dependent select -->
+                                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 mt-3 text-left"
+                                            id="dependencycount-section" style="">
+                                            <div class="form-group depend-cnt">
+                                                <label class="form-head" for="count-depend">How many dependents do you
+                                                    have?</label>
+                                                <div class="select-group h-40">
+                                                    <select class="form-control" id="count-depend" name="count-depend">
+                                                        <option value="" disabled="">Select an option</option>
+                                                        <option value="0">None</option>
+                                                        <option value="1">01</option>
+                                                        <option value="2">02</option>
+                                                        <option value="3">03</option>
+                                                        <option value="4">04</option>
+                                                        <option value="5">05</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 mt-2 mb-2 dependency-tab"
+                                            id="dependentSections" style="">
+                                            <!-- This is where the dependent sections will be added dynamically -->
+                                        </div>
+
+                                        <!-- :: dependend count form here -->
+                                        <!--:: section 02 end here-->
+                                        <!-- :: section 03 start from here -->
+                                        <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+                                            <div class="form-section-highlite mt-3 mb-3">
+                                                <div>SECTION 3: Tax Questions</div>
+                                            </div>
+                                        </div>
+                                        <!-- form input start fro here -->
+                                        <!-- input radio  -->
+                                        <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left">
+                                            <div class="form-group">
+                                                <label class="form-head" for="exampletext">Did your marital status
+                                                    change during the year?
+                                                </label>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="ms-yes" type="radio"
+                                                            name="m-stts" value="Yes">Yes
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="ms-no" type="radio"
+                                                            name="m-stts" value="No">No
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- input radio  -->
+                                        <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left">
+                                            <div class="form-group">
+                                                <label class="form-head" for="exampletext">Did your address change from
+                                                    last year?
+                                                </label>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="caddress-yes" type="radio"
+                                                            name="c-addr" value="Yes">Yes
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="caddress-no" type="radio"
+                                                            name="c-addr" value="No">No
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- input radio  -->
+                                        <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left">
+                                            <div class="form-group">
+                                                <label class="form-head" for="exampletext">Can you be claimed as a
+                                                    dependent by another tax payer?
+                                                </label>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="cldependent-yes"
+                                                            type="radio" name="cl-dep" value="Yes">Yes
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="cldependent-no" type="radio"
+                                                            name="cl-dep" value="No">No
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- input radio  -->
+                                        <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left">
+                                            <div class="form-group">
+                                                <label class="form-head" for="exampletext">Did you take out a home
+                                                    equity loan this year?
+                                                </label>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="homeloan-yes" type="radio"
+                                                            name="he-loan" value="Yes">Yes
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="homeloan-no" type="radio"
+                                                            name="he-loan" value="No">No
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- input radio  -->
+                                        <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left">
+                                            <div class="form-group">
+                                                <label class="form-head" for="exampletext">Did you acquire or dispose of
+                                                    any stocks or bonds during the year?
+                                                </label>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="stocks-yes" type="radio"
+                                                            name="stocks" value="Yes">Yes
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="stocks-no" type="radio"
+                                                            name="stocks" value="No">No
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- input radio  -->
+                                        <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left" id="upload-stock">
+                                            <div class="form-group">
+                                                <label class="form-head" for="exampletext">Upload Form 1099-B
+                                                </label>
+                                                <input type="file" class="form-control" id="stock-document"
+                                                    name="policy-document" accept="image/*">
+                                            </div>
+                                        </div>
+                                        <!-- input radio  -->
+                                        <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left">
+                                            <div class="form-group">
+                                                <label class="form-head" for="exampletext">Did you have any foreign
+                                                    income or pay any foreign taxes during the year?
+                                                </label>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="foreign-yes" type="radio"
+                                                            name="foreign-income" value="Yes">Yes
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="foreign-no" type="radio"
+                                                            name="foreign-income" value="No">No
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- input radio  -->
+                                        <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left">
+                                            <div class="form-group">
+                                                <label class="form-head" for="exampletext">Did you receive any lump-sum
+                                                    payment from a pension, profit sharing or 401(k) plan?
+                                                </label>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="lump-yes" type="radio"
+                                                            name="lump-sum" value="Yes">Yes
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="lump-no" type="radio"
+                                                            name="lump-sum" value="No">No
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- input radio  -->
+                                        <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left">
+                                            <div class="form-group">
+                                                <label class="form-head" for="iraradio">Did you make any withdrawals
+                                                    from an IRA, Keogh, SIMPLE, or SEP account?
+                                                </label>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="ira-yes" type="radio"
+                                                            name="i-r-a" value="Yes">Yes
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="ira-no" type="radio"
+                                                            name="i-r-a" value="No">No
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- input radio  -->
+                                        <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left">
+                                            <div class="form-group">
+                                                <label class="form-head" for="iraradio">Did you make any non-cash
+                                                    charitable contributions (clothing, furniture, etc.)
+                                                </label>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="ncc-yes" type="radio"
+                                                            name="non-cash" value="Yes">Yes
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="ncc-no" type="radio"
+                                                            name="non-cash" value="No">No
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- input radio  -->
+                                        <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left">
+                                            <div class="form-group">
+                                                <label class="form-head" for="carradio">Did you use your car on the job
+                                                    for other than commuting?
+                                                </label>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="carjob-yes" type="radio"
+                                                            name="car-job" value="Yes">Yes
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="carjob-no" type="radio"
+                                                            name="car-job" value="No">No
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- input radio  -->
+                                        <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left">
+                                            <div class="form-group">
+                                                <label class="form-head" for="carradio">Did you work out of town for
+                                                    part of the year?
+                                                </label>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="wtown-yes" type="radio"
+                                                            name="town-work" value="Yes">Yes
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="wtown-no" type="radio"
+                                                            name="town-work" value="No">No
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- input radio  -->
+                                        <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left">
+                                            <div class="form-group">
+                                                <label class="form-head" for="carradio">Did you have any educational
+                                                    expenses during the year?
+                                                </label>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="expense-yes" type="radio"
+                                                            name="e-expenses" value="Yes">Yes
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="expense-no" type="radio"
+                                                            name="e-expenses" value="No">No
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- input radio  -->
+                                        <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left">
+                                            <div class="form-group">
+                                                <label class="form-head" for="carradio">Did you have any child care
+                                                    expenses other than Child Support?
+                                                </label>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="childcare-yes" type="radio"
+                                                            name="child-care" value="Yes">Yes
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="childcare-no" type="radio"
+                                                            name="child-care" value="No">No
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- child care expenses record  -->
+                                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 mt-2 mb-2 dependency-tab"
+                                            id="childSections" style="">
+                                            <div class="form-section-divident text-left">
+                                                <h6>Child Care Expenses</h6>
+                                            </div>
+                                            <!-- form dependecy  -->
+                                            <div class="row dependency-form-control px-2">
+                                                <!-- :: input 01 name -->
+                                                <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 text-left">
                                                     <div class="form-group">
-                                                        <label class="form-head" for="exampletext"> Life Insurance
-                                                            Policy 1 <small>(Upload Most Recent Policy
-                                                                Statement)</small>
-                                                        </label>
-                                                        <input type="file" class="form-control" id="p-document" name="policy-document" accept="image/*">
+                                                        <label class="form-head" for="Amount"> Amount $</label>
+                                                        <input type="text" class="form-control" id="input-Amount"
+                                                            placeholder="">
                                                     </div>
                                                 </div>
-                                        <!-- emp show hide -->
+                                                <!-- :: input 02 Dob -->
+                                                <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="children_number"> Number of
+                                                            children cared for
+                                                        </label>
+                                                        <input type="text" class="form-control" id="children-number"
+                                                            placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                <!-- :: input 03 Dob -->
+                                                <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="house-service"> Services Performed
+                                                            in your house?
+                                                        </label>
+                                                        <input type="text" class="form-control" id="house-service"
+                                                            placeholder="">
+                                                    </div>
+                                                </div>
+                                                <!-- :: input 04 Dob -->
+                                                <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="provider-name"> Name & address of
+                                                            provider
+                                                        </label>
+                                                        <input type="text" class="form-control" id="provider-name"
+                                                            placeholder="Enter Relationship" required="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- child care expenses end here -->
+                                        <!-- input radio  -->
+                                        <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left">
+                                            <div class="form-group">
+                                                <label class="form-head" for="carradio">Are you, your spouse, and all
+                                                    dependents covered by health insurance?
+                                                </label>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="insurance-yes" type="radio"
+                                                            name="health-insurance" value="Yes">Yes
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="insurance-partial"
+                                                            type="radio" name="health-insurance" value="No">Partial
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" id="insurance-no" type="radio"
+                                                            name="health-insurance" value="No">No
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--:: input health policy document upload  -->
+                                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left" id="health-doc">
+                                            <div class="form-group">
+                                                <label class="form-head" for="exampletext"> 
+                                                    Upload all 1095 or proof of insurance
+                                                </label>
+                                                <input type="file" class="form-control" id="p-document"
+                                                    name="health-document" accept="image/*">
+                                            </div>
+                                        </div>
+                                        <!-- input health policy document upload end here -->
+                                        <!-- :: section 03 end here -->
+
+                                        <!-- :: section 04 name and date  -->
+                                        <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+                                            <div class="form-section-highlite mt-3 mb-3">
+                                                <div>SECTION 4: Date & Signature</div>
+                                            </div>
+                                        </div>
+
+                                        <!-- input for print name   -->
+                                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left">
+                                            <div class="form-group">
+                                                <label class="form-head" for="FullName"> Print Full Name</label>
+                                                <input type="text" class="form-control" id="Full-Name" placeholder="Enter Full Name" required>
+                                            </div>
+                                        </div>
+                                        <!-- input for print name   -->
+                                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left">
+                                            <div class="form-group">
+                                                <label class="form-head" for="FullName"> Date</label>
+                                                <input type="date" class="form-control" id="sub-date" placeholder="Select Date" required>
+                                            </div>
+                                        </div>
+                                        <!-- signature pad -->
+                                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" id="sig-pad">
+                                            <canvas id="signature" width="950" height="150" style="border: 1px solid rgb(221, 221, 221); touch-action: none;"></canvas>
+                                            <br>
+                                            <button type="button" id="clear-signature">Clear</button>
+                                        </div>
+
+                                        <!-- :: form submit btn -->
+                                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 mt-4 mb-4">
+                                            <div class="row">
+                                                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 t-end">
+                                                    <button class="btn f-form-save-btn">Save Progress</button>
+
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-12 col-sm-12 t-start">
+                                                    <button class="btn f-form-submit-btn">Submit</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- form submit btn end here -->
+
+                                        <!-- section 04 name and date end here -->
+
+
+
                                     </div>
+                                    <!-- main row for form -->
                                 </form>
                             </div>
                         </div>
@@ -706,8 +1245,18 @@
 
     <!-- query for signature pad -->
     <script>
-    $('.dropify').dropify();
+    jQuery(document).ready(function($) {
+
+        var canvas = document.getElementById("signature");
+        var signaturePad = new SignaturePad(canvas);
+
+        $('#clear-signature').on('click', function() {
+            signaturePad.clear();
+        });
+
+    });
     </script>
+
     <!--tab switch function -->
     <script>
     document.addEventListener("DOMContentLoaded", function() {
@@ -797,6 +1346,13 @@
     const eDisability = document.getElementById("e-disability");
     const eRetired = document.getElementById("e-retired");
     const w2Select = document.getElementById("w2-select");
+    const w2Yes = document.getElementById("w2-yes");
+    const w2No = document.getElementById("w2-no");
+    const irswageYes = document.getElementById("irswage-yes");
+    const irswageNo = document.getElementById("irswage-no");
+    const wdocSelect = document.getElementById("wdoc-select");
+    const longradioSection = document.getElementById("longradio-section");
+    const upwdocSelect = document.getElementById("upwdoc-select");
 
     // Add event listeners to the radio buttons
     cWage.addEventListener("change", function() {
@@ -810,16 +1366,61 @@
             w2Select.style.display = "none";
         }
     });
-
+    selfEmployed.addEventListener("change", function() {
+        if (this.checked) {
+            wdocSelect.style.display = "none";
+        }
+    });
+    selfEmployed.addEventListener("change", function() {
+        if (this.checked) {
+            longradioSection.style.display = "none";
+        }
+    });
+    selfEmployed.addEventListener("change", function() {
+        if (this.checked) {
+            upwdocSelect.style.display = "none";
+        }
+    });
     businessOwner.addEventListener("change", function() {
         if (this.checked) {
             w2Select.style.display = "none";
         }
     });
+    businessOwner.addEventListener("change", function() {
+        if (this.checked) {
+            wdocSelect.style.display = "none";
+        }
+    });
+    businessOwner.addEventListener("change", function() {
+        if (this.checked) {
+            longradioSection.style.display = "none";
+        }
+    });
+    businessOwner.addEventListener("change", function() {
+        if (this.checked) {
+            upwdocSelect.style.display = "none";
+        }
+    });
+
 
     eDisability.addEventListener("change", function() {
         if (this.checked) {
             w2Select.style.display = "none";
+        }
+    });
+    eDisability.addEventListener("change", function() {
+        if (this.checked) {
+            wdocSelect.style.display = "none";
+        }
+    });
+    eDisability.addEventListener("change", function() {
+        if (this.checked) {
+            longradioSection.style.display = "none";
+        }
+    });
+    eDisability.addEventListener("change", function() {
+        if (this.checked) {
+            upwdocSelect.style.display = "none";
         }
     });
 
@@ -828,11 +1429,238 @@
             w2Select.style.display = "none";
         }
     });
+    eRetired.addEventListener("change", function() {
+        if (this.checked) {
+            wdocSelect.style.display = "none";
+        }
+    });
+    eRetired.addEventListener("change", function() {
+        if (this.checked) {
+            longradioSection.style.display = "none";
+        }
+    });
+    eRetired.addEventListener("change", function() {
+        if (this.checked) {
+            upwdocSelect.style.display = "none";
+        }
+    });
+    w2Yes.addEventListener("change", function() {
+        if (this.checked) {
+            wdocSelect.style.display = "block";
+        }
+    });
+
+
+    w2No.addEventListener("change", function() {
+        if (this.checked) {
+            wdocSelect.style.display = "none";
+        }
+    });
+    w2Yes.addEventListener("change", function() {
+        if (this.checked) {
+            longradioSection.style.display = "none";
+        }
+    });
+
+
+    w2No.addEventListener("change", function() {
+        if (this.checked) {
+            longradioSection.style.display = "block";
+        }
+    });
+
+    irswageYes.addEventListener("change", function() {
+        if (this.checked) {
+            upwdocSelect.style.display = "none";
+        }
+    });
+
+
+    irswageNo.addEventListener("change", function() {
+        if (this.checked) {
+            upwdocSelect.style.display = "block";
+        }
+    });
+
 
     // By default, hide the select element
     w2Select.style.display = "none";
+    wdocSelect.style.display = "none";
+    longradioSection.style.display = "none";
+    upwdocSelect.style.display = "none";
     </script>
     <!-- ************** for client emp status ****************-->
+    <!-- :: Script for dependent select section -->
+    <script>
+    const dependentsYes = document.getElementById("dependents-yes");
+    const dependentsNo = document.getElementById("dependents-no");
+    const dependencycountSection = document.getElementById("dependencycount-section");
+    const dependentSections = document.getElementById("dependentSections");
+
+    dependentsYes.addEventListener("change", function() {
+        if (this.checked) {
+            dependencycountSection.style.display = "block";
+        }
+    });
+
+    dependentsNo.addEventListener("change", function() {
+        if (this.checked) {
+            dependencycountSection.style.display = "none";
+        }
+    });
+    dependentsNo.addEventListener("change", function() {
+        if (this.checked) {
+            dependentSections.style.display = "none";
+        }
+    });
+
+    dependencycountSection.style.display = "none";
+    </script>
+    <!-- Script for dependent select section end -->
+    <!-- :: script for count dependent section -->
+    <script>
+    $(document).ready(function() {
+        // Hide the dependent sections by default
+        $("#dependentSections").hide();
+
+        // Function to show/hide dependent sections based on the selected number of dependents
+        $("#count-depend").change(function() {
+            var selectedCount = parseInt($(this).val());
+            $("#dependentSections").empty();
+
+            for (var i = 1; i <= selectedCount; i++) {
+                var dependentSection = `
+                    <div class="form-section-divident text-left">
+                        <h6>Dependent ${i}</h6>
+                    </div>
+                    <!-- form dependency -->
+                    <div class="row dependency-form-control px-2">
+                        <!-- :: input 01 name -->
+                        <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 text-left">
+                            <div class="form-group">
+                                <label class="form-head" for="name"> Name </label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your Name" required="">
+                            </div>
+                        </div>
+                        <!-- :: input 02  -->
+                        <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 text-left">
+                            <div class="form-group">
+                                <label class="form-head" for="dob"> Date Of Birth </label>
+                                <input type="date" class="form-control" id="dob" placeholder="Enter your DOB" required="">
+                            </div>
+                        </div>
+                        <!-- :: input 03 -->
+                        <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 text-left">
+                            <div class="form-group">
+                                <label class="form-head" for="ssn"> SSN </label>
+                                <input type="text" class="form-control" id="ssn" placeholder="Enter SSN" required="">
+                            </div>
+                        </div>
+                        <!-- :: input 04 -->
+                        <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 text-left">
+                            <div class="form-group">
+                                <label class="form-head" for="Relationship"> Relationship </label>
+                                <input type="text" class="form-control" id="Relationship" placeholder="Enter Relationship" required="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left">
+                            <div class="form-group">
+                                <label class="form-head" for="documentupload"> Dependent  <small>(Upload Birth Certificate or SSN Card)</small> </label>
+                                <input type="file" class="form-control" id="document-upload" placeholder="Enter Relationship" accept="image/*" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left">
+                            <div class="form-group">
+                                <label class="form-head" for="uploadrelation"> Dependent  <small>(Upload School records or write a letter if not in school)</small> </label>
+                                <input type="file" class="form-control" id="up-relation" placeholder="Enter Relationship" accept="image/*" required>
+                            </div>
+                        </div>
+                        
+                    </div>
+                `;
+                $("#dependentSections").append(dependentSection);
+            }
+
+            if (selectedCount > 0) {
+                $("#dependentSections").show();
+            } else {
+                $("#dependentSections").hide();
+            }
+        });
+    });
+    </script>
+    <!-- :: script for stocks and bonds   -->
+    <script>
+    const stocksYes = document.getElementById("stocks-yes");
+    const stocksNo = document.getElementById("stocks-no");
+    const uploadStock = document.getElementById("upload-stock");
+
+    stocksYes.addEventListener("change", function() {
+        if (this.checked) {
+            uploadStock.style.display = "block";
+        }
+    });
+
+
+    stocksNo.addEventListener("change", function() {
+        if (this.checked) {
+            uploadStock.style.display = "none";
+        }
+    });
+
+    uploadStock.style.display = "none";
+    </script>
+    <!-- :: function for child care expenses  -->
+    <script>
+    const childcareYes = document.getElementById("childcare-yes");
+    const childcareNo = document.getElementById("childcare-no");
+    const childSections = document.getElementById("childSections");
+
+    childcareYes.addEventListener("change", function() {
+        if (this.checked) {
+            childSections.style.display = "block";
+        }
+    });
+    childcareNo.addEventListener("change", function() {
+        if (this.checked) {
+            childSections.style.display = "none";
+        }
+    });
+
+    childSections.style.display = "none";
+    </script>
+    <!-- function for child care expenses end here -->
+
+    <!-- :: health document input upload section  -->
+    <script>
+        const insuranceYes = document.getElementById("insurance-yes");
+        const insurancePartial = document.getElementById("insurance-partial");
+        const insuranceNo = document.getElementById("insurance-no");
+        const healthDoc = document.getElementById("health-doc");
+
+        insuranceYes.addEventListener("change", function() {
+            if (this.checked) {
+                healthDoc.style.display = "block";
+            }
+        });
+        insurancePartial.addEventListener("change", function() {
+            if (this.checked) {
+                healthDoc.style.display = "block";
+            }
+        });
+        insuranceNo.addEventListener("change", function() {
+            if (this.checked) {
+                healthDoc.style.display = "none";
+            }
+        });
+
+        healthDoc.style.display = "none";
+    </script>
+    <!-- health document input upload section end here -->
+
+
+
+
 
 </body>
 
