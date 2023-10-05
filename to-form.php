@@ -421,17 +421,17 @@
                                         <!-- :: input 01 -->
                                         <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 text-left">
                                             <div class="form-group">
-                                                <label class="form-head" for="Last Name"> Last Name : </label>
-                                                <input type="text" class="form-control" id="Last-Name"
-                                                    placeholder="Enter Last name" required>
+                                                <label class="form-head" for="FirstName"> First Name : </label>
+                                                <input type="text" class="form-control" id="First-Name"
+                                                    placeholder="Enter first name" required>
                                             </div>
                                         </div>
                                         <!-- :: input 02 -->
                                         <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 text-left">
                                             <div class="form-group">
-                                                <label class="form-head" for="FirstName"> First Name : </label>
+                                                <label class="form-head" for="lastName"> Last Name : </label>
                                                 <input type="text" class="form-control" id="First-Name"
-                                                    placeholder="Enter First name" required>
+                                                    placeholder="Enter last name" required>
                                             </div>
                                         </div>
                                         <!-- input 03 -->
@@ -479,7 +479,7 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="State"> State : </label>
                                                 <input type="text" class="form-control" id="S_tate"
-                                                    placeholder="Enter your city " required>
+                                                    placeholder="Enter your state " required>
                                             </div>
                                         </div>
                                         <!-- :: input 09 -->
@@ -493,10 +493,10 @@
                                         <!-- :: input 10 -->
                                         <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 text-left">
                                             <div class="form-group">
-                                                <label class="form-head" for="CountyOfResidence"> County Of Residence :
+                                                <label class="form-head" for="CountyOfResidence"> Country Of Residence :
                                                 </label>
                                                 <input type="text" class="form-control" id="County-Of-Residence"
-                                                    placeholder="Enter your  country " required>
+                                                    placeholder="Enter your residence country" required>
                                             </div>
                                         </div>
                                         <!-- :: input -->
@@ -504,8 +504,8 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="Rent-Or-Own">
                                                     Occupation </label>
-                                                <input type="text" class="form-control" id="Rent Or Own"
-                                                    placeholder="Rent or own" required>
+                                                <input type="text" class="form-control" id="Occupation"
+                                                    placeholder="Enter occupation" required>
                                             </div>
                                         </div>
                                         <!-- :: input -->
@@ -514,23 +514,23 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="Rent-Or-Own"> Rent Or Own eg. share rent,
                                                     live with relative, etc. : </label>
-                                                <input type="text" class="form-control" id="Rent Or Own"
+                                                <input type="text" class="form-control" id="Rent-Or-Own"
                                                     placeholder="Rent or own" required>
                                             </div>
                                         </div>
                                         <!-- :: input 13 -->
                                         <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left">
                                             <div class="form-group">
-                                                <label class="form-head" for="exampletext"> Primary Phone Number
+                                                <label class="form-head" for="PrimaryPhone"> Primary Phone Number
                                                 </label>
-                                                <input type="tel" class="form-control" id="exampleInputtext"
+                                                <input type="tel" class="form-control" id="Primaryphone"
                                                     placeholder="Enter your primary phone number" required>
                                             </div>
                                         </div>
                                         <!-- :: input 14 -->
                                         <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left">
                                             <div class="form-group">
-                                                <label class="form-head" for="exampletext"> Secondry Phone Number
+                                                <label class="form-head" for="secondryphone"> Secondry Phone Number
                                                 </label>
                                                 <input type="tel" class="form-control" id="exampleInputtext"
                                                     placeholder="Enter your secondary phone number" required>
@@ -545,7 +545,7 @@
                                         <!-- :: radio input for client filling status  -->
                                         <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-left  mt-4">
                                             <div class="form-group">
-                                                <label class="form-head" for="exampletext"> Client Filing Status</label>
+                                                <label class="form-head" for="client-f"> Client Filing Status</label>
                                                 <div class="d-flex flex-wrap">
                                                     <!-- :: radio 01 -->
                                                     <div class="form-check mx-3">
@@ -611,7 +611,7 @@
                                                 <!-- :: input 03 Occupation -->
                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
                                                     <div class="form-group">
-                                                        <label class="form-head" for="Occupation"> Occupation
+                                                        <label class="form-head" for="occupation"> Occupation
                                                         </label>
                                                         <input type="text" class="form-control" id="c_occupation"
                                                             placeholder="Enter occupation" required>
@@ -641,7 +641,7 @@
                                         <!-- :: radio input for employment filling status -->
                                         <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-left  mt-4">
                                             <div class="form-group">
-                                                <label class="form-head" for="exampletext"> Client Employment
+                                                <label class="form-head" for="client_emp"> Client Employment
                                                     Status</label>
                                                 <div class="d-flex flex-wrap">
                                                     <!-- :: radio 01 -->
@@ -688,7 +688,7 @@
                                         <!-- emp show hide -->
                                         <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left" id="w2-select">
                                             <div class="form-group">
-                                                <label class="form-head" for="exampletext"> Do you have your W2's
+                                                <label class="form-head" for="do-w2"> Do you have your W2's
                                                 </label>
                                                 <div class="form-check mx-3">
                                                     <label class="form-check-label">
@@ -708,7 +708,7 @@
                                         <!-- emp option 01 -->
                                         <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left" id="wdoc-select">
                                             <div class="form-group">
-                                                <label class="form-head" for="exampletext"> Upload your W2's
+                                                <label class="form-head" for="up-w2"> Upload your W2's
 
                                                 </label>
                                                 <input type="file" class="form-control" id="p-document"
@@ -767,7 +767,7 @@
                                         <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 mt-3 text-left "
                                             id="dependentsSectio">
                                             <div class="form-group">
-                                                <label class="form-head" for="exampletext"> Do you have any dependents;
+                                                <label class="form-head" for="have-dependent"> Do you have any dependents;
                                                     EXCLUDING yourself and your spouse? <br>
                                                     <small>(only include dependents that you claim on your tax
                                                         returns)</small>
@@ -823,7 +823,7 @@
                                         <!-- input radio  -->
                                         <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left">
                                             <div class="form-group">
-                                                <label class="form-head" for="exampletext">Did your marital status
+                                                <label class="form-head" for="m-stts">Did your marital status
                                                     change during the year?
                                                 </label>
                                                 <div class="form-check">
@@ -843,7 +843,7 @@
                                         <!-- input radio  -->
                                         <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left">
                                             <div class="form-group">
-                                                <label class="form-head" for="exampletext">Did your address change from
+                                                <label class="form-head" for="change-address">Did your address change from
                                                     last year?
                                                 </label>
                                                 <div class="form-check">
@@ -863,7 +863,7 @@
                                         <!-- input radio  -->
                                         <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left">
                                             <div class="form-group">
-                                                <label class="form-head" for="exampletext">Can you be claimed as a
+                                                <label class="form-head" for="claimed-taxpayer">Can you be claimed as a
                                                     dependent by another tax payer?
                                                 </label>
                                                 <div class="form-check">
@@ -883,7 +883,7 @@
                                         <!-- input radio  -->
                                         <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left">
                                             <div class="form-group">
-                                                <label class="form-head" for="exampletext">Did you take out a home
+                                                <label class="form-head" for="home-loan">Did you take out a home
                                                     equity loan this year?
                                                 </label>
                                                 <div class="form-check">
@@ -923,7 +923,7 @@
                                         <!-- input radio  -->
                                         <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left" id="upload-stock">
                                             <div class="form-group">
-                                                <label class="form-head" for="exampletext">Upload Form 1099-B
+                                                <label class="form-head" for="up-form">Upload Form 1099-B
                                                 </label>
                                                 <input type="file" class="form-control" id="stock-document"
                                                     name="policy-document" accept="image/*">
@@ -932,7 +932,7 @@
                                         <!-- input radio  -->
                                         <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left">
                                             <div class="form-group">
-                                                <label class="form-head" for="exampletext">Did you have any foreign
+                                                <label class="form-head" for="f-income">Did you have any foreign
                                                     income or pay any foreign taxes during the year?
                                                 </label>
                                                 <div class="form-check">
