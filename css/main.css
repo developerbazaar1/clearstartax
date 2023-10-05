@@ -309,6 +309,7 @@ input[type="checkbox"] {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
+  cursor: pointer;
 }
 
 input[type="date"],
@@ -2290,7 +2291,7 @@ textarea.form-control {
 .form-check-input {
   position: absolute;
   /* margin-top: 0.3rem; */
-  margin-top: 6px;
+  margin-top: 4px;
   margin-left: -1.25rem;
 }
 .cnt-pay-btn {
@@ -2309,9 +2310,9 @@ textarea.form-control {
   color: #6c757d;
 }
 
-.form-check-label {
+/* .form-check-label {
   margin-bottom: 0;
-}
+} */
 
 .form-check-inline {
   display: -webkit-inline-box;
@@ -18147,3 +18148,4 @@ h5.i-image{
 .t-start{
   text-align: start;
 }
+

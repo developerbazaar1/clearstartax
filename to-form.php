@@ -33,7 +33,7 @@
     <?php include 'include/header.php';?>
     <!-- ::header included end  -->
     <!-- ::main content start from here -->
-    <main class="app-content">
+    <main class="app-content pd-30">
         <!-- :: client information head -->
         <div class="app-title">
             <div class="user-dashboard-welcome">
@@ -546,7 +546,7 @@
                                         <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-left  mt-4">
                                             <div class="form-group">
                                                 <label class="form-head" for="client-f"> Client Filing Status</label>
-                                                <div class="d-flex flex-wrap">
+                                                <div class="d-flex flex-wrap flex-direction">
                                                     <!-- :: radio 01 -->
                                                     <div class="form-check mx-3">
                                                         <label class="form-check-label">
@@ -643,7 +643,7 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="client_emp"> Client Employment
                                                     Status</label>
-                                                <div class="d-flex flex-wrap">
+                                                <div class="d-flex flex-wrap flex-direction">
                                                     <!-- :: radio 01 -->
                                                     <div class="form-check mx-3">
                                                         <label class="form-check-label">

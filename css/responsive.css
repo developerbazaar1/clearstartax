@@ -290,8 +290,38 @@
 }
 /* 25-09 */
 #signature{
-width: 340px;
+width: 330px;
 height: 150px;
+}
+.t-end{
+    text-align: center;
+}
+.t-start{
+    text-align: center;
+    margin-top: 10px;
+}
+/* 05/10 */
+.pd-30{
+    padding: 30px;
+}
+.flex-direction{
+    flex-direction: column;
+}
+.form-section-highlite {
+    background: #30a8e3;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 3px;
+    padding: 3px 0;
+}
+.f-form-submit-btn {
+    /* background: #00aad8; */
+    color: #00aad8;
+    padding: 7px 90px 7px 90px;
+    font-size: 14px;
+    border: 1px solid #00aad8;
+    border-radius: 5px;
 }
     
 }
