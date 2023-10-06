@@ -331,79 +331,79 @@
                                                     Organizer For
                                                 </label>
                                                 <div class="d-flex flex-wrap">
-                                                    <div class="form-check mx-3">
+                                                    <div class="form-check mx-3 w-40px">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2022"
                                                                 type="radio" name="taxStatus" value="tax-year">2022
                                                         </label>
                                                     </div>
-                                                    <div class="form-check mx-3">
+                                                    <div class="form-check mx-3 w-40px">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2021"
                                                                 type="radio" name="taxStatus" value="tax-year1">2021
                                                         </label>
                                                     </div>
-                                                    <div class="form-check mx-3">
+                                                    <div class="form-check mx-3 w-40px">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2020"
                                                                 type="radio" name="taxStatus" value="tax-year2">2020
                                                         </label>
                                                     </div>
-                                                    <div class="form-check mx-3">
+                                                    <div class="form-check mx-3 w-40px">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2019"
                                                                 type="radio" name="taxStatus" value="tax-year3">2019
                                                         </label>
                                                     </div>
-                                                    <div class="form-check mx-3">
+                                                    <div class="form-check mx-3 w-40px">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2018"
                                                                 type="radio" name="taxStatus" value="tax-year4">2018
                                                         </label>
                                                     </div>
-                                                    <div class="form-check mx-3">
+                                                    <div class="form-check mx-3 w-40px">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2017"
                                                                 type="radio" name="taxStatus" value="tax-year5">2017
                                                         </label>
                                                     </div>
-                                                    <div class="form-check mx-3">
+                                                    <div class="form-check mx-3 w-40px">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2016"
                                                                 type="radio" name="taxStatus" value="tax-year6">2016
                                                         </label>
                                                     </div>
-                                                    <div class="form-check mx-3">
+                                                    <div class="form-check mx-3 w-40px">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2015"
                                                                 type="radio" name="taxStatus" value="tax-year7">2015
                                                         </label>
                                                     </div>
-                                                    <div class="form-check mx-3">
+                                                    <div class="form-check mx-3 w-40px">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2014"
                                                                 type="radio" name="taxStatus" value="tax-year8">2014
                                                         </label>
                                                     </div>
-                                                    <div class="form-check mx-3">
+                                                    <div class="form-check mx-3 w-40px">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2013"
                                                                 type="radio" name="taxStatus" value="tax-year9">2013
                                                         </label>
                                                     </div>
-                                                    <div class="form-check mx-3">
+                                                    <div class="form-check mx-3 w-40px">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2012"
                                                                 type="radio" name="taxStatus" value="tax-year10">2012
                                                         </label>
                                                     </div>
-                                                    <div class="form-check mx-3">
+                                                    <div class="form-check mx-3 w-40px">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2011"
                                                                 type="radio" name="taxStatus" value="tax-year11">2011
                                                         </label>
                                                     </div>
-                                                    <div class="form-check mx-4">
+                                                    <div class="form-check mx-3 w-40px">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2010"
                                                                 type="radio" name="taxStatus" value="tax-year12">2010
@@ -477,9 +477,61 @@
                                         <!-- :: input 08 -->
                                         <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 text-left">
                                             <div class="form-group">
-                                                <label class="form-head" for="State"> State : </label>
-                                                <input type="text" class="form-control" id="S_tate"
-                                                    placeholder="Enter your state " required>
+                                                <label class="form-head" for="State">State :</label>
+                                                <select class="form-control" id="State" required>
+                                                    <option value="">Select your state</option>
+                                                    <option value="Alabama">Alabama</option>
+                                                    <option value="Alaska">Alaska</option>
+                                                    <option value="Arizona">Arizona</option>
+                                                    <option value="Arkansas">Arkansas</option>
+                                                    <option value="California">California</option>
+                                                    <option value="Colorado">Colorado</option>
+                                                    <option value="Connecticut">Connecticut</option>
+                                                    <option value="Delaware">Delaware</option>
+                                                    <option value="Florida">Florida</option>
+                                                    <option value="Georgia">Georgia</option>
+                                                    <option value="Hawaii">Hawaii</option>
+                                                    <option value="Idaho">Idaho</option>
+                                                    <option value="Illinois">Illinois</option>
+                                                    <option value="Indiana">Indiana</option>
+                                                    <option value="Iowa">Iowa</option>
+                                                    <option value="Kansas">Kansas</option>
+                                                    <option value="Kentucky">Kentucky</option>
+                                                    <option value="Louisiana">Louisiana</option>
+                                                    <option value="Maine">Maine</option>
+                                                    <option value="Maryland">Maryland</option>
+                                                    <option value="Massachusetts">Massachusetts</option>
+                                                    <option value="Michigan">Michigan</option>
+                                                    <option value="Minnesota">Minnesota</option>
+                                                    <option value="Mississippi">Mississippi</option>
+                                                    <option value="Missouri">Missouri</option>
+                                                    <option value="Montana">Montana</option>
+                                                    <option value="Nebraska">Nebraska</option>
+                                                    <option value="Nevada">Nevada</option>
+                                                    <option value="New Hampshire">New Hampshire</option>
+                                                    <option value="New Jersey">New Jersey</option>
+                                                    <option value="New Mexico">New Mexico</option>
+                                                    <option value="New York">New York</option>
+                                                    <option value="North Carolina">North Carolina</option>
+                                                    <option value="North Dakota">North Dakota</option>
+                                                    <option value="Ohio">Ohio</option>
+                                                    <option value="Oklahoma">Oklahoma</option>
+                                                    <option value="Oregon">Oregon</option>
+                                                    <option value="Pennsylvania">Pennsylvania</option>
+                                                    <option value="Rhode Island">Rhode Island</option>
+                                                    <option value="South Carolina">South Carolina</option>
+                                                    <option value="South Dakota">South Dakota</option>
+                                                    <option value="Tennessee">Tennessee</option>
+                                                    <option value="Texas">Texas</option>
+                                                    <option value="Utah">Utah</option>
+                                                    <option value="Vermont">Vermont</option>
+                                                    <option value="Virginia">Virginia</option>
+                                                    <option value="Washington">Washington</option>
+                                                    <option value="West Virginia">West Virginia</option>
+                                                    <option value="Wisconsin">Wisconsin</option>
+                                                    <option value="Wyoming">Wyoming</option>
+                                                    <option value="Washington DC">Washington DC</option>
+                                                </select>
                                             </div>
                                         </div>
                                         <!-- :: input 09 -->
@@ -685,6 +737,7 @@
                                             </div>
                                         </div>
                                         <!-- :: radio for emp filling end -->
+
                                         <!-- emp show hide -->
                                         <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left" id="w2-select">
                                             <div class="form-group">
@@ -756,6 +809,978 @@
                                             </div>
                                         </div>
                                         <!-- emp show hide -->
+                                        <!-- self employed and business filling details fill on click radio -->
+                                        <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+                                            <div class="form-section-highlite mt-3">
+                                                <div>Client employeement status :Self employed / Busines owner </div>
+                                            </div>
+                                            <!-- inner row -->
+                                            <div class=" row ext-r">
+                                                <!-- business form start from here -->
+                                                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 mt-2 mb-2 dependency-tab"
+                                                    id="business-select" style="display: block;">
+                                                    <div class="form-section-divident text-left">
+                                                        <h6>Business Info </h6>
+                                                    </div>
+                                                    <div class="row dependency-form-control px-2">
+                                                        <!-- :: input 01 Name Of Business  -->
+                                                        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                            <div class="form-group">
+                                                                <label class="form-head" for="businessname">Name Of
+                                                                    Business </label>
+                                                                <input type="text" class="form-control"
+                                                                    id="business_name" placeholder="" required>
+                                                            </div>
+                                                        </div>
+                                                        <!-- :: input 02 Tax ID# (EIN) -->
+                                                        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                            <div class="form-group">
+                                                                <label class="form-head" for="tax-id"> Tax ID# (EIN)
+                                                                </label>
+                                                                <input type="text" class="form-control"
+                                                                    id="tax-identity" placeholder="" required>
+                                                            </div>
+                                                        </div>
+                                                        <!-- :: input 03Business Activity -->
+                                                        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                            <div class="form-group">
+                                                                <label class="form-head" for="business-ctivity">Business
+                                                                    Activity
+                                                                </label>
+                                                                <input type="text" class="form-control" id="b-activity"
+                                                                    placeholder="Enter occupation" required="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- :: input radio do you have a profit and loss statement  -->
+                                                <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left mt-3">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="p-statement">Do you have a profit
+                                                            and loss statement
+                                                        </label>
+                                                        <div class="form-check">
+                                                            <label class="form-check-label">
+                                                                <input class="form-check-input" id="profit-yes"
+                                                                    type="radio" name="p-statement" value="Yes">Yes
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <label class="form-check-label">
+                                                                <input class="form-check-input" id="profit-no"
+                                                                    type="radio" name="p-statement" value="No">No
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                 <!-- input radio do you have a profit and loss statement end  -->
+                                                <!-- ::input for document Upload Profit & Loss   -->
+                                                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left mt-3">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="profit-loss">
+                                                        Upload Profit & Loss Statement
+                                                        </label>
+                                                        <input type="file" class="form-control" id="profit-document"
+                                                            name="health-document" accept="image/*">
+                                                    </div>
+                                                </div>
+                                                <!-- ::input for document Upload Profit & Loss   -->
+                                                <!-- inputs for select plofit loss no -->
+                                                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 mt-2 mb-2 dependency-tab" id="profits-select" style="display: block;">
+                                            <div class="form-section-divident text-left mb-4">
+                                                <h6> If a question does not apply to you, put 0.</h6>
+                                            </div>
+                                            <div class="row profit-form-control px-2">
+                                                <!-- :: input 01 Accounting -->
+                                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="Accounting">Accounting </label>
+                                                        <input type="text" class="form-control" id="c-ccounting" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                <!-- :: input 02 Advertising -->
+                                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="advertising"> Advertising
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-advertising" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                <!-- :: input 03 Alarm/Security Installation -->
+                                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="alarm"> Alarm/Security Installation
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-alarm" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                <!-- :: input 04 Alarm/Security Monitoring -->
+                                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="a-monitor"> Alarm/Security Monitoring
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-monitor" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                <!-- :: input 05 Appraisal Fees -->
+                                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="appraisal"> Appraisal Fees
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-appraisal" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                <!-- :: input 06 Auto Truck Expenses -->
+                                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="auto-truck">Auto Truck Expenses
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-auto" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                <!-- :: input 07 Bad Debt Includes In Gross Income -->
+                                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="gross-debt">Bad Debt Includes In Gross Income
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-gross" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                <!-- :: input 08 Bank Service Charges -->
+                                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="bank-charge">Bank Service Charges
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-charge" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                <!-- :: input 09 Books, Subscrp & Publications -->
+                                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="book-publication">Books, Subscrp & Publications
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-publication" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                <!-- :: input 10 Client Misc. Gov. Fees Inc. In Income -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="misc-info">Client Misc. Gov. Fees Inc. In Income
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-misc" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                <!-- :: input 11 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="commission">Commission/Outside Services
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-commission" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                <!-- :: input 12 Credit Card Discount Fees -->
+                                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="credit-discount">
+                                                        Credit Card Discount Fees
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-discount" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 13 Credit Card Min Usage Fees -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="card-fee">Credit Card Min Usage Fees
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-usage" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 14 Depreciation From Prior Year Income Tax-->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="depreciation">Depreciation From Prior Year Income Tax
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-depreciation" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 15 Domain Name Registration  -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="d-name">Domain Name Registration 
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-domain" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 16 Dues & Membership  -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="membership">Dues & Membership
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-membership" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 17 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="education-expenses">Education Expenses
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-educt" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 18 Employee Benefits -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="employee-benefits">Employee Benefits
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-benefits" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 19 Employee/Customer Awards, Prices & Troph -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="awards-emp">Employee/Customer Awards, Prices & Trophy
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-awards" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 20 Entertainment  -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="e-entertainment ">Entertainment 
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-entertainments " placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 21 Equipment & Machinery Purchased -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="e-machinery">Equipment & Machinery Purchased
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-machinery" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 22 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="exhibit">Exhibit/Show
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-exhibit" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 23 Film & Developing -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="film-dev">Film & Developing
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-film" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 24 Flower & Cards -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="flower-cards">Flower & Cards
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-flower" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 25 Franchise Fees -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="franchise-fees">Franchise Fees
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-franchise" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 26 Fuel (For Trucking Business)  -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="fuel-buss">Fuel (For Trucking Business) 
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-fuel" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 27 Furniture & Fixtures  -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="furniture-fixtures ">Furniture & Fixtures 
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-fixture" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 28 Gift To Employee/Client  -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="client-gift">Gift To Employee/Client 
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-gift" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 29 Goodwill -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="goodwill">Goodwill
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-goodwill" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 30 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="graphic-design">Graphic Design Fees 
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-design" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 31 Home Office -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">Home Office
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-office" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 32 Hotel/Motel/Inn -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="hotel-motel">Hotel/Motel/Inn
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-motel" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 33 Insurance Bus. Interruption -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="insurance-interruption">Insurance Bus. Interruption
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-interrupt" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 34 Insurance For Employees -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="insurance-employees">Insurance For Employees
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="ci-emp" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 35 Insurance Liability -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">Insurance Liability
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-liability" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 36 Insurance (Other) -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="Insurance-other">Insurance (Other)
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-oth" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 37 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 38 Insurance Work. Comp -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="insurance-comp">Insurance Work. Company
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-comp" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 39 Internet Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="internet-services">Internet Services
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-int" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 40 Inventory Beginning Of The Year  -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="inventor-year ">Inventory Beginning Of The Year 
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-inv" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 41 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="breakage">Inventory Breakage/Spoilage Exp Unreturn 
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-breakage" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 42 Inventory Ending Of The Year  -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="Inventory">Inventory Ending Of The Year 
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-invent" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 43 Inventory Purchases  -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="inventory-purchases ">Inventory Purchases 
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-purchase" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 44 Inventory Theft/Loss -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="theft-loss">Inventory Theft/Loss
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-thef" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 45 IRA Regular Or SEP IRA Contributed Year -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="sep-ira">IRA Regular Or SEP IRA Contributed Year
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-sep" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 46 Landscaping -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="landscaping">Landscaping
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-landscaping" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 47 Laundry & Cleaning -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="laundry-cleaning">Laundry & Cleaning
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-laundry" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 48 Legal & Professional Services  -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="legal-professional">Legal & Professional Services 
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-professional" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 49 Licenses & Permits -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="l-permits">Licenses & Permits
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-permits" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 50 Licenses & Permits For Client Projects -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="client-permit">Licenses & Permits For Client Projects
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-perm" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 51 Locksmith/Keys/Lock Boxes -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="Locksmith">Locksmith/Keys/Lock Boxes
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-locksmith" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 52 Meals 50% Bus -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="meals">Meals 50% Bus
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-meals" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 53 Medical Insurance -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="medical-insurance">Medical Insurance
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-med" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 54 Mileage - Business-->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="mileage-bus">Mileage - Business
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="cbus-mileage" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 55 Moving Exp.-->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="moving">Moving Exp.
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-moving" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 56 Notary Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="notary">Notary Services
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-notary" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 57 Parking  -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="Parking">Parking
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-parking" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 58 Pension Plan -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="pension-plan">Pension Plan
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-pension" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 59 Pest Control -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="pest-control">Pest Control
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-pest" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 60 Postage & Delivery Freight/Shipping  -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="c-postage">Postage & Delivery Freight/Shipping 
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-postage" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 61 Printing/Reproductions  -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="reproductions">Printing/Reproductions 
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-reproductions" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 62 Promotional Exp. Products Or Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="promotional">Promotional Exp. Products Or Services
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-promo" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 63 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="business-location ">Rent Business Location 
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-location" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 64 Rent/Furniture -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="rent-f">Rent/Furniture
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-rf" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 65 Rent/Lease Auto And Or Truck -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="rent-lease">Rent/Lease Auto And Or Truck
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-lease" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 66 Rent/Lease P.O. Box/Storage -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="r-boxes">Rent/Lease P.O. Box/Storage
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-boxes" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 67 Rent/Lease Equipment -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="lease-equipment">Rent/Lease Equipment
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-equipment" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 68 Repair Building -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="repair-building">Repair Building
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="b-repair" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 69 Repair Equipment -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">Repair Equipment
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="r-equipment" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 71 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 72 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 73 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 74 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 75 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 76 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 77 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 78 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 79 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 80 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 81 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 82 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 83 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 84 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 85 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 86 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 87 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 88 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 89 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 90 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 91 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 92 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 93 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 94 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 95 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 96 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 97 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 98 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 99 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                                 <!-- :: input 100 Commission/Outside Services -->
+                                                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-head" for="">
+                                                            
+                                                        </label>
+                                                        <input type="text" class="form-control" id="c-" placeholder="" required>
+                                                    </div>
+                                                </div>
+                                               
+                                               
+                                            </div>
+                                        </div>
+                                                <!-- input for select profit loss no end here -->
+                                               
+                                                <!-- business form end here -->
+                                            </div>
+                                        </div>
+
+                                        <!-- self employed and business filling details fill on click radio emd here -->
 
                                         <!--:: section 02 start here -->
                                         <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
@@ -767,7 +1792,8 @@
                                         <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 mt-3 text-left "
                                             id="dependentsSectio">
                                             <div class="form-group">
-                                                <label class="form-head" for="have-dependent"> Do you have any dependents;
+                                                <label class="form-head" for="have-dependent"> Do you have any
+                                                    dependents;
                                                     EXCLUDING yourself and your spouse? <br>
                                                     <small>(only include dependents that you claim on your tax
                                                         returns)</small>
@@ -843,7 +1869,8 @@
                                         <!-- input radio  -->
                                         <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-left">
                                             <div class="form-group">
-                                                <label class="form-head" for="change-address">Did your address change from
+                                                <label class="form-head" for="change-address">Did your address change
+                                                    from
                                                     last year?
                                                 </label>
                                                 <div class="form-check">
@@ -1102,7 +2129,7 @@
                                                     <div class="form-group">
                                                         <label class="form-head" for="Amount"> Amount $</label>
                                                         <input type="text" class="form-control" id="input-Amount"
-                                                            placeholder="">
+                                                            placeholder="" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 02 Dob -->
@@ -1122,7 +2149,7 @@
                                                             in your house?
                                                         </label>
                                                         <input type="text" class="form-control" id="house-service"
-                                                            placeholder="">
+                                                            placeholder="" required>
                                                     </div>
                                                 </div>
                                                 <!-- :: input 04 Dob -->
@@ -1132,7 +2159,7 @@
                                                             provider
                                                         </label>
                                                         <input type="text" class="form-control" id="provider-name"
-                                                            placeholder="Enter Relationship" required="">
+                                                            placeholder="" required>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1167,7 +2194,7 @@
                                         <!--:: input health policy document upload  -->
                                         <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left" id="health-doc">
                                             <div class="form-group">
-                                                <label class="form-head" for="exampletext"> 
+                                                <label class="form-head" for="exampletext">
                                                     Upload all 1095 or proof of insurance
                                                 </label>
                                                 <input type="file" class="form-control" id="p-document"
@@ -1188,19 +2215,22 @@
                                         <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left">
                                             <div class="form-group">
                                                 <label class="form-head" for="FullName"> Print Full Name</label>
-                                                <input type="text" class="form-control" id="Full-Name" placeholder="Enter Full Name" required>
+                                                <input type="text" class="form-control" id="Full-Name"
+                                                    placeholder="Enter Full Name" required>
                                             </div>
                                         </div>
                                         <!-- input for print name   -->
                                         <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left">
                                             <div class="form-group">
                                                 <label class="form-head" for="FullName"> Date</label>
-                                                <input type="date" class="form-control" id="sub-date" placeholder="Select Date" required>
+                                                <input type="date" class="form-control" id="sub-date"
+                                                    placeholder="Select Date" required>
                                             </div>
                                         </div>
                                         <!-- signature pad -->
                                         <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" id="sig-pad">
-                                            <canvas id="signature" width="950" height="150" style="border: 1px solid rgb(221, 221, 221); touch-action: none;"></canvas>
+                                            <canvas id="signature" width="950" height="150"
+                                                style="border: 1px solid rgb(221, 221, 221); touch-action: none;"></canvas>
                                             <br>
                                             <button type="button" id="clear-signature">Clear</button>
                                         </div>
@@ -1633,28 +2663,28 @@
 
     <!-- :: health document input upload section  -->
     <script>
-        const insuranceYes = document.getElementById("insurance-yes");
-        const insurancePartial = document.getElementById("insurance-partial");
-        const insuranceNo = document.getElementById("insurance-no");
-        const healthDoc = document.getElementById("health-doc");
+    const insuranceYes = document.getElementById("insurance-yes");
+    const insurancePartial = document.getElementById("insurance-partial");
+    const insuranceNo = document.getElementById("insurance-no");
+    const healthDoc = document.getElementById("health-doc");
 
-        insuranceYes.addEventListener("change", function() {
-            if (this.checked) {
-                healthDoc.style.display = "block";
-            }
-        });
-        insurancePartial.addEventListener("change", function() {
-            if (this.checked) {
-                healthDoc.style.display = "block";
-            }
-        });
-        insuranceNo.addEventListener("change", function() {
-            if (this.checked) {
-                healthDoc.style.display = "none";
-            }
-        });
+    insuranceYes.addEventListener("change", function() {
+        if (this.checked) {
+            healthDoc.style.display = "block";
+        }
+    });
+    insurancePartial.addEventListener("change", function() {
+        if (this.checked) {
+            healthDoc.style.display = "block";
+        }
+    });
+    insuranceNo.addEventListener("change", function() {
+        if (this.checked) {
+            healthDoc.style.display = "none";
+        }
+    });
 
-        healthDoc.style.display = "none";
+    healthDoc.style.display = "none";
     </script>
     <!-- health document input upload section end here -->
 
