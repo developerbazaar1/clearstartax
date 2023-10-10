@@ -811,7 +811,7 @@
                                         <!-- self employed and business filling details fill on click radio -->
                                         <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12" id="long-select">
                                             <div class="form-section-highlite mt-3">
-                                                <div>Client employeement status :Self employed / Busines owner </div>
+                                                <div>Business Income & Expenses </div>
                                             </div>
                                             <!-- inner row -->
                                             <div class=" row ext-r">
