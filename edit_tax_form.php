@@ -52,109 +52,11 @@
                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center">
                     <!-- :: first tab start from here -->
                     <div class="f-tab-cnt">
-                        <h6>View your stored results below.</h6>
-                        <div class="mt-3">
-                            <a href="#" class="form-tab-switch-btn" id="switch-tab">Start New</a>
-                        </div>
-                        <!-- :: user form unfill fill detail show table start here -->
-                        <div class="table-responsive w-nowrap mt-4">
-                            <!-- :: table start here -->
-                            <table class="table table-hover">
-                                <!-- :: table head -->
-                                <thead>
-                                    <tr>
-                                        <th>Reference</th>
-                                        <th>Updated</th>
-                                        <th>What Tax Year Is This Organization</th>
-                                        <th>First Name</th>
-                                        <th>Last Name</th>
-                                        <th>Action</th>
-                                    </tr>
-                                </thead>
-                                <!--:: table head end -->
-                                <!-- table body start from here -->
-                                <tbody>
-                                    <tr>
-                                        <td>16695371 <img class="w-10px complete-table-status ml-1"
-                                                src="img/correct-image.png"> </td>
-                                        <td>2023-10-10</td>
-                                        <td>2023</td>
-                                        <td>Alfa</td>
-                                        <td>Beta</td>
-                                        <td>
-                                            <button class="btn-cssbuttons">
-                                                <span></span><span>
-                                                    <iconify-icon icon="jam:menu" width="40" height="40"></iconify-icon>
-                                                </span>
-                                                <ul>
-                                                    <li>
-                                                        <a href="edit_tax_form.php">
-                                                            <iconify-icon icon="akar-icons:edit" width="22" height="22">
-                                                            </iconify-icon>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <iconify-icon icon="ic:round-delete" style="color: #ff1818;"
-                                                                width="22" height="22"></iconify-icon>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <!--:: table row 02 -->
-                                    <tr>
-                                        <td>16695371 <img class="w-10px complete-table-status ml-1"
-                                                src="img/correct-image.png"> </td>
-                                        <td>2023-10-10</td>
-                                        <td>2023</td>
-                                        <td>Alfa</td>
-                                        <td>Beta</td>
-                                        <td>
-                                            <button class="btn-cssbuttons">
-                                                <span></span><span>
-                                                    <iconify-icon icon="jam:menu" width="40" height="40"></iconify-icon>
-                                                </span>
-                                                <ul>
-                                                    <li>
-                                                        <a href="edit_tax_form.php">
-                                                            <iconify-icon icon="akar-icons:edit" width="22" height="22">
-                                                            </iconify-icon>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <iconify-icon icon="ic:round-delete" style="color: #ff1818;"
-                                                                width="22" height="22"></iconify-icon>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    
-                                    <!-- <tr>
-                                        <td>16695371 <img class="w-10px complete-table-status ml-1"
-                                                src="img/correct-image.png"> </td>
-                                        <td>2023-10-11</td>
-                                        <td>Otto</td>
-                                        <td>theeta</td>
-                                        <td>gama</td>
-                                        <td><iconify-icon icon="akar-icons:edit" width="24" height="24"></iconify-icon></td>
-                                    </tr> -->
-                                </tbody>
-                            </table>
-                        </div>
-                        <!-- :: user form unfill fill detail show table end-->
-                    </div>
-                    <!-- :: first tab end -->
-                    <!-- :: second tab strat from here -->
-                    <div class="f-tab-cnt" id="tab2" style="display: none;">
+                    <div class="f-tab-cnt" id="tab2">
                         <div class="row">
                             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                                 <div class="float-left">
-                                    <a href="#" class="back-to-tab-one">
+                                    <a href="to-form.php" class="back-to-tab-one">
                                         <iconify-icon icon="solar:arrow-left-linear" style="color: black;" width="30"
                                             height="30">
                                         </iconify-icon>
@@ -266,8 +168,8 @@
                                                     </div>
                                                     <div class="form-check mx-3 w-40px">
                                                         <label class="form-check-label">
-                                                            <input class="form-check-input" id="options2011"
-                                                                type="radio" name="taxStatus" value="tax-year11">2011
+                                                            <input class="form-check-input " id="options2011"
+                                                                type="radio" name="taxStatus" value="tax-year11" checked>2011
                                                         </label>
                                                     </div>
                                                     <div class="form-check mx-3 w-40px">
@@ -290,7 +192,7 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="FirstName"> First Name : </label>
                                                 <input type="text" class="form-control" id="First-Name"
-                                                    placeholder="Enter first name" required>
+                                                    placeholder="Enter first name" value="Alfa" required>
                                             </div>
                                         </div>
                                         <!-- :: input 02 -->
@@ -298,7 +200,7 @@
                                             <div class="form-group">
                                                 <label class="form-head" for="lastName"> Last Name : </label>
                                                 <input type="text" class="form-control" id="First-Name"
-                                                    placeholder="Enter last name" required>
+                                                    placeholder="Enter last name" value="Beta" required>
                                             </div>
                                         </div>
                                         <!-- input 03 -->
@@ -2546,6 +2448,7 @@
                             </div>
                         </div>
                     </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -2573,41 +2476,6 @@
 
     });
     </script>
-
-    <!--tab switch function -->
-    <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        // Get references to the tabs and the switch button
-        const tab1 = document.querySelector(".f-tab-cnt");
-        const tab2 = document.getElementById("tab2");
-        const switchButton = document.getElementById("switch-tab");
-        const backButton = document.querySelector(".back-to-tab-one");
-
-        // Function to toggle between the two tabs
-        function toggleTabs() {
-            if (tab1.style.display === "block" || tab1.style.display === "") {
-                tab1.style.display = "none";
-                tab2.style.display = "block";
-            } else {
-                tab1.style.display = "block";
-                tab2.style.display = "none";
-            }
-        }
-
-        // Add a click event listener to the switch button
-        switchButton.addEventListener("click", function(e) {
-            e.preventDefault();
-            toggleTabs();
-        });
-
-        // Add a click event listener to the back link
-        backButton.addEventListener("click", function(e) {
-            e.preventDefault();
-            toggleTabs();
-        });
-    });
-    </script>
-
     <!-- ************** for dependent 01 ****************-->
     <script>
     // Get references to the radio buttons and the select element
