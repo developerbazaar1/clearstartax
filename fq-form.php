@@ -67,75 +67,8 @@
                                         <th>Updated</th>
                                         <th>Last Name</th>
                                         <th>First Name</th>
-                                        <th>Marital Status</th>
-                                        <th>Date Of Birth</th>
-                                        <th>SSN#</th>
-                                        <th>Street Address</th>
-                                        <th>Address Line 2</th>
-                                        <th>City</th>
-                                        <th>State</th>
-                                        <th>Zip Code</th>
-                                        <th>Rent Or Own (eg. share rent...)</th>
-                                        <th>County Of Residence</th>
-                                        <th>Primary Phone Number</th>
-                                        <th>2nd Contact Phone Number</th>
-                                        <th>Driver License #</th>
-                                        <th>Do you have any dependents;...</th>
-                                        <th>Client Employment Status</th>
-                                        <th>Cash on Hand Amount</th>
-                                        <th>How Many Bank Accounts Do You have</th>
-                                        <th>Bank 1 (Upload most recent)</th>
-                                        <th>Do You Have Any Investments</th>
-                                        <th>Can you take a loan against</th>
-                                        <th>How many type of investment</th>
-                                        <th>Do You Have Any Credit Cards?</th>
-                                        <th>Do You Have Life Insurance?</th>
-                                        <th>Do You Own Any Real Estate?</th>
-                                        <th>How Many Properties Do You have</th>
-                                        <th>Property 1</th>
-                                        <th>Do You Own A Motor Vehicle?</th>
-                                        <th>How Many Motor Vehicles Do you have</th>
-                                        <th>Do You Have Any Other Person</th>
-                                        <th>Interest/Dividends</th>
-                                        <th>Net Self-Employed/Business</th>
-                                        <th>Net Rental Income</th>
-                                        <th>Distribution</th>
-                                        <th>Social Security Income</th>
-                                        <th>Alimony Income</th>
-                                        <th>Retirement Income/ Pension</th>
-                                        <th>Other Income</th>
-                                        <th>Total Household Income</th>
-                                        <th>Total House Hold Income</th>
-                                        <th>It Looks Like You Or Your S..</th>
-                                        <th>Food, Clothing & Misc</th>
-                                        <th>Rent/Mortgage</th>
-                                        <th>Utilities</th>
-                                        <th>Vehicles Ownership Costs</th>
-                                        <th>Vehicles Operating Costs</th>
-                                        <th>Public Transportation</th>
-                                        <th>Health Insurance</th>
-                                        <th>Out of Pocket Health Costs</th>
-                                        <th>Court Ordered Payments</th>
-                                        <th>Child Care</th>
-                                        <th>Life Insurance</th>
-                                        <th>Taxes (Income & FICA)</th>
-                                        <th>Other Secure Debts</th>
-                                        <th>Other Secure Debts</th>
-                                        <th>Total Household Expense</th>
-                                        <th>Total Household Expense</th>
-                                        <th>Business Cash On Hand</th>
-                                        <th>Business Bank Account(s): P...</th>
-                                        <th>Are you able to provide a c...</th>
-                                        <th>Upload Most Recent Profit &...</th>
-                                        <th>Are you the beneficiary of ...</th>
-                                        <th>Are you currently in bankru...</th>
-                                        <th>Have you been party to a la...</th>
-                                        <th>In the past 10 years, have ...</th>
-                                        <th>In the past 3 year, have yo...</th>
-                                        <th>List the type of property a...</th>
-                                        <th>Print Full Name</th>
-                                        <th>Date</th>
-                                        <th>Signature</th>
+                                        <th>Action</th>
+                                        
                                     </tr>
                                 </thead>
                                 <!--:: table head end -->
@@ -146,75 +79,27 @@
                                         <td>Mark</td>
                                         <td>Otto</td>
                                         <td>@mdo</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
-                                        <td>....</td>
+                                        <td>
+                                            <button class="btn-cssbuttons">
+                                                <span></span><span>
+                                                    <iconify-icon icon="jam:menu" width="40" height="40"></iconify-icon>
+                                                </span>
+                                                <ul>
+                                                    <li>
+                                                        <a href="edit_fq_form.php">
+                                                            <iconify-icon icon="akar-icons:edit" width="22" height="22">
+                                                            </iconify-icon>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <iconify-icon icon="ic:round-delete" style="color: #ff1818;"
+                                                                width="22" height="22"></iconify-icon>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </button>
+                                        </td>
 
                                     </tr>
                                 </tbody>

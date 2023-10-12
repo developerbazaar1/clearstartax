@@ -649,12 +649,6 @@
                                 327329FDC802F068C4FEF87952B7E5D2;
                                 jsessionid=
                                 327329FDC802F068C4FEF87952B7E5D2;
-                                jsessionid=
-                                327329FDC802F068C4FEF87952B7E5D2;
-                                jsessionid=
-                                327329FDC802F068C4FEF87952B7E5D2;
-                                jsessionid=
-                                327329FDC802F068C4FEF87952B7E5D2
                             </a>
                         </td>
                     </tr>

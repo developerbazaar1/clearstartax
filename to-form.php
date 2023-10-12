@@ -65,7 +65,7 @@
                                     <tr>
                                         <th>Reference</th>
                                         <th>Updated</th>
-                                        <th>What Tax Year Is This Organization</th>
+                                        <th>What Tax Year Is This Organizer</th>
                                         <th>First Name</th>
                                         <th>Last Name</th>
                                         <th>Action</th>
@@ -133,7 +133,7 @@
                                             </button>
                                         </td>
                                     </tr>
-                                    
+
                                     <!-- <tr>
                                         <td>16695371 <img class="w-10px complete-table-status ml-1"
                                                 src="img/correct-image.png"> </td>
@@ -198,6 +198,12 @@
                                                     Organizer For
                                                 </label>
                                                 <div class="d-flex flex-wrap">
+                                                    <div class="form-check mx-3 w-40px">
+                                                        <label class="form-check-label">
+                                                            <input class="form-check-input" id="options2023"
+                                                                type="radio" name="taxStatus" value="tax-year">2023
+                                                        </label>
+                                                    </div>
                                                     <div class="form-check mx-3 w-40px">
                                                         <label class="form-check-label">
                                                             <input class="form-check-input" id="options2022"
