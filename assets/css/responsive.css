@@ -1,0 +1,415 @@
+/* For general responsiveness */
+@media screen and (max-width: 480px) {
+    
+
+}
+/* For iPhone 5 and 6/7/8 in portrait mode */
+@media screen and (max-width: 375px) {
+
+}
+@media screen and (max-width: 768px) {
+    .login-main-content {
+        background: linear-gradient(90deg,
+                rgba(115, 171, 179, 0.55) 64.95%,
+                rgba(115, 171, 179, 0) 100%),
+            url(../img/login-background.png);
+        object-fit: cover;
+        /* width: 100%; */
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    
+        .login-form {
+            width: 337px !important;
+            height: auto !important;
+            background: #fff;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+        }
+        
+    }
+    /* header */
+    .dashboard-brand {
+        width: 169.775px;
+        height: 38px;
+        margin-right: 37px;
+    }
+    .app-header__logo {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+        flex: 1 0 auto;
+        color: #fff;
+        text-align: center;
+        font-family: 'Niconne';
+        padding: 4px 15px 10px 15px;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 50px;
+    }
+    .app-header {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-color: #fff;
+        z-index: 1030;
+        padding-right: 15px;
+        box-shadow: 0px 1px 2px 0px rgba(36, 36, 36, 0.10);
+    }
+    .user-dashboard-welcome {
+        width: 100%;
+    }
+    .user-dashboard-welcome h1 {
+        color: #007899;
+        font-family: 'Source Serif 4', serif;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .user-dashboard-welcome h5 {
+        color: #00AAD8;
+        font-family: Poppins;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .user-dashboard-welcome p {
+        color: #00AAD8;
+        font-family: Poppins;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .app-title {
+        margin: -15px -15px 0px;
+        /* padding: 20px; */
+        padding: 20px 18px 20px 12px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+    .w-mb{
+        height: 30px;
+        width: 30px;
+    }
+    .d-none-sm {
+        display: none;
+    }
+    .mb-h-fitcontent{
+        height: fit-content;
+    }
+    .case-card-info p {
+        color: #000;
+        font-size: 10px;
+        /* font-style: normal; */
+        font-weight: 500;
+        line-height: normal;
+        margin: 10px 0px 10px 8px;
+    }
+    .mb-float-right{
+        float: right;
+    }
+    .alert-dismissible .close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 25px 15px;
+        color: inherit;
+    }
+    .db-card-text h5 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .db-card-text p {
+        font-size: 12px;
+    }
+    .mbmx-2{
+        margin-left: 0.5rem !important;
+        margin-right: 0.5rem !important;
+    }
+    .info-inner-link {
+        font-size: 11px;
+        /* white-space: nowrap; */
+     
+    }
+    .p-4 {
+        padding: 19px !important;
+    }
+    .mt-58 {
+        margin-top: 46px;
+    }
+    .mb-mx-0{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .alert {
+        position: relative;
+        padding: 10px 50px 10px 12px;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+    }
+    .case-status h2 {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 29px;
+    }
+    .alert-warning {
+        color: #000;
+        font-family: Poppins;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.27px;
+        border-radius: 20px;
+        border: 2px solid #00AAD8;
+        background: rgba(250, 255, 10, 0.22);
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
+.case-card-text h5 {
+    font-size: 14px;
+}
+.li-text {
+    color: #007899;
+    font-size: 14px;
+}
+    .mbmt-0{
+        margin-top: 0 !important;
+    }
+    .app-content {
+        margin-top: 60px;
+        min-width: 100%;
+    }
+    .list-unstyled, .app-nav, .app-menu, .treeview-menu {
+        padding-left: 0px;
+        list-style: none;
+        padding-right: 40px;
+    }
+    .app-menu__item {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        /*padding: 12px 15px;
+        */padding: 8px 15px 8px 0px;
+        font-size: 1.08em;
+        border-left: 3px solid transparent;
+        -webkit-transition: border-left-color 0.3s ease, background-color 0.3s ease;
+        -o-transition: border-left-color 0.3s ease, background-color 0.3s ease;
+        transition: border-left-color 0.3s ease, background-color 0.3s ease;
+        color: #fff;
+        border-radius: 0px 30px 30px 0px !important;
+        -webkit-border-radius: 0px 30px 30px 0px !important;
+        -moz-border-radius: 0px 30px 30px 0px !important;
+        -ms-border-radius: 0px 30px 30px 0px !important;
+        -o-border-radius: 0px 30px 30px 0px !important;
+}
+.app-sidebar__user {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* padding: 10px; */
+    /* padding: 39px 5px 22px 32px; */
+    padding: 45px 5px 22px 14px;
+    margin-bottom: 14px;
+    color: #fff;
+}
+.check-label {
+    color: #333;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5px !important;
+}
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 14px;
+    font-weight: 500;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    border: 0;
+    border-radius: 10px 10px 0px 0px;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+    -moz-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+    -ms-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+    -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+}
+.payment-info {
+    color: #333;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.calendar-cell {
+    /* border: 1px solid #ccc; */
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.calendar {
+    gap: 0px;
+}
+.br-right {
+    border-right: none;
+}
+.pl-4, .px-4 {
+    padding-left: 0.5rem !important;
+}
+.d-select-info {
+
+    flex-flow: wrap;
+}
+.submit-apt-btn{
+    float:none !important;
+    text-align:center !important;
+}
+    
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+/* -----------------------for tablet-------------------------- */
+/* For tablets in portrait mode */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .app-header {
+    display: flex;
+    background-color: #fff;
+    z-index: 1030;
+}
+.d-none-tab{
+    display:none;
+}
+.app-sidebar__toggle{
+    display:none;
+}
+.app-content {
+    min-height: calc(100vh - 50px);
+    margin-top: 82px;
+    /* padding: 30px; */
+    padding: 15px 40px 30px 40px;
+    /* padding: 15px 49px 10px 49px; */
+    /* background-color: #E5E5E5; */
+    background-color: #fafeff;
+    -webkit-transition: margin-left 0.3s ease;
+    -o-transition: margin-left 0.3s ease;
+    transition: margin-left 0.3s ease;
+}
+.app-header__logo {
+    padding: 1px 15px;
+}
+   
+}
+
+/* ipad  Portrait */
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+    .d-view-tab {
+    display: block !important;
+}
+.d-none-tab{
+    display:none;
+}
+.col-lg-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+}
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .d-view-tab {
+    display: block !important;
+}
+.d-none-tab{
+    display:none;
+}
+.col-lg-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+}
+/* For tablets in landscape mode */
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+   
+}
+
+/* ----------------------for high dpi -------------------------*/
+/* For devices with high pixel density (Retina displays, etc.) */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+   
+}
+
+/* ----------------------for print screen---------------------- */
+/* For print styles */
+@media print {
+   
+}
+/* -----------------------for bowser----------------------------- */
+/* For Firefox browsers */
+@-moz-document url-prefix() {
+    /* Styles for Firefox */
+}
+
+/* For Microsoft Edge */
+@supports (-ms-ime-align: auto) {
+    /* Styles for Microsoft Edge */
+}
+
+
+ 
+  
