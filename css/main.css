@@ -18258,3 +18258,235 @@ h5.i-image{
 .btn-cssbuttons:hover ul li:nth-child(3) a {
   transition-delay: 0.25s;
 }
+/* calander css */
+/* .calendar-container {
+  max-width: 300px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#calendarTitle {
+  margin: 0;
+  flex-grow: 1;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.calendar-cell {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.day-cell {
+  background-color: #f0f0f0;
+  font-weight: bold;
+} */
+.calendar-container {
+  /* max-width: 300px; */
+  margin: 20px auto;
+}
+
+.calendar-header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+#calendarTitle {
+  margin: 0;
+  font-size: 18px;
+  /* flex-grow: 1; */
+  text-transform: capitalize;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.calendar-cell {
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.day-cell {
+  /* background-color: #f0f0f0; */
+  border-bottom: 1px solid #000;
+  font-weight: bold;
+}
+.selected-date {
+  background-color: #a0d3ff; /* Change this color to your desired highlight color */
+  color: white;
+  font-weight: bold;
+  border-radius: 12px;
+}
+
+.br-right{
+  border-right: 2px solid #bababa;
+}
+button.select-time-btn {
+  border: 1px solid #000;
+  width: 100%;
+  color: #000;
+  border-radius: 8px;
+ 
+}
+button.select-time-btn:hover {
+  border: 1px solid #00AAFD;
+  width: 100%;
+  color: #00aafd;
+  border-radius: 8px;
+  background: #f0f0f0
+ 
+}
+ul.time-btn-list {
+  list-style: none;
+  padding: 0;
+}
+.d-select-info {
+  border-bottom: 2px solid #000;
+}
+button.button-apt-confirm {
+  border: 1px solid #00aad8;
+  padding: 8px 40px;
+  border-radius: 10px;
+  background: #00aad8;
+  color: #fff;
+}
+button.button-apt-confirm:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.weekend {
+  background-color: lightcoral; /* Light red background for Saturday and Sunday */
+  cursor: not-allowed; /* Prevent selection of Saturday and Sunday */
+}
+/* blog card */
+
+.card-container-sec {
+  height: 426px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin: auto;
+  box-shadow: 0 2px 20px rgba(0,0,0, 0.1);
+  overflow: hidden;
+}
+
+.card-image img {
+  height: 170px;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  background-size: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 16px;
+  min-height: 200px;
+}
+
+.card-badge {
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 70px;
+  margin: 0;
+  font-size: 12px;
+}
+
+.card-badge-blue {
+  background-color: #92d4e4;
+}
+
+.card-badge-purple {
+  background-color: #3d1d94;
+}
+
+.card-badge-pink {
+  background-color: #c62bcb;
+}
+
+.card-body h1 {
+  font-size: 24px;
+  margin: 8px 0;
+}
+
+.card-body p {
+  font-size: 14px;
+}
+
+.card-author {
+  display: flex;
+  align-items: center;
+}
+
+.card-author p {
+  font-size: 12px;
+}
+
+.card-author p:last-child {
+  color: #888;
+}
+
+.card-author img {
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  margin-top: auto;
+}
+.card-news-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+.rm-link {
+  color: #00aad8;
+  text-decoration: none;
+  position: relative;
+}
+
+.rm-link .icon-arrow {
+  transition: transform 0.3s ease; /* Adding a smooth transition effect for the icon */
+  display: inline-block;
+  margin-left: 5px; /* Adjust the margin as needed */
+}
+
+.rm-link:hover .icon-arrow {
+  transform: translateX(5px); /* Move the icon 5px to the right on hover */
+}

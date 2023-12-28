@@ -105,7 +105,7 @@
                         <td class="value" id=""><a href="mailto:info@clearstarttax.com"
                                 class="email">info@clearstarttax.com</a></td>
                     </tr>
-                    <!-- ::  First Name-->
+                    <!-- ::  What Tax Year-->
                     <tr>
                         <td class="field" id="">What Tax Year Is This Organizer For </td>
                         <td class="value" id="">2023</td>
@@ -230,17 +230,17 @@
                         <td class="field" id="">Client Employment Status</td>
                         <td class="value" id=""> Self-Employed (1099, Sole Prop)</td>
                     </tr>
-                    <!-- ::  Client Employment Status-->
+                    <!-- ::  Do you have your W2's-->
                     <tr>
                         <td class="field" id="">Do you have your W2's</td>
                         <td class="value" id="">yes</td>
                     </tr>
-                    <!-- ::  Client Employment Status-->
+                    <!-- ::  Upload your W2's-->
                     <tr>
                         <td class="field" id="">Upload your W2's</td>
                         <td class="value" id=""><a href="#" class="link-text">document.png</a></td>
                     </tr>
-                    <!-- ::  Client Employment Status-->
+                    <!-- ::  We can file back year returns-->
                     <tr>
                         <td class="field" id="">We can file back year returns based on IRS wage and income. Note, this
                             will not include any state withholdings, so state returns will show higher balance. If you
@@ -249,7 +249,7 @@
                             IRS wage and income</td>
                         <td class="value" id="">yes</td>
                     </tr>
-                    <!-- ::  Client Employment Status-->
+                    <!-- ::  You Will Need To Upload your W2's-->
                     <->
                         <td class="field" id="">You Will Need To Upload your W2's</td>
                         <td class="value" id=""><a href="#" class="link-text">document.png</a></td>
