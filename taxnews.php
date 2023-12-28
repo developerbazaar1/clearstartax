@@ -47,9 +47,9 @@
 				<div class="row justify-content-center">
 					<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
 						<!-- heading for tax  -->
-						<div class="case-status upload-doc-head text-center ">
-							<h2>Tax News </h2>
-						</div>
+						<div class="form-name-highlite">
+                                    <h5 class="i-image"><strong>Tax News</strong></h5>
+                                </div>
 					</div>
 				</div>
 			</section>
@@ -68,7 +68,7 @@
 										<p class="post-timestamp mb-0">November 22nd, 2023</p>
 									</div>
 									<div class="read-more mt-2">
-										<a href="#" class="rm-link">Read more <iconify-icon class="icon-arrow" icon="bi:arrow-right" style="color: #00aad8;vertical-align: middle;" width="20" height="20"></iconify-icon>
+										<a href="article-detail.php" class="rm-link">Read more <iconify-icon class="icon-arrow" icon="bi:arrow-right" style="color: #00aad8;vertical-align: middle;" width="20" height="20"></iconify-icon>
 										</a>
 									</div>
 								</div>
@@ -123,6 +123,8 @@
 							</div>
 						</div>
 					</div>
+                    <!-- for pagination -->
+                    <!-- for pagination -->
 				</div>
 			</section>
 		</main>
