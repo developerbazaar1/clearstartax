@@ -18398,6 +18398,7 @@ button.button-apt-confirm:hover {
 
 .card-container-sec {
   /* height: 426px; */
+  width: 22vw;
   background-color: #fff;
   border-radius: 8px;
   margin: auto;
