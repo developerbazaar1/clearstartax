@@ -17,6 +17,7 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<!-- :: Responsive css -->
 		<link rel="stylesheet" href="css/responsive.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
 		<!-- :: dropify css -->
 		<link rel="stylesheet" type="text/css" href="css/dropify.min.css">
 		<!-- :: Font-icon css-->
@@ -34,52 +35,161 @@
 				<div class="row news-card-row">
 					<div class="col-md-12">
 						<div class="article-detail">
-                            <!-- news article heading with details sub heading -->
-                            <!-- news article heading -->
+							<!-- news article heading with details sub heading -->
+							<!-- news article heading -->
 							<div class="news-article-head mt-0 mb-5">
 								<h1>IRS Postpones Controversial Reporting Rule for Third-Party Platform Transactions</h1>
 							</div>
-                            <!-- news article banner image -->
-                            <div class="article-banner">
-                                <img class="article-banner-img" src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1%22%20class=%22attachment-full%20size-full%20wp-post-image%20lazyautosizes%20ls-is-cached%20lazyloaded%22%20alt=%22third-party-platforms%22%20srcset=%22https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1%20200w,%20https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1%20300w,%20https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1%20400w,%20https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1%20600w,%20https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1%20768w,%20https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1%20800w%22%20data-orig-src=%22https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1%22%20data-srcset=%22https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1%20200w,%20https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1%20300w,%20https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1%20400w,%20https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1%20600w,%20https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1%20768w,%20https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1%20800w"/>
-                            </div>
-                            <!-- news article content -->
-                            <div class="news-content mt-4">
-                                <p>In a recent announcement, the IRS has decided to postpone a contentious tax reporting requirement targeting individuals who earned more than $600 through third-party payment platforms like Venmo or PayPal. Originally slated to take effect in 2023, this rule change, approved under the American Rescue Plan, would have compelled platforms to send Form 1099-K to both the IRS and users if their transactions exceeded $600 in a year.</p>
-                                <!-- sub head -->
-                                <p class="news-content-shead mt-3 mb-3">New Transition Year:</p>
-                                <p>The IRS has declared 2023 as an “additional transition year.” This means that third-party payment platforms won’t be obligated to send users Form 1099-K unless their gross income surpasses $20,000 or they engage in 200 separate transactions within a calendar year. Starting in 2024, the basic reporting threshold will see a significant increase from $600 to $5,000.</p>
-                                <!-- sub head -->
-                                <p class="news-content-shead mt-3 mb-3 ">Phased-In Approach:</p>
-                                <p>IRS Commissioner Danny Werfel emphasized the phased-in approach as a measure to ensure smooth tax administration and prevent unnecessary confusion. This marks the second consecutive delay in implementing the reporting threshold.</p>
-                                <!-- sub head -->
-                                <p class="news-content-shead mt-m mb-3">Scope and Exclusions:</p>
-                                <p>The reporting rule specifically pertains to payments received for goods and services transactions. Excluded from this rule are personal transactions, such as reimbursing friends, sending gifts, or paying rent to your roommate using platforms like Venmo or PayPal. Moreover, individuals receiving money from selling personal items at a loss are also exempt.</p>
-                                <!-- sub head -->
-                                <p class="news-content-shead mt3 mb-3">Original Intent and Criticisms:</p>
-                                <p>Initially designed to address tax evasion issues, the rule has faced criticism for potential government overreach. Critics argue that it may adversely impact small businesses, as the IRS would determine income on cash apps irrespective of what individuals report on their 1099-K.</p>
-                                <p>Form 1099-K and Exclusions:</p>
-                                <p>Form 1099-K is utilized to report goods and services payments received in a calendar year. However, certain exclusions from gross income, such as amounts from selling personal items at a loss, reimbursements, and gifts, are not subject to income tax.</p>
-                                <!-- sub head -->
-                                <p class="news-content-shead mt-3 mb-3">Impact on Online Earners:</p>
-                                <p>Once implemented, the lower reporting threshold could affect millions of Americans engaged in online income activities. According to Pew Research Center, approximately one in four Americans earns additional income online through various means.</p>
-                                <p class="news-content-shead mt-3 mb-3">Conclusion:</p>
-                                <p>The IRS decision to delay the reporting threshold acknowledges the need for additional time for effective implementation. As the situation evolves, it’s crucial for taxpayers and businesses to stay informed about these changes to ensure compliance and avoid unnecessary complications.</p>
-                                <p>For more details and expert advice tailored to your situation, connect with our specialists here or call <a class="article-cnt" href="tel:888-235-0004">888-235-0004</a>. Stay updated and navigate the evolving landscape of online transactions and tax regulations.</p>
-                            </div>
+							<!-- news article banner image -->
+							<div class="article-banner">
+								<img class="article-banner-img" src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1%22%20class=%22attachment-full%20size-full%20wp-post-image%20lazyautosizes%20ls-is-cached%20lazyloaded%22%20alt=%22third-party-platforms%22%20srcset=%22https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1%20200w,%20https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1%20300w,%20https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1%20400w,%20https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1%20600w,%20https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1%20768w,%20https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1%20800w%22%20data-orig-src=%22https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1%22%20data-srcset=%22https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1%20200w,%20https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1%20300w,%20https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1%20400w,%20https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1%20600w,%20https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1%20768w,%20https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1%20800w" />
+							</div>
+							<!-- news article content -->
+							<div class="news-content mt-4">
+								<p>In a recent announcement, the IRS has decided to postpone a contentious tax reporting requirement targeting individuals who earned more than $600 through third-party payment platforms like Venmo or PayPal. Originally slated to take effect in 2023, this rule change, approved under the American Rescue Plan, would have compelled platforms to send Form 1099-K to both the IRS and users if their transactions exceeded $600 in a year.</p>
+								<!-- sub head -->
+								<p class="news-content-shead mt-3 mb-3">New Transition Year:</p>
+								<p>The IRS has declared 2023 as an “additional transition year.” This means that third-party payment platforms won’t be obligated to send users Form 1099-K unless their gross income surpasses $20,000 or they engage in 200 separate transactions within a calendar year. Starting in 2024, the basic reporting threshold will see a significant increase from $600 to $5,000.</p>
+								<!-- sub head -->
+								<p class="news-content-shead mt-3 mb-3 ">Phased-In Approach:</p>
+								<p>IRS Commissioner Danny Werfel emphasized the phased-in approach as a measure to ensure smooth tax administration and prevent unnecessary confusion. This marks the second consecutive delay in implementing the reporting threshold.</p>
+								<!-- sub head -->
+								<p class="news-content-shead mt-m mb-3">Scope and Exclusions:</p>
+								<p>The reporting rule specifically pertains to payments received for goods and services transactions. Excluded from this rule are personal transactions, such as reimbursing friends, sending gifts, or paying rent to your roommate using platforms like Venmo or PayPal. Moreover, individuals receiving money from selling personal items at a loss are also exempt.</p>
+								<!-- sub head -->
+								<p class="news-content-shead mt3 mb-3">Original Intent and Criticisms:</p>
+								<p>Initially designed to address tax evasion issues, the rule has faced criticism for potential government overreach. Critics argue that it may adversely impact small businesses, as the IRS would determine income on cash apps irrespective of what individuals report on their 1099-K.</p>
+								<p>Form 1099-K and Exclusions:</p>
+								<p>Form 1099-K is utilized to report goods and services payments received in a calendar year. However, certain exclusions from gross income, such as amounts from selling personal items at a loss, reimbursements, and gifts, are not subject to income tax.</p>
+								<!-- sub head -->
+								<p class="news-content-shead mt-3 mb-3">Impact on Online Earners:</p>
+								<p>Once implemented, the lower reporting threshold could affect millions of Americans engaged in online income activities. According to Pew Research Center, approximately one in four Americans earns additional income online through various means.</p>
+								<p class="news-content-shead mt-3 mb-3">Conclusion:</p>
+								<p>The IRS decision to delay the reporting threshold acknowledges the need for additional time for effective implementation. As the situation evolves, it’s crucial for taxpayers and businesses to stay informed about these changes to ensure compliance and avoid unnecessary complications.</p>
+								<p>For more details and expert advice tailored to your situation, connect with our specialists here or call <a class="article-cnt" href="tel:888-235-0004">888-235-0004</a>. Stay updated and navigate the evolving landscape of online transactions and tax regulations. </p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-            <!-- section for other related article news article  -->
-            <section class="related article section">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                    <div class="carousel-wrap">
-
-                    </div>
-                </div>
-            </section>
+			<!-- section for other related article news article  -->
+			<section class="related article section">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+						<div class="carousel-wrap">
+                        <div id="news-slider" class="owl-carousel">
+											<div class="card-container-sec">
+												<div class="card-image">
+													<img src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" class="attachment-full size-full wp-post-image lazyautosizes ls-is-cached lazyloaded" alt="third-party-platforms" srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" data-orig-src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" data-srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" alt="a brand new sports car" />
+													<a href="#" class="over-layer">
+														<i class="fa fa-link"></i>
+													</a>
+												</div>
+												<div class="card-body">
+													<h1> IRS Postpones Controversial Reporting Rule for Third-Party Platform Transactions </h1>
+													<div class="card-author mt-2">
+														<p class="post-timestamp mb-0">November 22nd, 2023</p>
+													</div>
+													<div class="read-more mt-2">
+														<a href="article-detail.php" class="rm-link">Read more <iconify-icon class="icon-arrow" icon="bi:arrow-right" style="color: #00aad8;vertical-align: middle;" width="20" height="20"></iconify-icon>
+														</a>
+													</div>
+												</div>
+											</div>
+											<div class="card-container-sec">
+												<div class="card-image">
+													<img src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" class="attachment-full size-full wp-post-image lazyautosizes ls-is-cached lazyloaded" alt="third-party-platforms" srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" data-orig-src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" data-srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" alt="a brand new sports car" />
+													<a href="#" class="over-layer">
+														<i class="fa fa-link"></i>
+													</a>
+												</div>
+												<div class="card-body">
+													<h1> IRS Postpones Controversial Reporting Rule for Third-Party Platform Transactions </h1>
+													<div class="card-author mt-2">
+														<p class="post-timestamp mb-0">November 22nd, 2023</p>
+													</div>
+													<div class="read-more mt-2">
+														<a href="article-detail.php" class="rm-link">Read more <iconify-icon class="icon-arrow" icon="bi:arrow-right" style="color: #00aad8;vertical-align: middle;" width="20" height="20"></iconify-icon>
+														</a>
+													</div>
+												</div>
+											</div>
+											<div class="card-container-sec">
+												<div class="card-image">
+													<img src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" class="attachment-full size-full wp-post-image lazyautosizes ls-is-cached lazyloaded" alt="third-party-platforms" srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" data-orig-src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" data-srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" alt="a brand new sports car" />
+													<a href="#" class="over-layer">
+														<i class="fa fa-link"></i>
+													</a>
+												</div>
+												<div class="card-body">
+													<h1> IRS Postpones Controversial Reporting Rule for Third-Party Platform Transactions </h1>
+													<div class="card-author mt-2">
+														<p class="post-timestamp mb-0">November 22nd, 2023</p>
+													</div>
+													<div class="read-more mt-2">
+														<a href="article-detail.php" class="rm-link">Read more <iconify-icon class="icon-arrow" icon="bi:arrow-right" style="color: #00aad8;vertical-align: middle;" width="20" height="20"></iconify-icon>
+														</a>
+													</div>
+												</div>
+											</div>
+											<div class="card-container-sec">
+												<div class="card-image">
+													<img src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" class="attachment-full size-full wp-post-image lazyautosizes ls-is-cached lazyloaded" alt="third-party-platforms" srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" data-orig-src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" data-srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" alt="a brand new sports car" />
+													<a href="#" class="over-layer">
+														<i class="fa fa-link"></i>
+													</a>
+												</div>
+												<div class="card-body">
+													<h1> IRS Postpones Controversial Reporting Rule for Third-Party Platform Transactions </h1>
+													<div class="card-author mt-2">
+														<p class="post-timestamp mb-0">November 22nd, 2023</p>
+													</div>
+													<div class="read-more mt-2">
+														<a href="article-detail.php" class="rm-link">Read more <iconify-icon class="icon-arrow" icon="bi:arrow-right" style="color: #00aad8;vertical-align: middle;" width="20" height="20"></iconify-icon>
+														</a>
+													</div>
+												</div>
+											</div>
+											<div class="card-container-sec">
+												<div class="card-image">
+													<img src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" class="attachment-full size-full wp-post-image lazyautosizes ls-is-cached lazyloaded" alt="third-party-platforms" srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" data-orig-src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" data-srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" alt="a brand new sports car" />
+													<a href="#" class="over-layer">
+														<i class="fa fa-link"></i>
+													</a>
+												</div>
+												<div class="card-body">
+													<h1> IRS Postpones Controversial Reporting Rule for Third-Party Platform Transactions </h1>
+													<div class="card-author mt-2">
+														<p class="post-timestamp mb-0">November 22nd, 2023</p>
+													</div>
+													<div class="read-more mt-2">
+														<a href="article-detail.php" class="rm-link">Read more <iconify-icon class="icon-arrow" icon="bi:arrow-right" style="color: #00aad8;vertical-align: middle;" width="20" height="20"></iconify-icon>
+														</a>
+													</div>
+												</div>
+											</div>
+											<div class="card-container-sec">
+												<div class="card-image">
+													<img src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" class="attachment-full size-full wp-post-image lazyautosizes ls-is-cached lazyloaded" alt="third-party-platforms" srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" data-orig-src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" data-srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" alt="a brand new sports car" />
+													<a href="#" class="over-layer">
+														<i class="fa fa-link"></i>
+													</a>
+												</div>
+												<div class="card-body">
+													<h1> IRS Postpones Controversial Reporting Rule for Third-Party Platform Transactions </h1>
+													<div class="card-author mt-2">
+														<p class="post-timestamp mb-0">November 22nd, 2023</p>
+													</div>
+													<div class="read-more mt-2">
+														<a href="article-detail.php" class="rm-link">Read more <iconify-icon class="icon-arrow" icon="bi:arrow-right" style="color: #00aad8;vertical-align: middle;" width="20" height="20"></iconify-icon>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+						</div>
+					</div>
+			</section>
 		</main>
 		<!--::alert for doc update -->
 		<!--:: alert for successfull pay end here -->
@@ -91,32 +201,24 @@
 		<script src="js/main.js"></script>
 		<script src="js/plugins/pace.min.js"></script>
 		<script src="js/plugins/dropify.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 		<script>
 			$('.dropify').dropify();
 		</script>
-        <script>
-            $('.owl-carousel').owlCarousel({
-  loop: true,
-  margin: 10,
-  nav: true,
-  navText: [
-    "<i class='fa fa-caret-left'></i>",
-    "<i class='fa fa-caret-right'></i>"
-  ],
-  autoplay: true,
-  autoplayHoverPause: true,
-  responsive: {
-    0: {
-      items: 1
-    },
-    600: {
-      items: 3
-    },
-    1000: {
-      items: 5
-    }
-  }
-})
-        </script>
+		<script>
+			$(document).ready(function() {
+				$("#news-slider").owlCarousel({
+					items: 3,
+					itemsDesktop: [1199, 3],
+					itemsDesktopSmall: [980, 2],
+					itemsMobile: [600, 1],
+					navigation: true,
+					navigationText: ["", ""],
+					pagination: true,
+					autoPlay: true
+				});
+			});
+			s
+		</script>
 	</body>
 </html>
