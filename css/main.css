@@ -18540,9 +18540,13 @@ p.news-content-shead {
 .card-container-sec .card-image {
   position: relative;
   overflow: hidden;
-  border-radius: 10px;
-  /* margin: -12px 15px 8px 15px; */
-  margin-left: -10px;
+  border-radius: 8px 8px 0px 0px;
+  /*margin: -12px 15px 8px 15px;
+  */margin-left: -10px;
+  -webkit-border-radius: 8px 8px 0px 0px;
+  -moz-border-radius: 8px 8px 0px 0px;
+  -ms-border-radius: 8px 8px 0px 0px;
+  -o-border-radius: 8px 8px 0px 0px;
 }
 .card-container-sec .card-image img {
   width: 100%;

@@ -75,118 +75,123 @@
 			<!-- section for other related article news article  -->
 			<section class="related article section">
 				<div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 mt-5 mb-0">
+                    <div class="form-name-highlite">
+                                    <h5 class="i-image"><strong> Related Tax News post</strong></h5>
+                                </div>
+                    </div>
 					<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
 						<div class="carousel-wrap">
-                        <div id="news-slider" class="owl-carousel">
-											<div class="card-container-sec">
-												<div class="card-image">
-													<img src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" class="attachment-full size-full wp-post-image lazyautosizes ls-is-cached lazyloaded" alt="third-party-platforms" srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" data-orig-src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" data-srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" alt="a brand new sports car" />
-													<a href="#" class="over-layer">
-														<i class="fa fa-link"></i>
-													</a>
-												</div>
-												<div class="card-body">
-													<h1> IRS Postpones Controversial Reporting Rule for Third-Party Platform Transactions </h1>
-													<div class="card-author mt-2">
-														<p class="post-timestamp mb-0">November 22nd, 2023</p>
-													</div>
-													<div class="read-more mt-2">
-														<a href="article-detail.php" class="rm-link">Read more <iconify-icon class="icon-arrow" icon="bi:arrow-right" style="color: #00aad8;vertical-align: middle;" width="20" height="20"></iconify-icon>
-														</a>
-													</div>
-												</div>
-											</div>
-											<div class="card-container-sec">
-												<div class="card-image">
-													<img src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" class="attachment-full size-full wp-post-image lazyautosizes ls-is-cached lazyloaded" alt="third-party-platforms" srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" data-orig-src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" data-srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" alt="a brand new sports car" />
-													<a href="#" class="over-layer">
-														<i class="fa fa-link"></i>
-													</a>
-												</div>
-												<div class="card-body">
-													<h1> IRS Postpones Controversial Reporting Rule for Third-Party Platform Transactions </h1>
-													<div class="card-author mt-2">
-														<p class="post-timestamp mb-0">November 22nd, 2023</p>
-													</div>
-													<div class="read-more mt-2">
-														<a href="article-detail.php" class="rm-link">Read more <iconify-icon class="icon-arrow" icon="bi:arrow-right" style="color: #00aad8;vertical-align: middle;" width="20" height="20"></iconify-icon>
-														</a>
-													</div>
-												</div>
-											</div>
-											<div class="card-container-sec">
-												<div class="card-image">
-													<img src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" class="attachment-full size-full wp-post-image lazyautosizes ls-is-cached lazyloaded" alt="third-party-platforms" srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" data-orig-src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" data-srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" alt="a brand new sports car" />
-													<a href="#" class="over-layer">
-														<i class="fa fa-link"></i>
-													</a>
-												</div>
-												<div class="card-body">
-													<h1> IRS Postpones Controversial Reporting Rule for Third-Party Platform Transactions </h1>
-													<div class="card-author mt-2">
-														<p class="post-timestamp mb-0">November 22nd, 2023</p>
-													</div>
-													<div class="read-more mt-2">
-														<a href="article-detail.php" class="rm-link">Read more <iconify-icon class="icon-arrow" icon="bi:arrow-right" style="color: #00aad8;vertical-align: middle;" width="20" height="20"></iconify-icon>
-														</a>
-													</div>
-												</div>
-											</div>
-											<div class="card-container-sec">
-												<div class="card-image">
-													<img src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" class="attachment-full size-full wp-post-image lazyautosizes ls-is-cached lazyloaded" alt="third-party-platforms" srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" data-orig-src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" data-srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" alt="a brand new sports car" />
-													<a href="#" class="over-layer">
-														<i class="fa fa-link"></i>
-													</a>
-												</div>
-												<div class="card-body">
-													<h1> IRS Postpones Controversial Reporting Rule for Third-Party Platform Transactions </h1>
-													<div class="card-author mt-2">
-														<p class="post-timestamp mb-0">November 22nd, 2023</p>
-													</div>
-													<div class="read-more mt-2">
-														<a href="article-detail.php" class="rm-link">Read more <iconify-icon class="icon-arrow" icon="bi:arrow-right" style="color: #00aad8;vertical-align: middle;" width="20" height="20"></iconify-icon>
-														</a>
-													</div>
-												</div>
-											</div>
-											<div class="card-container-sec">
-												<div class="card-image">
-													<img src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" class="attachment-full size-full wp-post-image lazyautosizes ls-is-cached lazyloaded" alt="third-party-platforms" srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" data-orig-src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" data-srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" alt="a brand new sports car" />
-													<a href="#" class="over-layer">
-														<i class="fa fa-link"></i>
-													</a>
-												</div>
-												<div class="card-body">
-													<h1> IRS Postpones Controversial Reporting Rule for Third-Party Platform Transactions </h1>
-													<div class="card-author mt-2">
-														<p class="post-timestamp mb-0">November 22nd, 2023</p>
-													</div>
-													<div class="read-more mt-2">
-														<a href="article-detail.php" class="rm-link">Read more <iconify-icon class="icon-arrow" icon="bi:arrow-right" style="color: #00aad8;vertical-align: middle;" width="20" height="20"></iconify-icon>
-														</a>
-													</div>
-												</div>
-											</div>
-											<div class="card-container-sec">
-												<div class="card-image">
-													<img src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" class="attachment-full size-full wp-post-image lazyautosizes ls-is-cached lazyloaded" alt="third-party-platforms" srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" data-orig-src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" data-srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" alt="a brand new sports car" />
-													<a href="#" class="over-layer">
-														<i class="fa fa-link"></i>
-													</a>
-												</div>
-												<div class="card-body">
-													<h1> IRS Postpones Controversial Reporting Rule for Third-Party Platform Transactions </h1>
-													<div class="card-author mt-2">
-														<p class="post-timestamp mb-0">November 22nd, 2023</p>
-													</div>
-													<div class="read-more mt-2">
-														<a href="article-detail.php" class="rm-link">Read more <iconify-icon class="icon-arrow" icon="bi:arrow-right" style="color: #00aad8;vertical-align: middle;" width="20" height="20"></iconify-icon>
-														</a>
-													</div>
-												</div>
-											</div>
+							<div id="news-slider" class="owl-carousel">
+								<div class="card-container-sec">
+									<div class="card-image">
+										<img src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" class="attachment-full size-full wp-post-image lazyautosizes ls-is-cached lazyloaded" alt="third-party-platforms" srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" data-orig-src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" data-srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" alt="a brand new sports car" />
+										<a href="#" class="over-layer">
+											<i class="fa fa-link"></i>
+										</a>
+									</div>
+									<div class="card-body">
+										<h1> IRS Postpones Controversial Reporting Rule for Third-Party Platform Transactions </h1>
+										<div class="card-author mt-2">
+											<p class="post-timestamp mb-0">November 22nd, 2023</p>
 										</div>
+										<div class="read-more mt-2">
+											<a href="article-detail.php" class="rm-link">Read more <iconify-icon class="icon-arrow" icon="bi:arrow-right" style="color: #00aad8;vertical-align: middle;" width="20" height="20"></iconify-icon>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="card-container-sec">
+									<div class="card-image">
+										<img src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" class="attachment-full size-full wp-post-image lazyautosizes ls-is-cached lazyloaded" alt="third-party-platforms" srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" data-orig-src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" data-srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" alt="a brand new sports car" />
+										<a href="#" class="over-layer">
+											<i class="fa fa-link"></i>
+										</a>
+									</div>
+									<div class="card-body">
+										<h1> IRS Postpones Controversial Reporting Rule for Third-Party Platform Transactions </h1>
+										<div class="card-author mt-2">
+											<p class="post-timestamp mb-0">November 22nd, 2023</p>
+										</div>
+										<div class="read-more mt-2">
+											<a href="article-detail.php" class="rm-link">Read more <iconify-icon class="icon-arrow" icon="bi:arrow-right" style="color: #00aad8;vertical-align: middle;" width="20" height="20"></iconify-icon>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="card-container-sec">
+									<div class="card-image">
+										<img src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" class="attachment-full size-full wp-post-image lazyautosizes ls-is-cached lazyloaded" alt="third-party-platforms" srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" data-orig-src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" data-srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" alt="a brand new sports car" />
+										<a href="#" class="over-layer">
+											<i class="fa fa-link"></i>
+										</a>
+									</div>
+									<div class="card-body">
+										<h1> IRS Postpones Controversial Reporting Rule for Third-Party Platform Transactions </h1>
+										<div class="card-author mt-2">
+											<p class="post-timestamp mb-0">November 22nd, 2023</p>
+										</div>
+										<div class="read-more mt-2">
+											<a href="article-detail.php" class="rm-link">Read more <iconify-icon class="icon-arrow" icon="bi:arrow-right" style="color: #00aad8;vertical-align: middle;" width="20" height="20"></iconify-icon>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="card-container-sec">
+									<div class="card-image">
+										<img src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" class="attachment-full size-full wp-post-image lazyautosizes ls-is-cached lazyloaded" alt="third-party-platforms" srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" data-orig-src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" data-srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" alt="a brand new sports car" />
+										<a href="#" class="over-layer">
+											<i class="fa fa-link"></i>
+										</a>
+									</div>
+									<div class="card-body">
+										<h1> IRS Postpones Controversial Reporting Rule for Third-Party Platform Transactions </h1>
+										<div class="card-author mt-2">
+											<p class="post-timestamp mb-0">November 22nd, 2023</p>
+										</div>
+										<div class="read-more mt-2">
+											<a href="article-detail.php" class="rm-link">Read more <iconify-icon class="icon-arrow" icon="bi:arrow-right" style="color: #00aad8;vertical-align: middle;" width="20" height="20"></iconify-icon>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="card-container-sec">
+									<div class="card-image">
+										<img src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" class="attachment-full size-full wp-post-image lazyautosizes ls-is-cached lazyloaded" alt="third-party-platforms" srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" data-orig-src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" data-srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" alt="a brand new sports car" />
+										<a href="#" class="over-layer">
+											<i class="fa fa-link"></i>
+										</a>
+									</div>
+									<div class="card-body">
+										<h1> IRS Postpones Controversial Reporting Rule for Third-Party Platform Transactions </h1>
+										<div class="card-author mt-2">
+											<p class="post-timestamp mb-0">November 22nd, 2023</p>
+										</div>
+										<div class="read-more mt-2">
+											<a href="article-detail.php" class="rm-link">Read more <iconify-icon class="icon-arrow" icon="bi:arrow-right" style="color: #00aad8;vertical-align: middle;" width="20" height="20"></iconify-icon>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="card-container-sec">
+									<div class="card-image">
+										<img src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" class="attachment-full size-full wp-post-image lazyautosizes ls-is-cached lazyloaded" alt="third-party-platforms" srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" data-orig-src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" data-srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" alt="a brand new sports car" />
+										<a href="#" class="over-layer">
+											<i class="fa fa-link"></i>
+										</a>
+									</div>
+									<div class="card-body">
+										<h1> IRS Postpones Controversial Reporting Rule for Third-Party Platform Transactions </h1>
+										<div class="card-author mt-2">
+											<p class="post-timestamp mb-0">November 22nd, 2023</p>
+										</div>
+										<div class="read-more mt-2">
+											<a href="article-detail.php" class="rm-link">Read more <iconify-icon class="icon-arrow" icon="bi:arrow-right" style="color: #00aad8;vertical-align: middle;" width="20" height="20"></iconify-icon>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 			</section>
