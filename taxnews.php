@@ -38,7 +38,7 @@
 				</div>
 				<div class="user-dashboard-welcome-d-image d-none-sm">
 					<!-- :: image top head dashboard  -->
-					<img class="paymenttop-image" src="img/documents.png">
+					<img class="paymenttop-image" src="img/news.png">
 				</div>
 			</div>
 			<!-- :: end client information head -->
@@ -48,8 +48,10 @@
 					<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
 						<!-- heading for tax  -->
 						<div class="form-name-highlite">
-                                    <h5 class="i-image"><strong>Tax News</strong></h5>
-                                </div>
+							<h5 class="i-image">
+								<strong>Tax News</strong>
+							</h5>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -61,7 +63,9 @@
 							<div class="card-container-sec">
 								<div class="card-image">
 									<img src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" class="attachment-full size-full wp-post-image lazyautosizes ls-is-cached lazyloaded" alt="third-party-platforms" srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" data-orig-src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" data-srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" alt="a brand new sports car" />
-                                        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+									<a href="#" class="over-layer">
+										<i class="fa fa-link"></i>
+									</a>
 								</div>
 								<div class="card-body">
 									<h1> IRS Postpones Controversial Reporting Rule for Third-Party Platform Transactions </h1>
@@ -74,11 +78,13 @@
 									</div>
 								</div>
 							</div>
-                            <!-- card 0 -->
-                            <div class="card-container-sec">
+							<!-- card 0 -->
+							<div class="card-container-sec">
 								<div class="card-image">
 									<img src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" class="attachment-full size-full wp-post-image lazyautosizes ls-is-cached lazyloaded" alt="third-party-platforms" srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" data-orig-src="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1" data-srcset="https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=200%2C130&amp;ssl=1 200w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=400%2C259&amp;ssl=1 400w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=600%2C389&amp;ssl=1 600w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?resize=768%2C497&amp;ssl=1 768w, https://i0.wp.com/clearstarttax.com/wp-content/uploads/2023/11/CST-BLOG-POST-1122-1.png?fit=800%2C518&amp;ssl=1 800w" alt="a brand new sports car" />
-                                        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+									<a href="#" class="over-layer">
+										<i class="fa fa-link"></i>
+									</a>
 								</div>
 								<div class="card-body">
 									<h1> IRS Postpones Controversial Reporting Rule for Third-Party Platform Transactions </h1>
@@ -93,10 +99,43 @@
 							</div>
 						</div>
 					</div>
-                    <!-- for pagination -->
-                    <!-- for pagination -->
+					<!-- for pagination -->
+
+					<!-- for pagination -->
 				</div>
 			</section>
+            <!-- for pagination -->
+<Section class="pagination-area mt-4">
+	<div class="row justify-content-center" style="float: right;">
+		<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 float-end">
+			<div class="pagination-box">
+				<ul class="pagination">
+					<li class="page-item disabled">
+						<a class="page-link" href="#">«</a>
+					</li>
+					<li class="page-item active">
+						<a class="page-link" href="#">1</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">2</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">3</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">4</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">5</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">»</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</Section>
 		</main>
 		<!--::alert for doc update -->
 		<!--:: alert for successfull pay end here -->
